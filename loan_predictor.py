@@ -101,9 +101,8 @@ if "df_sample_tab1" not in st.session_state:
 
 
 # ----------------------------------Page Title-----------------------------------
-st.markdown('<div class="intro-title">📊 Welcome to the Loan Approval Predictor 📊</div>', unsafe_allow_html=True)
-st.markdown('<div class="intro-subtitle">Your one-stop solution for loan approval predictions! 🚀</div>', unsafe_allow_html=True)
-
+st.markdown('<div class="intro-title">💡 Unlock Your Loan Approval Potential! 💡</div>', unsafe_allow_html=True)
+st.markdown('<div class="intro-subtitle">Smart insights for confident financial decisions. 🏦✨</div>', unsafe_allow_html=True)
 tab1, tab2 = st.tabs(["🏠 Home", "📋 Get Loan Approval"])
 
 # ----------------------------------Tab 1----------------------------------
@@ -227,6 +226,8 @@ with tab2:
             'cb_person_default_on_file': [cb_person_default_on_file_input],
             'cb_person_cred_hist_length': [cb_person_cred_hist_length],
         })
+        st.markdown('<div class="content">Your Inputs:  📝</div>', unsafe_allow_html=True)
+        st.table(user_data)
     # ---------------------------------Apply Mappings------------------------------------
     default_mapping = {'No': 0, 'Yes': 1}
     loan_grade_mapping = {
@@ -293,7 +294,6 @@ with tab2:
 
     # # ---------------------------------Data Normalization with Standard Scaler------------------------------------
     input_data[num_cols] = scaler.transform(input_data[num_cols])
-    st.table(input_data)
     #----------------------------------Make Prediction------------------------------------
     if st.button("✨ Get Prediction"):
         prediction_prob = model_predictor.predict(input_data)
@@ -326,6 +326,7 @@ with tab2:
                             </h5>
                         """, unsafe_allow_html=True)
 
+    st.markdown('<div class="content">Sample Data:  📝</div>', unsafe_allow_html=True)
     sample_display = st.empty()
     sample_display.dataframe(st.session_state.df_sample_tab1)
     if st.button("Refresh Sample"):
