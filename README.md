@@ -92,7 +92,7 @@ This project bridges data science and real-world applications, showcasing:
 ## 📧 Contact
 For queries or collaboration, reach out:
 
-- 📛 Name: Muhammad Umer Khan
+- 📛 Name: [Muhammad Umer Khan](https://portfolio-sigma-mocha-67.vercel.app)
 - 📧 Email: muhammadumerk546@gmail.com
 - 🔗 LinkedIn: [Muhammad Umer Khan](https://linkedin.com/in/%20muhammad-umer-khan-61729b260/)
 
