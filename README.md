@@ -14,7 +14,7 @@ Welcome to the **Loan Approval Prediction System**, an end-to-end machine learni
   - 🎨 **Feature Engineering**: Engineered critical features to improve model performance.
 - 🤖 **Artificial Neural Network (ANN)**: Developed a robust ANN model for binary classification of loan approval status.
 - 🌐 **Interactive User Interface**:
-  - 🖥 A user-friendly **[Streamlit app](https://customer-loan-approval.streamlit.app/)** allowing users to input loan details and instantly predict outcomes.
+  - 🖥 A user-friendly **[Streamlit app](https://customer-loan-approval.streamlit.app)** allowing users to input loan details and instantly predict outcomes.
   - 📈 Visualizations to explain the decision-making process.
 
 ---
