@@ -334,6 +334,7 @@ with tab2:
             approval_0_sample = approval_0.sample(3)
             st.session_state.df_sample_tab1 = pd.concat([approval_1_sample, approval_0_sample])
             sample_display.dataframe(st.session_state.df_sample_tab1)
+            
 # Footer
 st.markdown("""
     <div class="footer">
