@@ -1,5 +1,6 @@
 # 📊 Loan Approval Prediction System 🎉
 ![churn 1.png](https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/blog/personal-loan/how-to-apply-for-firstmoney-personal-loan-a-step-by-step-guide-717X404.jpg)
+
 Welcome to the **Loan Approval Prediction System**, an end-to-end machine learning project designed to predict the approval status of loan applications. This project showcases expertise in **data preprocessing**, **exploratory data analysis (EDA)**, **model building**, and **interactive application deployment** using **Streamlit**.
 
 ---
