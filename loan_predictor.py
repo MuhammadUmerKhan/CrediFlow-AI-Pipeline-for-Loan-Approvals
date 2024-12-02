@@ -227,7 +227,6 @@ with tab2:
             'cb_person_default_on_file': [cb_person_default_on_file_input],
             'cb_person_cred_hist_length': [cb_person_cred_hist_length],
         })
-        st.table(user_data)
     # ---------------------------------Apply Mappings------------------------------------
     default_mapping = {'No': 0, 'Yes': 1}
     loan_grade_mapping = {
