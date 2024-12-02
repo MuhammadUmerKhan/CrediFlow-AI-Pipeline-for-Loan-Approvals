@@ -61,7 +61,7 @@ The dataset used in this project contains features related to:
 - 📏 Normalized numerical features for ANN compatibility.
 
 ### 3. **Model Building** 🤖
-- 🧩 Designed a **3-layer Artificial Neural Network (ANN)**.
+- 🧩 Designed a **Artificial Neural Network (ANN)**.
 - 📉 Optimized with techniques like **dropout** and **batch normalization**.
 - 📊 Metrics: Achieved high **accuracy**, **precision**, **recall**, and **F1-score**.
 
