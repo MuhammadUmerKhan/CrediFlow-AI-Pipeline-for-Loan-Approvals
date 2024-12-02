@@ -75,6 +75,20 @@ The dataset used in this project contains features related to:
 - 🔮 Dynamic Predictions: Get real-time predictions for loan approval.
 - 📊 Insightful Visuals: Displays feature distributions and decision influences.
 ---
+## Data Insights
+
+Explore profound insights and analytics gleaned from our extensive dataset. Uncover a deeper understanding of customer behaviors, patterns in service usage, and the pivotal factors influencing churn dynamics.
+
+| Feature                                      | Visualization                                                                                       |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| Categorical Features                         | ![Categorical Features](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/Charts/Categorical.png)   |
+| Loan Statue Target Variable                  | ![Loan Statues](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/Charts/loan%20status%20distribution.png) |
+| Customer Information                         | ![Customer Information](https://github.com/MuhammadUmerKhan/Customer-Churn-Prediction-with-NLP-Insights/blob/main/insights/churning.png)   |
+| Distribution Analysis                        | ![Distribution Analysis](https://github.com/MuhammadUmerKhan/Customer-Churn-Prediction-with-NLP-Insights/blob/main/insights/distro_analysis.png)   |
+| Security Distribution                        | ![Security Distribution](https://github.com/MuhammadUmerKhan/Customer-Churn-Prediction-with-NLP-Insights/blob/main/insights/onlien%20analysis.png)|
+| Churn Analysis                               | ![Screenshot](https://github.com/MuhammadUmerKhan/Customer-Churn-Prediction-with-NLP-Insights/blob/main/insights/churn_analysis.png)          |
+
+---
 ## Key Results
 ### Model Performance:
 - ✅ Accuracy: 94%
