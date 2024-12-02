@@ -1,4 +1,5 @@
 # 📊 Loan Approval Prediction System 🎉
+![churn 1.png](https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/blog/personal-loan/how-to-apply-for-firstmoney-personal-loan-a-step-by-step-guide-717X404.jpg)
 
 Welcome to the **Loan Approval Prediction System**, an end-to-end machine learning project designed to predict the approval status of loan applications. This project showcases expertise in **data preprocessing**, **exploratory data analysis (EDA)**, **model building**, and **interactive application deployment** using **Streamlit**.
 
@@ -13,7 +14,7 @@ Welcome to the **Loan Approval Prediction System**, an end-to-end machine learni
   - 🎨 **Feature Engineering**: Engineered critical features to improve model performance.
 - 🤖 **Artificial Neural Network (ANN)**: Developed a robust ANN model for binary classification of loan approval status.
 - 🌐 **Interactive User Interface**:
-  - 🖥 A user-friendly **Streamlit app** allowing users to input loan details and instantly predict outcomes.
+  - 🖥 A user-friendly **[Streamlit app](https://customer-loan-approval.streamlit.app/)** allowing users to input loan details and instantly predict outcomes.
   - 📈 Visualizations to explain the decision-making process.
 
 ---
@@ -22,7 +23,7 @@ Welcome to the **Loan Approval Prediction System**, an end-to-end machine learni
 
 - 🐍 **Programming Languages**: Python
 - 📚 **Libraries**: Pandas, NumPy, Scikit-learn, TensorFlow/Keras, Matplotlib, Seaborn
-- 🌐 **Deployment Platform**: Streamlit
+- 🌐 **Deployment Platform**: [Streamlit](https://customer-loan-approval.streamlit.app/)
 - 🧠 **Machine Learning Techniques**:
   - Neural Networks (ANN)
   - Feature Engineering and Selection
@@ -40,7 +41,7 @@ The dataset used in this project contains features related to:
 - 📜 **Other Factors**: Homeownership status, loan grade, and historical default status.
 
 ### Key Data Characteristics:
-- 🧮 **Shape**: Rows = 10,000; Columns = 12
+- 🧮 **Shape**: Rows = 58,645; Columns = 12
 - 🔑 **Notable Features**:
   - `person_income`: Applicant's income level.
   - `loan_amnt`: Requested loan amount.
@@ -60,12 +61,12 @@ The dataset used in this project contains features related to:
 - 📏 Normalized numerical features for ANN compatibility.
 
 ### 3. **Model Building** 🤖
-- 🧩 Designed a **3-layer Artificial Neural Network (ANN)**.
+- 🧩 Designed a **Artificial Neural Network (ANN)**.
 - 📉 Optimized with techniques like **dropout** and **batch normalization**.
 - 📊 Metrics: Achieved high **accuracy**, **precision**, **recall**, and **F1-score**.
 
 ### 4. **Deployment** 🌐
-- 🎨 Deployed the system using **Streamlit**, allowing interactive predictions.
+- 🎨 Deployed the system using **[Streamlit](https://customer-loan-approval.streamlit.app/)**, allowing interactive predictions.
 - 📈 Visualized model performance metrics and user inputs.
 
 ---
@@ -91,7 +92,7 @@ This project bridges data science and real-world applications, showcasing:
 ## 📧 Contact
 For queries or collaboration, reach out:
 
-- 📛 Name: Muhammad Umer Khan
+- 📛 Name: [Muhammad Umer Khan](https://portfolio-sigma-mocha-67.vercel.app)
 - 📧 Email: muhammadumerk546@gmail.com
 - 🔗 LinkedIn: [Muhammad Umer Khan](https://linkedin.com/in/%20muhammad-umer-khan-61729b260/)
 
@@ -118,7 +119,7 @@ To set up this project locally:
 - Required packages are listed in requirements.txt.
 
 ## 📄 Acknowledgments
-- **[Use Datasets](https://www.kaggle.com/competitions/playground-series-s4e10)**
+- **[Used Datasets](https://www.kaggle.com/competitions/playground-series-s4e10)**
 
 📝 License
 This project is licensed under the MIT License. See the LICENSE file for details.
