@@ -95,8 +95,8 @@ approval_1 = data[data['loan_status'] == 1]
 approval_0 = data[data['loan_status'] == 0]
 
 if "df_sample_tab1" not in st.session_state:
-    approval_1_sample = approval_1.sample(4)
-    approval_0_sample = approval_0.sample(4)
+    approval_1_sample = approval_1.sample(3)
+    approval_0_sample = approval_0.sample(3)
     st.session_state.df_sample_tab1 = pd.concat([approval_1_sample, approval_0_sample])
 
 
