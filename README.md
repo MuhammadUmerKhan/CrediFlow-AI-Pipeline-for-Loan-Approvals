@@ -14,7 +14,7 @@ Welcome to the **Loan Approval Prediction System**, an end-to-end machine learni
   - 🎨 **Feature Engineering**: Engineered critical features to improve model performance.
 - 🤖 **Artificial Neural Network (ANN)**: Developed a robust ANN model for binary classification of loan approval status.
 - 🌐 **Interactive User Interface**:
-  - 🖥 A user-friendly **Streamlit app** allowing users to input loan details and instantly predict outcomes.
+  - 🖥 A user-friendly **[Streamlit app](https://customer-loan-approval.streamlit.app/)** allowing users to input loan details and instantly predict outcomes.
   - 📈 Visualizations to explain the decision-making process.
 
 ---
@@ -23,7 +23,7 @@ Welcome to the **Loan Approval Prediction System**, an end-to-end machine learni
 
 - 🐍 **Programming Languages**: Python
 - 📚 **Libraries**: Pandas, NumPy, Scikit-learn, TensorFlow/Keras, Matplotlib, Seaborn
-- 🌐 **Deployment Platform**: Streamlit
+- 🌐 **Deployment Platform**: [Streamlit](https://customer-loan-approval.streamlit.app/)
 - 🧠 **Machine Learning Techniques**:
   - Neural Networks (ANN)
   - Feature Engineering and Selection
@@ -41,7 +41,7 @@ The dataset used in this project contains features related to:
 - 📜 **Other Factors**: Homeownership status, loan grade, and historical default status.
 
 ### Key Data Characteristics:
-- 🧮 **Shape**: Rows = 10,000; Columns = 12
+- 🧮 **Shape**: Rows = 58,645; Columns = 12
 - 🔑 **Notable Features**:
   - `person_income`: Applicant's income level.
   - `loan_amnt`: Requested loan amount.
@@ -66,7 +66,7 @@ The dataset used in this project contains features related to:
 - 📊 Metrics: Achieved high **accuracy**, **precision**, **recall**, and **F1-score**.
 
 ### 4. **Deployment** 🌐
-- 🎨 Deployed the system using **Streamlit**, allowing interactive predictions.
+- 🎨 Deployed the system using **[Streamlit](https://customer-loan-approval.streamlit.app/)**, allowing interactive predictions.
 - 📈 Visualized model performance metrics and user inputs.
 
 ---
