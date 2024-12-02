@@ -1,5 +1,5 @@
 # 📊 Loan Approval Prediction System 🎉
-![churn 1.png](https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/blog/personal-loan/how-to-apply-for-firstmoney-personal-loan-a-step-by-step-guide-717X404.jpg)
+![Loan Approval](https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/blog/personal-loan/how-to-apply-for-firstmoney-personal-loan-a-step-by-step-guide-717X404.jpg)
 
 Welcome to the **Loan Approval Prediction System**, an end-to-end machine learning project designed to predict the approval status of loan applications. This project showcases expertise in **data preprocessing**, **exploratory data analysis (EDA)**, **model building**, and **interactive application deployment** using **Streamlit**.
 
@@ -61,7 +61,7 @@ The dataset used in this project contains features related to:
 - 📏 Normalized numerical features for ANN compatibility.
 
 ### 3. **Model Building** 🤖
-- 🧩 Designed a **Artificial Neural Network (ANN)**.
+- 🧩 Designed an **Artificial Neural Network (ANN)**.
 - 📉 Optimized with techniques like **dropout** and **batch normalization**.
 - 📊 Metrics: Achieved high **accuracy**, **precision**, **recall**, and **F1-score**.
 
@@ -70,58 +70,65 @@ The dataset used in this project contains features related to:
 - 📈 Visualized model performance metrics and user inputs.
 
 ---
+
 ## 🖼 App Features
 - 📝 Input Form: Enter details like age, income, loan amount, and more.
 - 🔮 Dynamic Predictions: Get real-time predictions for loan approval.
 - 📊 Insightful Visuals: Displays feature distributions and decision influences.
----
-## Data Insights
 
-Explore profound insights and analytics gleaned from our extensive dataset. Uncover a deeper understanding of customer behaviors, patterns in service usage, and the pivotal factors influencing churn dynamics.
+---
+
+## 📈 Data Insights
+
+Explore profound insights and analytics gleaned from our extensive dataset. Uncover a deeper understanding of customer behaviors, patterns in service usage, and the pivotal factors influencing loan approval.
 
 | Feature                                      | Visualization                                                                                       |
 |----------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Categorical Features                         | ![Categorical Features](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/Charts/Categorical.png)   |
-| Loan Statue Target Variable                  | ![Loan Statues](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/Charts/loan%20status%20distribution.png) |
-| Customer Information                         | ![Customer Information](https://github.com/MuhammadUmerKhan/Customer-Churn-Prediction-with-NLP-Insights/blob/main/insights/churning.png)   |
-| Distribution Analysis                        | ![Distribution Analysis](https://github.com/MuhammadUmerKhan/Customer-Churn-Prediction-with-NLP-Insights/blob/main/insights/distro_analysis.png)   |
-| Security Distribution                        | ![Security Distribution](https://github.com/MuhammadUmerKhan/Customer-Churn-Prediction-with-NLP-Insights/blob/main/insights/onlien%20analysis.png)|
-| Churn Analysis                               | ![Screenshot](https://github.com/MuhammadUmerKhan/Customer-Churn-Prediction-with-NLP-Insights/blob/main/insights/churn_analysis.png)          |
+| Loan Status Target Variable                  | ![Loan Status](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/Charts/loan%20status%20distribution.png) |
+| Customer Information                         | ![Customer Information](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/Charts/Distribution%20of%20Loan%20intent.png)   |
+| Distribution Analysis                        | ![Distribution Analysis](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/Charts/Loan%20Intent%20Distribution.png)   |
+
+For more visuals, check the [notebook](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/ipynbs/Loan_Approval.ipynb).
 
 ---
-## Key Results
+
+## 🔑 Key Results
+
 ### Model Performance:
-- ✅ Accuracy: 94%
-- 📊 F1-score: 94%
-**Insights:**
+- ✅ **Accuracy**: 94%
+- 📊 **F1-score**: 94%
+
+### Insights:
 - 👷 Applicants with stable employment and lower loan-to-income ratios have higher chances of approval.
 - 🚩 Default history significantly affects approval likelihood.
----
-## 🌟 Why This Project?
-This project bridges data science and real-world applications, showcasing:
 
+---
+
+## 🌟 Why This Project?
+
+This project bridges data science and real-world applications, showcasing:
 - 💡 Proficiency in end-to-end machine learning workflows.
 - 🧑‍💻 The ability to deploy user-centric solutions for impactful decision-making.
----
-## 📧 Contact
-For queries or collaboration, reach out:
 
+---
+
+## 📧 Contact
+
+For queries or collaboration, reach out:
 - 📛 Name: [Muhammad Umer Khan](https://portfolio-sigma-mocha-67.vercel.app)
 - 📧 Email: muhammadumerk546@gmail.com
-- 🔗 LinkedIn: [Muhammad Umer Khan](https://linkedin.com/in/%20muhammad-umer-khan-61729b260/)
+- 🔗 LinkedIn: [Muhammad Umer Khan](https://linkedin.com/in/muhammad-umer-khan-61729b260/)
 
 ---
+
 ## 🚀 How to Run the Project
 
-To set up this project locally:  
-
-1. **Clone the repository**:  
-   ```bash  
-   git clone https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION.git
-
-2. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
+### Prerequisites
+- Python 3.x
+- Install required packages:
+  ```bash
+  pip install -r requirements.txt
     ```
 3. Run the recommendation system:
     ```bash
