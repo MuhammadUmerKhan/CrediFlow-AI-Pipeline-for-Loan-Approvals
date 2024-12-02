@@ -76,9 +76,8 @@ The dataset used in this project contains features related to:
 ---
 ## Key Results
 ### Model Performance:
-- ✅ Accuracy: 92%
-- 📊 F1-score: 89%
-- 📉 ROC-AUC: 94%
+- ✅ Accuracy: 94%
+- 📊 F1-score: 94%
 **Insights:**
 - 👷 Applicants with stable employment and lower loan-to-income ratios have higher chances of approval.
 - 🚩 Default history significantly affects approval likelihood.
@@ -103,8 +102,7 @@ To set up this project locally:
 
 1. **Clone the repository**:  
    ```bash  
-   git clone https://github.com/MuhammadUmerKhan/NLP-Powered-Recommendation-System.git  
-
+   git clone https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION.git
 
 2. Install the required packages:
     ```bash
