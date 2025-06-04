@@ -1,86 +1,172 @@
-# 📊 Loan Approval Prediction System 🎉
+# 📊 AI-Driven Loan Approval Prediction System 🎉
 ![Loan Approval](https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/blog/personal-loan/how-to-apply-for-firstmoney-personal-loan-a-step-by-step-guide-717X404.jpg)
 
-Welcome to the **Loan Approval Prediction System**, an end-to-end machine learning project designed to predict the approval status of loan applications. This project showcases expertise in **data preprocessing**, **exploratory data analysis (EDA)**, **model building**, and **interactive application deployment** using **Streamlit**.
+Welcome to the **AI-Driven Loan Approval Prediction System**, a robust end-to-end MLOps project designed to predict loan approval outcomes using machine learning and natural language processing (NLP). This project demonstrates expertise in **data ingestion**, **preprocessing**, **model training**, **evaluation**, **registry**, and **interactive deployment** using **Streamlit** and **MLflow**. 🚀
 
 ---
 
 ## 🌟 Project Highlights
 
 ### 🎯 Key Features
-- 🚀 **End-to-End Machine Learning Pipeline**:
-  - 📊 **EDA**: Gained insights into data distribution and identified key patterns.
-  - 🛠 **Data Preprocessing**: Handled missing values, transformed features, and ensured a clean dataset.
-  - 🎨 **Feature Engineering**: Engineered critical features to improve model performance.
-- 🤖 **Artificial Neural Network (ANN)**: Developed a robust ANN model for binary classification of loan approval status.
+- 🚀 **End-to-End MLOps Pipeline**:
+  - 📂 **Data Ingestion**: Loaded and validated datasets from CSV files.
+  - 📊 **Exploratory Data Analysis (EDA)**: Uncovered insights and patterns.
+  - 🛠 **Data Preprocessing**: Cleaned, transformed, and balanced the dataset.
+  - 🎨 **Feature Engineering**: Enhanced model accuracy with derived features.
+  - 🤖 **Model Training**: Built an Artificial Neural Network (ANN) for binary classification.
+  - 📈 **Evaluation**: Assessed model performance with metrics like accuracy, AUC, precision, and recall.
+  - 📦 **Model Registry**: Registered models using MLflow for versioning and tracking.
+  - 🌐 **Deployment**: Deployed an interactive Streamlit app for real-time predictions.
+- 🧠 **Artificial Neural Network (ANN)**: Designed a TensorFlow ANN with dropout layers for robust loan approval predictions.
+- 💬 **LLM Integration**: Leveraged a Language Model (e.g., Qwen via Grok API) for loan approval predictions and customer review analysis.
 - 🌐 **Interactive User Interface**:
-  - 🖥 A user-friendly **[Streamlit app](https://customer-loan-approval.streamlit.app)** allowing users to input loan details and instantly predict outcomes.
-  - 📈 Visualizations to explain the decision-making process.
+  - 🖥 A user-friendly Streamlit app with tabs for individual predictions, batch processing, and LLM analysis.
+  - 📝 Real-time predictions and customer feedback storage in `reviews.csv`.
 
 ---
 
 ## 🛠 Technologies and Tools
 
 - 🐍 **Programming Languages**: Python
-- 📚 **Libraries**: Pandas, NumPy, Scikit-learn, TensorFlow/Keras, Matplotlib, Seaborn
-- 🌐 **Deployment Platform**: [Streamlit](https://customer-loan-approval.streamlit.app/)
+- 📚 **Libraries**:
+  - Data Handling: Pandas, NumPy
+  - Machine Learning: Scikit-learn, TensorFlow/Keras, Imbalanced-learn (SMOTEENN)
+  - Visualization: Matplotlib, Seaborn
+  - MLOps: MLflow
+  - Deployment: Streamlit
+  - NLP: LangChain, Grok API (Mixtral-8x7B)
+- 🌐 **Deployment Platform**: Streamlit (local or cloud-hosted)
 - 🧠 **Machine Learning Techniques**:
-  - Neural Networks (ANN)
-  - Feature Engineering and Selection
+  - Neural Networks (ANN) with dropout and batch normalization
+  - Feature Engineering (e.g., loan-to-income ratio)
+  - Data Balancing with SMOTEENN
   - Hyperparameter Tuning
-- 📊 **Visualization Tools**:
-  - Matplotlib and Seaborn for generating insights during EDA.
+- 📊 **Visualization Tools**: Matplotlib and Seaborn for EDA insights
+- 📦 **Model Registry**: MLflow for tracking experiments and models
 
 ---
 
 ## 📊 Data Overview
 
-The dataset used in this project contains features related to:
-- 👤 **Applicant Information**: Age, income, employment length, and credit history.
-- 💰 **Loan Details**: Amount, interest rate, and intent of the loan.
-- 📜 **Other Factors**: Homeownership status, loan grade, and historical default status.
+The dataset, sourced from [Kaggle Playground Series S4E10](https://www.kaggle.com/competitions/playground-series-s4e10), contains features related to loan applications:
+- 👤 **Applicant Information**: Age (`person_age`), income (`person_income`), employment length (`person_emp_length`), credit history length (`cb_person_cred_hist_length`).
+- 💰 **Loan Details**: Amount (`loan_amnt`), interest rate (`loan_int_rate`), intent (`loan_intent`), percent of income (`loan_percent_income`), grade (`loan_grade`).
+- 📜 **Other Factors**: Homeownership status (`person_home_ownership`), historical default status (`cb_person_default_on_file`).
+- 🎯 **Target Variable**: `loan_status` (0: Approved, 1: Denied).
 
 ### Key Data Characteristics:
-- 🧮 **Shape**: Rows = 58,645; Columns = 12
+- 🧮 **Shape**: Train dataset has 58,645 rows and 12 columns.
 - 🔑 **Notable Features**:
-  - `person_income`: Applicant's income level.
-  - `loan_amnt`: Requested loan amount.
-  - `cb_person_cred_hist_length`: Credit history length in years.
+  - Higher incomes correlate with loan approvals.
+  - Employment stability (length) significantly impacts decisions.
+  - High interest rates increase denial chances.
 
 ---
 
-## ⚙️ Project Workflow
+## ⚙️ MLOps Pipeline Workflow
 
-### 1. **Exploratory Data Analysis (EDA)** 📊
-- 📈 Identified key trends and patterns in the data.
-- 🔍 Highlighted relationships between features such as income and loan approval.
+### 1. **Data Ingestion** 📂
+- **Script**: `data_injestion.py`
+- **Process**:
+  - Loaded `train.csv` and `test.csv` from `data/` directory.
+  - Validated file existence and logged errors.
+- **Output**: Train and test DataFrames with `id` as the index.
 
-### 2. **Data Preprocessing** 🛠
-- 🧹 Handled missing and inconsistent data.
-- 🔢 Encoded categorical features like `person_home_ownership` and `loan_intent`.
-- 📏 Normalized numerical features for ANN compatibility.
+### 2. **Exploratory Data Analysis (EDA)** 📊
+- **Performed**:
+  - Identified trends (e.g., income vs. approval correlation).
+  - Highlighted feature relationships using visualizations.
+- **Visuals**:
+  - Categorical features distribution.
+  - Loan status distribution.
+  - Loan intent analysis.
 
-### 3. **Model Building** 🤖
-- 🧩 Designed an **Artificial Neural Network (ANN)**.
-- 📉 Optimized with techniques like **dropout** and **batch normalization**.
-- 📊 Metrics: Achieved high **accuracy**, **precision**, **recall**, and **F1-score**.
+### 3. **Data Preprocessing** 🛠
+- **Script**: `preprocess.py`
+- **Process**:
+  - **Categorical Mapping**:
+    - `cb_person_default_on_file`: Y → 1, N → 0
+    - `loan_grade`: A → 0, B → 1, ..., G → 6
+  - **One-Hot Encoding**: Applied to `person_home_ownership` and `loan_intent` with `drop_first=True`.
+  - **Log Transformation**: Applied to numerical features (`loan_amnt`, `loan_int_rate`, `person_income`, `person_age`, `person_emp_length`).
+  - **Data Balancing**: Used SMOTEENN to handle class imbalance.
+  - **Train-Validation Split**: Split data with 90% train, 10% validation (stratified).
+  - **Scaling**: Standardized numerical features using `StandardScaler`, saved as `scaler.pkl`.
+- **Output**: Saved preprocessed files (`X_train_scaled.csv`, `X_val_scaled.csv`, `y_train.csv`, `y_val.csv`, `test_data_scaled.csv`) in `data/`.
 
-### 4. **Deployment** 🌐
-- 🎨 Deployed the system using **[Streamlit](https://customer-loan-approval.streamlit.app/)**, allowing interactive predictions.
-- 📈 Visualized model performance metrics and user inputs.
+### 4. **Model Building and Training** 🤖
+- **Script**: `train.py`
+- **Process**:
+  - Built a TensorFlow ANN with configurable layers (from `config.py`):
+    - 4 dense layers: 128, 64, 32, 16 units with ReLU activation.
+    - Dropout layers (0.2) for regularization.
+    - Output layer: 1 unit with sigmoid activation.
+  - Compiled with Adam optimizer, binary cross-entropy loss, and accuracy metric.
+  - Trained for 20 epochs with a batch size of 64.
+  - Logged hyperparameters, metrics (e.g., val_loss, val_accuracy), and history to MLflow.
+  - Saved the model as `models/loan_approval_model.keras`.
+- **Output**: Trained model and MLflow logs.
+
+### 5. **Model Evaluation** 📈
+- **Script**: `evaluate.py`
+- **Process**:
+  - Evaluated on validation data with metrics:
+    - Loss, Accuracy, AUC, Precision, Recall.
+  - Generated predictions on test data.
+  - Logged confusion matrix and test predictions (`test_predictions.csv`) to MLflow.
+- **Results**:
+  - Achieved ~94% accuracy and F1-score (based on previous metrics).
+  - Insights: Stable employment and low loan-to-income ratios improve approval chances.
+
+### 6. **Model Registry** 📦
+- **Script**: `register_model.py`
+- **Process**:
+  - Registered the trained model in MLflow with the name `LoanApprovalModel`.
+  - Assigned alias `ReadyForProduction`.
+  - Added tags (e.g., dataset: "Loan Dataset", model_type: "TensorFlow").
+  - Included a description: "TensorFlow neural network for binary classification to predict loan approval outcomes."
+- **Output**: Registered model version in MLflow.
+
+### 7. **Pipeline Orchestration** 🎯
+- **Script**: `pipeline.py`
+- **Process**:
+  - Orchestrated the entire workflow: preprocessing → training → registration → evaluation.
+  - Logged each step and exceptions to `logs/app.log`.
+- **Output**: Pipeline results with model version and metrics.
+
+### 8. **Deployment and Interaction** 🌐
+- **Script**: `loan_predictor.py`
+- **Process**:
+  - Deployed a Streamlit app with four tabs:
+    1. 🏠 **Home**: Project overview and developer info.
+    2. 📋 **Get Loan Approval**: Input form for individual predictions using the ANN.
+    3. 📤 **Batch Prediction**: Upload CSV for bulk predictions.
+    4. 💬 **LLM Analysis**:
+       - Loan approval prediction using LLM (Mixtral-8x7B).
+       - Customer review sentiment analysis (satisfied/dissatisfied).
+  - Stored LLM predictions and reviews in `reviews.csv` with timestamps.
+  - Integrated error handling and logging.
+- **Output**: Interactive web app for users.
 
 ---
 
 ## 🖼 App Features
-- 📝 Input Form: Enter details like age, income, loan amount, and more.
-- 🔮 Dynamic Predictions: Get real-time predictions for loan approval.
-- 📊 Insightful Visuals: Displays feature distributions and decision influences.
+- 📝 **Input Form**: Enter details like age, income, loan amount, etc.
+- 🔮 **Dynamic Predictions**: Real-time loan approval predictions using ANN or LLM.
+- 📈 **Batch Processing**: Upload CSV files for bulk predictions with downloadable results.
+- 💬 **LLM Insights**:
+  - Predicts loan approval with explanations.
+  - Analyzes customer feedback sentiment.
+- 📊 **Sample Data**: Refreshable sample data for reference.
 
 ---
 
 ## 📈 Data Insights
 
-Explore profound insights and analytics gleaned from our extensive dataset. Uncover a deeper understanding of customer behaviors, patterns in service usage, and the pivotal factors influencing loan approval.
+Explore key insights from the dataset:
+- 👷 Applicants with stable employment and lower loan-to-income ratios are more likely to get approved.
+- 🚩 A history of defaults significantly reduces approval chances.
+- 📉 High interest rates correlate with higher denial rates.
 
 | Feature                                      | Visualization                                                                                       |
 |----------------------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -96,20 +182,86 @@ For more visuals, check the [notebook](https://github.com/MuhammadUmerKhan/Custo
 ## 🔑 Key Results
 
 ### Model Performance:
-- ✅ **Accuracy**: 94%
-- 📊 **F1-score**: 94%
+- ✅ **Accuracy**: ~94%
+- 📊 **F1-score**: ~94%
+- 📈 **AUC, Precision, Recall**: High scores logged in MLflow.
 
 ### Insights:
-- 👷 Applicants with stable employment and lower loan-to-income ratios have higher chances of approval.
-- 🚩 Default history significantly affects approval likelihood.
+- 💡 Stable employment and low loan-to-income ratios are critical for approval.
+- 🚫 Default history negatively impacts approval likelihood.
 
 ---
 
 ## 🌟 Why This Project?
 
-This project bridges data science and real-world applications, showcasing:
-- 💡 Proficiency in end-to-end machine learning workflows.
-- 🧑‍💻 The ability to deploy user-centric solutions for impactful decision-making.
+This project showcases:
+- 💡 Mastery of the MLOps pipeline from data ingestion to deployment.
+- 🧑‍💻 Proficiency in building and deploying user-centric ML solutions.
+- 🤖 Integration of advanced techniques like ANN, SMOTEENN, and LLM for enhanced decision-making.
+
+---
+
+## 🚀 How to Run the Project
+
+### Prerequisites
+1. **Install Python 3.x** and required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   Ensure `requirements.txt` includes:
+   ```
+   streamlit
+   tensorflow==2.15.0
+   pandas
+   numpy
+   scikit-learn
+   imbalanced-learn
+   joblib==1.4.2
+   langchain-groq
+   mlflow
+   ```
+
+2. **Set Up Directory Structure**:
+   - Place `train.csv` and `test.csv` in `data/`.
+   - Create `models/`, `logs/`, `database/`, and `artifacts/` directories.
+
+3. **Run the MLflow UI** (from root folder):
+   ```bash
+   mlflow ui --backend-store-uri sqlite:///database/mlflow.db
+   ```
+   Access at `http://localhost:5000` to view experiments and models.
+
+4. **Run the Pipeline** (from `scripts/` folder):
+   ```bash
+   cd scripts
+   python pipeline.py
+   ```
+   This executes preprocessing, training, registration, and evaluation.
+
+5. **Run the Streamlit App** (from `scripts/` folder):
+   ```bash
+   streamlit run loan_predictor.py
+   ```
+   Access at `http://localhost:8501` for the interactive app.
+
+---
+
+## 📝 Logging
+- All scripts log to `logs/app.log`.
+- Monitor logs in real-time: `tail -f logs/app.log`.
+
+---
+
+## 🔧 Configuration
+- Edit `scripts/config.py` to adjust paths, model layers, or hyperparameters.
+- Set `GROK_API_KEY` in `config.py` for LLM features.
+
+---
+
+## 🌟 Future Enhancements
+- **Deploy**: Host the Streamlit app on a cloud platform (e.g., Streamlit Community Cloud).
+- **Monitor**: Add model drift detection using MLflow.
+- **Secure**: Implement user authentication for the app.
 
 ---
 
@@ -122,25 +274,9 @@ For queries or collaboration, reach out:
 
 ---
 
-## 🚀 How to Run the Project
-
-### Prerequisites
-- Python 3.x
-- Install required packages:
-  ```bash
-  pip install -r requirements.txt
-    ```
-3. Run the recommendation system:
-    ```bash
-    streamlit run loan_predictor.py.py
-
-
-## 🛠️ Prerequisites
-- Python 3.x
-- Required packages are listed in requirements.txt.
-
 ## 📄 Acknowledgments
-- **[Used Datasets](https://www.kaggle.com/competitions/playground-series-s4e10)**
+- **Dataset**: [Kaggle Playground Series S4E10](https://www.kaggle.com/competitions/playground-series-s4e10)
+- **LLM**: Powered by Grok API (xAI)
 
-📝 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+📝 **License**  
+This project is licensed under the MIT License. See the `LICENSE` file for details.
