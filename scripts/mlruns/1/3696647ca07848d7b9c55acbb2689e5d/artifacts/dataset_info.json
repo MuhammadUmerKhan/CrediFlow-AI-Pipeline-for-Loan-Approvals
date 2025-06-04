@@ -1,0 +1,20 @@
+{
+    "dataset_name": "Loan Dataset",
+    "train_shape": [
+        76981,
+        17
+    ],
+    "validation_shape": [
+        8554,
+        17
+    ],
+    "test_shape": [
+        39098,
+        17
+    ],
+    "num_features": 17,
+    "target_classes": [
+        "No",
+        "Yes"
+    ]
+}
