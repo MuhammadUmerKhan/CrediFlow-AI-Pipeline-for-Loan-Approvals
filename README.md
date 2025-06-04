@@ -281,7 +281,7 @@ For queries or collaboration, reach out:
 ---
 
 ## 🔴 Live Demo:
-[Click Here](https://customer-loan-approval.streamlit.app/)
+- **[Click Here](https://customer-loan-approval.streamlit.app/)**
 
 ---
 
