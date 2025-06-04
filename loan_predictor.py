@@ -7,7 +7,7 @@ from langchain.schema import HumanMessage
 import os, langchain_groq, re
 import mlflow
 from dotenv import load_dotenv
-from scripts.config import PREPROCESSING_CONFIG, SCALER_PATH
+from scripts.config import PREPROCESSING_CONFIG, SCALER_PATH, MODEL_DIR
 
 load_dotenv()
 
@@ -288,35 +288,35 @@ with tab2:
     input_data[num_cols] = scaler.transform(input_data[num_cols])
 
     # ---------------------------------Load Models------------------------------------
-    # model_predictor = tf.keras.models.load_model(os.path.join(MODEL_DIR, "loan_approval_model.keras"))
+    model_predictor = tf.keras.models.load_model(os.path.join(MODEL_DIR, "loan_approval_model.keras"))
     
-    def load_model(model_name = "LoanApprovalModel", alias = "ReadyForProduction", version = None):
-        try:
-            mlflow.set_tracking_uri(f"sqlite:///database/mlflow.db")
-            mlflow.set_experiment("Loan_Prediction")
+    # def load_model(model_name = "LoanApprovalModel", alias = "ReadyForProduction", version = None):
+    #     try:
+    #         mlflow.set_tracking_uri(f"sqlite:///database/mlflow.db")
+    #         mlflow.set_experiment("Loan_Prediction")
 
-            # Load model
-            client = mlflow.tracking.MlflowClient()
-            if alias:
+    #         # Load model
+    #         client = mlflow.tracking.MlflowClient()
+    #         if alias:
             
-                version_info = client.get_model_version_by_alias(model_name, alias)
-                version = version_info.version
-                model_uri = f"models:/{model_name}@{alias}"
-            else:
-                if not version:
-                    version = client.get_latest_versions(model_name)[0].version
+    #             version_info = client.get_model_version_by_alias(model_name, alias)
+    #             version = version_info.version
+    #             model_uri = f"models:/{model_name}@{alias}"
+    #         else:
+    #             if not version:
+    #                 version = client.get_latest_versions(model_name)[0].version
                 
-                model_uri = f"models:/{model_name}/{version}"
+    #             model_uri = f"models:/{model_name}/{version}"
 
-            try:
-                model = mlflow.tensorflow.load_model(model_uri)
-            except Exception as e:
-                raise    
-        except Exception as e:
-            raise
-        return model
-
-    model_predictor = load_model()
+    #         try:
+    #             model = mlflow.tensorflow.load_model(model_uri)
+    #         except Exception as e:
+    #             raise    
+    #     except Exception as e:
+    #         raise
+    #     return model
+    
+    # model_predictor = load_model()
     
     #----------------------------------Make Prediction------------------------------------
     if st.button("✨ Get Prediction"):
