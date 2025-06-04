@@ -170,10 +170,10 @@ Explore key insights from the dataset:
 
 | Feature                                      | Visualization                                                                                       |
 |----------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Categorical Features                         | ![Categorical Features](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/Charts/Categorical.png)   |
-| Loan Status Target Variable                  | ![Loan Status](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/Charts/loan%20status%20distribution.png) |
-| Customer Information                         | ![Customer Information](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/Charts/Distribution%20of%20Loan%20intent.png)   |
-| Distribution Analysis                        | ![Distribution Analysis](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/Charts/Loan%20Intent%20Distribution.png)   |
+| Categorical Features                         | ![Categorical Features](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/pics/Categorical.png)   |
+| Loan Status Target Variable                  | ![Loan Status](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/pics/loan%20status%20distribution.png) |
+| Customer Information                         | ![Customer Information](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/pics/Distribution%20of%20Loan%20intent.png)   |
+| Distribution Analysis                        | ![Distribution Analysis](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/pics/Loan%20Intent%20Distribution.png)   |
 
 For more visuals, check the [notebook](https://github.com/MuhammadUmerKhan/Customer-Loan-Approval-KAGGLE-COMPETITION/blob/main/ipynbs/Loan_Approval.ipynb).
 
@@ -277,6 +277,8 @@ For queries or collaboration, reach out:
 ## 📄 Acknowledgments
 - **Dataset**: [Kaggle Playground Series S4E10](https://www.kaggle.com/competitions/playground-series-s4e10)
 - **LLM**: Powered by Grok API (xAI)
+
+---
 
 📝 **License**  
 This project is licensed under the MIT License. See the `LICENSE` file for details.
