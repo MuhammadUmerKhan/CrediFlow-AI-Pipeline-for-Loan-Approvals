@@ -211,12 +211,12 @@ This project showcases:
    Ensure `requirements.txt` includes:
    ```
    streamlit
-   tensorflow==2.15.0
+   tensorflow
    pandas
    numpy
    scikit-learn
    imbalanced-learn
-   joblib==1.4.2
+   joblib
    langchain-groq
    mlflow
    ```
