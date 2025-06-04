@@ -1,0 +1,1623 @@
+2025-06-02 20:30:45,241 [INFO] Loading train data from ../Data/train.csv
+2025-06-02 20:30:45,342 [INFO] Loading test data from ../Data/train.csv
+2025-06-02 20:30:45,411 [INFO] ✅ Data loaded successfully.
+2025-06-02 20:32:41,296 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-02 20:32:41,401 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-02 20:32:41,473 [INFO] ✅ Data loaded successfully.
+2025-06-02 20:45:47,373 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-02 20:45:47,451 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-02 20:45:47,515 [INFO] ✅ Data loaded successfully.
+2025-06-02 20:50:55,113 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-02 20:50:55,189 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-02 20:50:55,255 [INFO] ✅ Data loaded successfully.
+2025-06-02 20:50:55,255 [INFO] ⏳ Mapping categorical variables
+2025-06-02 20:50:55,275 [INFO] ⏳ Applying one-hot encoding
+2025-06-02 20:50:55,312 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-02 20:50:55,331 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-02 20:51:32,049 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-02 20:51:32,094 [INFO] ⏳ Scaling numerical columns
+2025-06-02 20:51:32,135 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 13:53:50,189 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 13:53:50,285 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 13:53:50,355 [INFO] ✅ Data loaded successfully.
+2025-06-03 13:53:57,843 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 13:53:57,916 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 13:53:57,980 [INFO] ✅ Data loaded successfully.
+2025-06-03 13:53:57,980 [INFO] ⏳ Mapping categorical variables
+2025-06-03 13:53:58,000 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 13:53:58,036 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 13:53:58,052 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 13:54:27,014 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 13:54:27,067 [INFO] ⏳ Scaling numerical columns
+2025-06-03 13:54:27,105 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 13:54:41,848 [INFO] ⏳ Loading preprocessed data
+2025-06-03 13:54:41,848 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 13:54:41,919 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 13:54:41,980 [INFO] ✅ Data loaded successfully.
+2025-06-03 13:54:41,981 [INFO] ⏳ Mapping categorical variables
+2025-06-03 13:54:41,993 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 13:54:42,027 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 13:54:42,041 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 13:55:11,209 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 13:55:11,252 [INFO] ⏳ Scaling numerical columns
+2025-06-03 13:55:11,289 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 13:55:11,290 [INFO] ⏳ Building model
+2025-06-03 13:58:48,945 [INFO] ⏳ Loading preprocessed data
+2025-06-03 13:58:48,945 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 13:58:49,015 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 13:58:49,076 [INFO] ✅ Data loaded successfully.
+2025-06-03 13:58:49,076 [INFO] ⏳ Mapping categorical variables
+2025-06-03 13:58:49,093 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 13:58:49,125 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 13:58:49,143 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 13:59:32,019 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 13:59:32,060 [INFO] ⏳ Scaling numerical columns
+2025-06-03 13:59:32,123 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 13:59:32,124 [INFO] ⏳ Building model
+2025-06-03 14:01:14,208 [ERROR] ⛔ Error in training: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-03 14:07:51,607 [INFO] ⏳ Loading preprocessed data
+2025-06-03 14:07:51,607 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 14:07:51,682 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 14:07:51,753 [INFO] ✅ Data loaded successfully.
+2025-06-03 14:07:51,753 [INFO] ⏳ Mapping categorical variables
+2025-06-03 14:07:51,770 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 14:07:51,806 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 14:07:51,824 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 14:12:25,804 [INFO] ⏳ Loading preprocessed data
+2025-06-03 14:12:25,804 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 14:12:25,879 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 14:12:25,943 [INFO] ✅ Data loaded successfully.
+2025-06-03 14:12:25,943 [INFO] ⏳ Mapping categorical variables
+2025-06-03 14:12:25,961 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 14:12:25,993 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 14:12:26,011 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 14:12:55,009 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 14:12:55,052 [INFO] ⏳ Scaling numerical columns
+2025-06-03 14:12:55,090 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 14:12:55,091 [INFO] ⏳ Building model
+2025-06-03 20:06:44,918 [INFO] ⏳ Loading preprocessed data
+2025-06-03 20:06:44,920 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 20:06:45,011 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 20:06:45,077 [INFO] ✅ Data loaded successfully.
+2025-06-03 20:06:45,078 [INFO] ⏳ Mapping categorical variables
+2025-06-03 20:06:45,094 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 20:06:45,129 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 20:06:45,152 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 20:07:28,514 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 20:07:28,558 [INFO] ⏳ Scaling numerical columns
+2025-06-03 20:07:28,637 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 20:07:28,638 [INFO] ⏳ Building model
+2025-06-03 20:07:31,102 [INFO] Context impl SQLiteImpl.
+2025-06-03 20:07:31,102 [INFO] Will assume non-transactional DDL.
+2025-06-03 20:07:31,303 [INFO] ⏳ Training model
+2025-06-03 20:08:34,552 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 20:08:34,645 [INFO] ✅ Model saved to /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/models/loan_approval_model.h5
+2025-06-03 20:08:34,649 [INFO] ✅ Training completed successfully
+2025-06-03 20:20:49,312 [INFO] ⏳ Loading preprocessed data
+2025-06-03 20:20:49,312 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 20:20:49,402 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 20:20:49,536 [INFO] ✅ Data loaded successfully.
+2025-06-03 20:20:49,536 [INFO] ⏳ Mapping categorical variables
+2025-06-03 20:20:49,568 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 20:20:49,650 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 20:20:49,726 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 20:21:22,512 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 20:21:22,553 [INFO] ⏳ Scaling numerical columns
+2025-06-03 20:21:22,614 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 20:21:22,614 [INFO] ⏳ Building model
+2025-06-03 20:21:24,430 [INFO] Training parameters:
+2025-06-03 20:21:24,430 [INFO]   Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu'}]
+2025-06-03 20:21:24,430 [INFO]   Output Activation: sigmoid
+2025-06-03 20:21:24,430 [INFO]   Optimizer: adam
+2025-06-03 20:21:24,430 [INFO]   Loss: binary_crossentropy
+2025-06-03 20:21:24,430 [INFO]   Metrics: ['accuracy']
+2025-06-03 20:21:24,430 [INFO]   Epochs: 20
+2025-06-03 20:21:24,430 [INFO]   Batch Size: 64
+2025-06-03 20:21:25,150 [INFO] Context impl SQLiteImpl.
+2025-06-03 20:21:25,150 [INFO] Will assume non-transactional DDL.
+2025-06-03 20:21:25,466 [INFO] ⏳ Training model
+2025-06-03 20:22:31,715 [INFO] ✅ Training completed successfully
+2025-06-03 20:22:58,064 [INFO] ⏳ Loading preprocessed data
+2025-06-03 20:22:58,064 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 20:22:58,140 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 20:22:58,203 [INFO] ✅ Data loaded successfully.
+2025-06-03 20:22:58,204 [INFO] ⏳ Mapping categorical variables
+2025-06-03 20:22:58,216 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 20:22:58,250 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 20:22:58,267 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 20:23:29,578 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 20:23:29,622 [INFO] ⏳ Scaling numerical columns
+2025-06-03 20:23:29,663 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 20:23:29,664 [INFO] ⏳ Building model
+2025-06-03 20:23:31,488 [INFO] Training parameters:
+2025-06-03 20:23:31,488 [INFO]   Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu'}]
+2025-06-03 20:23:31,488 [INFO]   Output Activation: sigmoid
+2025-06-03 20:23:31,488 [INFO]   Optimizer: adam
+2025-06-03 20:23:31,489 [INFO]   Loss: binary_crossentropy
+2025-06-03 20:23:31,489 [INFO]   Metrics: ['accuracy']
+2025-06-03 20:23:31,489 [INFO]   Epochs: 20
+2025-06-03 20:23:31,489 [INFO]   Batch Size: 64
+2025-06-03 20:26:15,325 [INFO] ⏳ Loading preprocessed data
+2025-06-03 20:26:15,325 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 20:26:15,398 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 20:26:15,465 [INFO] ✅ Data loaded successfully.
+2025-06-03 20:26:15,466 [INFO] ⏳ Mapping categorical variables
+2025-06-03 20:26:15,481 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 20:26:15,521 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 20:26:15,538 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 20:26:45,950 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 20:26:45,994 [INFO] ⏳ Scaling numerical columns
+2025-06-03 20:26:46,036 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 20:26:46,037 [INFO] ⏳ Building model
+2025-06-03 20:26:47,843 [INFO] Training parameters:
+2025-06-03 20:26:47,843 [INFO]   Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu'}]
+2025-06-03 20:26:47,843 [INFO]   Output Activation: sigmoid
+2025-06-03 20:26:47,844 [INFO]   Optimizer: adam
+2025-06-03 20:26:47,844 [INFO]   Loss: binary_crossentropy
+2025-06-03 20:26:47,844 [INFO]   Metrics: ['accuracy']
+2025-06-03 20:26:47,844 [INFO]   Epochs: 20
+2025-06-03 20:26:47,844 [INFO]   Batch Size: 64
+2025-06-03 20:26:48,506 [INFO] Context impl SQLiteImpl.
+2025-06-03 20:26:48,506 [INFO] Will assume non-transactional DDL.
+2025-06-03 20:26:48,677 [INFO] ⏳ Training model
+2025-06-03 20:27:47,396 [INFO] ✅ Training completed successfully
+2025-06-03 20:27:47,397 [INFO] ===================================================================================================
+2025-06-03 20:40:40,605 [ERROR] ⛔ Error in training: module 'mlflow' has no attribute 'set_artifact_uri'
+2025-06-03 20:44:02,916 [INFO] ⏳ Loading preprocessed data
+2025-06-03 20:44:02,916 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 20:44:02,987 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 20:44:03,055 [INFO] ✅ Data loaded successfully.
+2025-06-03 20:44:03,055 [INFO] ⏳ Mapping categorical variables
+2025-06-03 20:44:03,067 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 20:44:03,097 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 20:44:03,111 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 20:44:33,329 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 20:44:33,374 [INFO] ⏳ Scaling numerical columns
+2025-06-03 20:44:33,414 [INFO] ✅ Scaler Saved
+2025-06-03 20:44:33,414 [ERROR] ⛔ Error in preprocessing: [Errno 21] Is a directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/models'
+2025-06-03 20:44:33,414 [ERROR] ⛔ Error in training: [Errno 21] Is a directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/models'
+2025-06-03 20:45:42,092 [INFO] ⏳ Loading preprocessed data
+2025-06-03 20:45:42,092 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 20:45:42,165 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 20:45:42,230 [INFO] ✅ Data loaded successfully.
+2025-06-03 20:45:42,230 [INFO] ⏳ Mapping categorical variables
+2025-06-03 20:45:42,245 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 20:45:42,279 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 20:45:42,298 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 20:46:12,219 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 20:46:12,265 [INFO] ⏳ Scaling numerical columns
+2025-06-03 20:46:12,309 [INFO] ✅ Scaler Saved
+2025-06-03 20:46:12,309 [ERROR] ⛔ Error in preprocessing: [Errno 21] Is a directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/models'
+2025-06-03 20:46:12,309 [ERROR] ⛔ Error in training: [Errno 21] Is a directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/models'
+2025-06-03 20:48:12,995 [INFO] ⏳ Loading preprocessed data
+2025-06-03 20:48:12,995 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 20:48:13,069 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 20:48:13,133 [INFO] ✅ Data loaded successfully.
+2025-06-03 20:48:13,134 [INFO] ⏳ Mapping categorical variables
+2025-06-03 20:48:13,148 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 20:48:13,184 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 20:48:13,201 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 20:48:41,608 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 20:48:41,653 [INFO] ⏳ Scaling numerical columns
+2025-06-03 20:48:41,692 [INFO] ✅ Scaler Saved
+2025-06-03 20:48:41,694 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 20:48:41,695 [INFO] ⏳ Building model
+2025-06-03 20:48:43,472 [INFO] Training parameters:
+2025-06-03 20:48:43,473 [INFO]   Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu'}]
+2025-06-03 20:48:43,473 [INFO]   Output Activation: sigmoid
+2025-06-03 20:48:43,473 [INFO]   Optimizer: adam
+2025-06-03 20:48:43,473 [INFO]   Loss: binary_crossentropy
+2025-06-03 20:48:43,473 [INFO]   Metrics: ['accuracy']
+2025-06-03 20:48:43,473 [INFO]   Epochs: 20
+2025-06-03 20:48:43,473 [INFO]   Batch Size: 64
+2025-06-03 20:48:44,093 [INFO] Context impl SQLiteImpl.
+2025-06-03 20:48:44,093 [INFO] Will assume non-transactional DDL.
+2025-06-03 20:48:44,243 [INFO] ⏳ Training model
+2025-06-03 20:49:45,461 [ERROR] ⛔ Error in training: [Errno 2] No such file or directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/artifacts/training_history.csv'
+2025-06-03 20:51:03,197 [INFO] ⏳ Loading preprocessed data
+2025-06-03 20:51:03,197 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 20:51:03,271 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 20:51:03,335 [INFO] ✅ Data loaded successfully.
+2025-06-03 20:51:03,336 [INFO] ⏳ Mapping categorical variables
+2025-06-03 20:51:03,350 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 20:51:03,386 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 20:51:03,404 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 20:51:35,095 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 20:51:35,135 [INFO] ⏳ Scaling numerical columns
+2025-06-03 20:51:35,171 [INFO] ✅ Scaler Saved
+2025-06-03 20:51:35,172 [ERROR] ⛔ Error in preprocessing: [Errno 2] No such file or directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/models/scaler/scaler.pkl'
+2025-06-03 20:51:35,172 [ERROR] ⛔ Error in training: [Errno 2] No such file or directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/models/scaler/scaler.pkl'
+2025-06-03 20:52:50,407 [INFO] ⏳ Loading preprocessed data
+2025-06-03 20:52:50,408 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 20:52:50,481 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 20:52:50,544 [INFO] ✅ Data loaded successfully.
+2025-06-03 20:52:50,544 [INFO] ⏳ Mapping categorical variables
+2025-06-03 20:52:50,559 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 20:52:50,594 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 20:52:50,611 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 20:53:21,513 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 20:53:21,556 [INFO] ⏳ Scaling numerical columns
+2025-06-03 20:53:21,597 [INFO] ✅ Scaler Saved
+2025-06-03 20:53:21,598 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 20:53:21,599 [INFO] ⏳ Building model
+2025-06-03 20:53:23,410 [INFO] Training parameters:
+2025-06-03 20:53:23,410 [INFO]   Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu'}]
+2025-06-03 20:53:23,410 [INFO]   Output Activation: sigmoid
+2025-06-03 20:53:23,410 [INFO]   Optimizer: adam
+2025-06-03 20:53:23,410 [INFO]   Loss: binary_crossentropy
+2025-06-03 20:53:23,410 [INFO]   Metrics: ['accuracy']
+2025-06-03 20:53:23,410 [INFO]   Epochs: 1
+2025-06-03 20:53:23,411 [INFO]   Batch Size: 64
+2025-06-03 20:53:24,523 [INFO] Context impl SQLiteImpl.
+2025-06-03 20:53:24,523 [INFO] Will assume non-transactional DDL.
+2025-06-03 20:53:24,735 [INFO] ⏳ Training model
+2025-06-03 20:53:30,454 [ERROR] ⛔ Error in training: [Errno 2] No such file or directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/artifacts/training_history.csv'
+2025-06-03 20:56:43,976 [INFO] ⏳ Loading preprocessed data
+2025-06-03 20:56:43,977 [INFO] ⏳ Loading train data from ../Data/train.csv
+2025-06-03 20:56:44,049 [INFO] ⏳ Loading test data from ../Data/train.csv
+2025-06-03 20:56:44,112 [INFO] ✅ Data loaded successfully.
+2025-06-03 20:56:44,112 [INFO] ⏳ Mapping categorical variables
+2025-06-03 20:56:44,126 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 20:56:44,163 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 20:56:44,183 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 20:57:14,720 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 20:57:14,770 [INFO] ⏳ Scaling numerical columns
+2025-06-03 20:57:14,808 [INFO] ✅ Scaler Saved
+2025-06-03 20:57:14,809 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 20:57:14,810 [INFO] ⏳ Building model
+2025-06-03 20:57:16,613 [INFO] Training parameters:
+2025-06-03 20:57:16,614 [INFO]   Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu'}]
+2025-06-03 20:57:16,614 [INFO]   Output Activation: sigmoid
+2025-06-03 20:57:16,614 [INFO]   Optimizer: adam
+2025-06-03 20:57:16,614 [INFO]   Loss: binary_crossentropy
+2025-06-03 20:57:16,614 [INFO]   Metrics: ['accuracy']
+2025-06-03 20:57:16,614 [INFO]   Epochs: 1
+2025-06-03 20:57:16,614 [INFO]   Batch Size: 64
+2025-06-03 20:57:17,627 [INFO] Context impl SQLiteImpl.
+2025-06-03 20:57:17,627 [INFO] Will assume non-transactional DDL.
+2025-06-03 20:57:17,805 [INFO] ⏳ Training model
+2025-06-03 20:57:23,350 [INFO] ✅ Training completed successfully
+2025-06-03 20:57:23,350 [INFO] ===================================================================================================
+2025-06-03 20:57:39,051 [ERROR] ⛔ Error in training: Invalid artifact path: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/mlruns'. Names may be treated as files in certain cases, and must not resolve to other names when treated as such. This name would resolve to '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/mlruns'
+2025-06-03 21:00:57,707 [INFO] ⏳ Loading preprocessed data
+2025-06-03 21:00:57,707 [ERROR] ⛔ Data files not found at specified paths.
+2025-06-03 21:00:57,708 [ERROR] ⛔ Error in data ingestion: ⛔ Train or test CSV file not found.
+2025-06-03 21:00:57,708 [ERROR] ⛔ Error in preprocessing: ⛔ Train or test CSV file not found.
+2025-06-03 21:00:57,708 [ERROR] ⛔ Error in training: ⛔ Train or test CSV file not found.
+2025-06-03 21:01:27,721 [INFO] ⏳ Loading preprocessed data
+2025-06-03 21:01:27,721 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-03 21:01:27,790 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-03 21:01:27,852 [INFO] ✅ Data loaded successfully.
+2025-06-03 21:01:27,852 [INFO] ⏳ Mapping categorical variables
+2025-06-03 21:01:27,866 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 21:01:27,911 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 21:01:27,925 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 21:02:00,270 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 21:02:00,343 [INFO] ⏳ Scaling numerical columns
+2025-06-03 21:02:00,413 [INFO] ✅ Scaler Saved
+2025-06-03 21:02:00,414 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 21:02:00,414 [INFO] ⏳ Building model
+2025-06-03 21:02:02,224 [INFO] Training parameters:
+2025-06-03 21:02:02,225 [INFO]   Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu'}]
+2025-06-03 21:02:02,225 [INFO]   Output Activation: sigmoid
+2025-06-03 21:02:02,225 [INFO]   Optimizer: adam
+2025-06-03 21:02:02,225 [INFO]   Loss: binary_crossentropy
+2025-06-03 21:02:02,225 [INFO]   Metrics: ['accuracy']
+2025-06-03 21:02:02,225 [INFO]   Epochs: 1
+2025-06-03 21:02:02,225 [INFO]   Batch Size: 64
+2025-06-03 21:02:02,896 [INFO] Context impl SQLiteImpl.
+2025-06-03 21:02:02,896 [INFO] Will assume non-transactional DDL.
+2025-06-03 21:02:03,075 [INFO] ⏳ Training model
+2025-06-03 21:02:08,271 [INFO] ✅ Training completed successfully
+2025-06-03 21:02:08,271 [INFO] ===================================================================================================
+2025-06-03 21:02:08,271 [INFO] ✅ Model logged successfully
+2025-06-03 22:54:30,925 [INFO] ⏳ Loading preprocessed data
+2025-06-03 22:54:30,926 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-03 22:54:31,074 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-03 22:54:31,141 [INFO] ✅ Data loaded successfully.
+2025-06-03 22:54:31,141 [INFO] ⏳ Mapping categorical variables
+2025-06-03 22:54:31,154 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 22:54:31,195 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 22:54:31,218 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 22:55:03,840 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 22:55:03,885 [INFO] ⏳ Scaling numerical columns
+2025-06-03 22:55:03,929 [INFO] ✅ Scaler Saved
+2025-06-03 22:55:03,929 [ERROR] ⛔ Error in preprocessing: [Errno 2] No such file or directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/models/scaler/scaler.pkl'
+2025-06-03 22:55:03,929 [ERROR] ⛔ Error in training: [Errno 2] No such file or directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/models/scaler/scaler.pkl'
+2025-06-03 22:55:36,777 [INFO] ⏳ Loading preprocessed data
+2025-06-03 22:55:36,778 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-03 22:55:36,849 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-03 22:55:36,910 [INFO] ✅ Data loaded successfully.
+2025-06-03 22:55:36,910 [INFO] ⏳ Mapping categorical variables
+2025-06-03 22:55:36,920 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 22:55:36,951 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 22:55:36,965 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 22:56:10,243 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 22:56:10,288 [INFO] ⏳ Scaling numerical columns
+2025-06-03 22:56:10,330 [INFO] ✅ Scaler Saved
+2025-06-03 22:56:10,333 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 22:56:10,334 [INFO] ⏳ Building model
+2025-06-03 22:56:12,162 [INFO] Training parameters:
+2025-06-03 22:56:12,162 [INFO]   Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu'}]
+2025-06-03 22:56:12,163 [INFO]   Output Activation: sigmoid
+2025-06-03 22:56:12,163 [INFO]   Optimizer: adam
+2025-06-03 22:56:12,163 [INFO]   Loss: binary_crossentropy
+2025-06-03 22:56:12,163 [INFO]   Metrics: ['accuracy']
+2025-06-03 22:56:12,163 [INFO]   Epochs: 1
+2025-06-03 22:56:12,163 [INFO]   Batch Size: 64
+2025-06-03 22:56:12,887 [INFO] Context impl SQLiteImpl.
+2025-06-03 22:56:12,887 [INFO] Will assume non-transactional DDL.
+2025-06-03 22:56:13,035 [INFO] ⏳ Training model
+2025-06-03 22:56:18,031 [INFO] ✅ Training completed successfully
+2025-06-03 22:56:18,031 [INFO] ===================================================================================================
+2025-06-03 22:56:18,163 [ERROR] ⛔ Error in training: All fields in the model signature's input schema must be of type TensorSpec.
+2025-06-03 22:59:27,268 [INFO] ⏳ Loading preprocessed data
+2025-06-03 22:59:27,269 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-03 22:59:27,349 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-03 22:59:27,414 [INFO] ✅ Data loaded successfully.
+2025-06-03 22:59:27,415 [INFO] ⏳ Mapping categorical variables
+2025-06-03 22:59:27,434 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 22:59:27,468 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 22:59:27,487 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 22:59:59,645 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 22:59:59,692 [INFO] ⏳ Scaling numerical columns
+2025-06-03 22:59:59,730 [INFO] ✅ Scaler Saved
+2025-06-03 22:59:59,731 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 22:59:59,732 [INFO] ⏳ Building model
+2025-06-03 23:00:01,524 [INFO] Training parameters:
+2025-06-03 23:00:01,524 [INFO]   Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu'}]
+2025-06-03 23:00:01,524 [INFO]   Output Activation: sigmoid
+2025-06-03 23:00:01,524 [INFO]   Optimizer: adam
+2025-06-03 23:00:01,524 [INFO]   Loss: binary_crossentropy
+2025-06-03 23:00:01,524 [INFO]   Metrics: ['accuracy']
+2025-06-03 23:00:01,524 [INFO]   Epochs: 1
+2025-06-03 23:00:01,525 [INFO]   Batch Size: 64
+2025-06-03 23:00:02,162 [INFO] Context impl SQLiteImpl.
+2025-06-03 23:00:02,162 [INFO] Will assume non-transactional DDL.
+2025-06-03 23:00:02,305 [INFO] ⏳ Training model
+2025-06-03 23:00:06,752 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 23:00:06,804 [INFO] ✅ Model saved to /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/models/loan_approval_model.h5
+2025-06-03 23:00:06,807 [INFO] ✅ Training completed successfully
+2025-06-03 23:00:06,807 [INFO] ===================================================================================================
+2025-06-03 23:04:52,102 [INFO] ⏳ Loading preprocessed data
+2025-06-03 23:04:52,103 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-03 23:04:52,172 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-03 23:04:52,233 [INFO] ✅ Data loaded successfully.
+2025-06-03 23:04:52,233 [INFO] ⏳ Mapping categorical variables
+2025-06-03 23:04:52,245 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 23:04:52,275 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 23:04:52,289 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 23:05:23,284 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 23:05:23,326 [INFO] ⏳ Scaling numerical columns
+2025-06-03 23:05:23,363 [INFO] ✅ Scaler Saved
+2025-06-03 23:05:23,364 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 23:05:23,364 [INFO] ⏳ Building model
+2025-06-03 23:05:25,165 [INFO] Training parameters:
+2025-06-03 23:05:25,165 [INFO]   Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-03 23:05:25,165 [INFO]   Output Activation: sigmoid
+2025-06-03 23:05:25,165 [INFO]   Optimizer: adam
+2025-06-03 23:05:25,165 [INFO]   Loss: binary_crossentropy
+2025-06-03 23:05:25,165 [INFO]   Metrics: ['accuracy']
+2025-06-03 23:05:25,165 [INFO]   Epochs: 30
+2025-06-03 23:05:25,165 [INFO]   Batch Size: 64
+2025-06-03 23:05:25,803 [INFO] Context impl SQLiteImpl.
+2025-06-03 23:05:25,803 [INFO] Will assume non-transactional DDL.
+2025-06-03 23:05:25,952 [INFO] ⏳ Training model
+2025-06-03 23:07:05,045 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 23:07:05,102 [INFO] ✅ Model saved to /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/models/loan_approval_model.h5
+2025-06-03 23:07:05,106 [INFO] ✅ Training completed successfully
+2025-06-03 23:07:05,106 [INFO] ===================================================================================================
+2025-06-03 23:07:51,065 [INFO] ⏳ Loading preprocessed data
+2025-06-03 23:07:51,065 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-03 23:07:51,143 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-03 23:07:51,231 [INFO] ✅ Data loaded successfully.
+2025-06-03 23:07:51,231 [INFO] ⏳ Mapping categorical variables
+2025-06-03 23:07:51,243 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 23:07:51,280 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 23:07:51,303 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 23:08:21,149 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 23:08:21,193 [INFO] ⏳ Scaling numerical columns
+2025-06-03 23:08:21,233 [INFO] ✅ Scaler Saved
+2025-06-03 23:08:21,234 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 23:08:21,235 [INFO] ⏳ Building model
+2025-06-03 23:08:23,153 [INFO] Training parameters:
+2025-06-03 23:08:23,153 [INFO]   Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-03 23:08:23,153 [INFO]   Output Activation: sigmoid
+2025-06-03 23:08:23,153 [INFO]   Optimizer: adam
+2025-06-03 23:08:23,153 [INFO]   Loss: binary_crossentropy
+2025-06-03 23:08:23,153 [INFO]   Metrics: ['accuracy']
+2025-06-03 23:08:23,153 [INFO]   Epochs: 20
+2025-06-03 23:08:23,153 [INFO]   Batch Size: 64
+2025-06-03 23:08:23,931 [INFO] Context impl SQLiteImpl.
+2025-06-03 23:08:23,931 [INFO] Will assume non-transactional DDL.
+2025-06-03 23:08:24,079 [INFO] ⏳ Training model
+2025-06-03 23:09:26,088 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 23:09:26,143 [INFO] ✅ Model saved to /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/models/loan_approval_model.h5
+2025-06-03 23:09:26,146 [INFO] ✅ Training completed successfully
+2025-06-03 23:09:26,146 [INFO] ===================================================================================================
+2025-06-03 23:22:15,228 [INFO] ⏳ Loading preprocessed data
+2025-06-03 23:22:15,229 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-03 23:22:15,309 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-03 23:22:15,373 [INFO] ✅ Data loaded successfully.
+2025-06-03 23:22:15,373 [INFO] ⏳ Mapping categorical variables
+2025-06-03 23:22:15,387 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 23:22:15,421 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 23:22:15,440 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 23:22:46,774 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 23:22:46,824 [INFO] ⏳ Scaling numerical columns
+2025-06-03 23:22:46,878 [INFO] ✅ Scaler Saved
+2025-06-03 23:22:46,879 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 23:22:46,879 [INFO] ⏳ Building model
+2025-06-03 23:22:48,671 [INFO] Training parameters:
+2025-06-03 23:22:48,671 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-03 23:22:48,671 [INFO]  ➤ Output Activation: sigmoid
+2025-06-03 23:22:48,671 [INFO]  ➤ Optimizer: adam
+2025-06-03 23:22:48,671 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-03 23:22:48,671 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-03 23:22:48,671 [INFO]  ➤ Epochs: 20
+2025-06-03 23:22:48,672 [INFO]  ➤ Batch Size: 64
+2025-06-03 23:23:53,964 [INFO] ⏳ Loading preprocessed data
+2025-06-03 23:23:53,964 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-03 23:23:54,039 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-03 23:23:54,103 [INFO] ✅ Data loaded successfully.
+2025-06-03 23:23:54,103 [INFO] ⏳ Mapping categorical variables
+2025-06-03 23:23:54,116 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 23:23:54,152 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 23:23:54,169 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 23:24:24,567 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 23:24:24,609 [INFO] ⏳ Scaling numerical columns
+2025-06-03 23:24:24,648 [INFO] ✅ Scaler Saved
+2025-06-03 23:24:24,649 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 23:24:24,649 [INFO] ⏳ Building model
+2025-06-03 23:24:26,443 [INFO] Training parameters:
+2025-06-03 23:24:26,443 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-03 23:24:26,443 [INFO]  ➤ Output Activation: sigmoid
+2025-06-03 23:24:26,443 [INFO]  ➤ Optimizer: adam
+2025-06-03 23:24:26,444 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-03 23:24:26,444 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-03 23:24:26,444 [INFO]  ➤ Epochs: 20
+2025-06-03 23:24:26,444 [INFO]  ➤ Batch Size: 64
+2025-06-03 23:24:27,123 [INFO] Context impl SQLiteImpl.
+2025-06-03 23:24:27,123 [INFO] Will assume non-transactional DDL.
+2025-06-03 23:24:27,298 [INFO] ⏳ Logging hyperparameters
+2025-06-03 23:24:27,325 [ERROR] ⛔ Error in training: [Errno 36] File name too long: '{\n    "model_layers": [\n        {\n            "units": 128,\n            "activation": "relu",\n            "dropout": 0.2\n        },\n        {\n            "units": 64,\n            "activation": "relu",\n            "dropout": 0.2\n        },\n        {\n            "units": 32,\n            "activation": "relu",\n            "dropout": 0.2\n        },\n        {\n            "units": 16,\n            "activation": "relu"\n        }\n    ],\n    "output_activation": "sigmoid",\n    "optimizer": "adam",\n    "loss": "binary_crossentropy",\n    "metrics": [\n        "accuracy"\n    ],\n    "epochs": 20,\n    "batch_size": 64\n}'
+2025-06-03 23:25:29,665 [INFO] ⏳ Loading preprocessed data
+2025-06-03 23:25:29,665 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-03 23:25:29,739 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-03 23:25:29,805 [INFO] ✅ Data loaded successfully.
+2025-06-03 23:25:29,805 [INFO] ⏳ Mapping categorical variables
+2025-06-03 23:25:29,820 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 23:25:29,856 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 23:25:29,870 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 23:26:03,313 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 23:26:03,358 [INFO] ⏳ Scaling numerical columns
+2025-06-03 23:26:03,397 [INFO] ✅ Scaler Saved
+2025-06-03 23:26:03,399 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 23:26:03,399 [INFO] ⏳ Building model
+2025-06-03 23:26:05,210 [INFO] Training parameters:
+2025-06-03 23:26:05,210 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-03 23:26:05,210 [INFO]  ➤ Output Activation: sigmoid
+2025-06-03 23:26:05,210 [INFO]  ➤ Optimizer: adam
+2025-06-03 23:26:05,210 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-03 23:26:05,210 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-03 23:26:05,211 [INFO]  ➤ Epochs: 20
+2025-06-03 23:26:05,211 [INFO]  ➤ Batch Size: 64
+2025-06-03 23:26:05,835 [INFO] Context impl SQLiteImpl.
+2025-06-03 23:26:05,835 [INFO] Will assume non-transactional DDL.
+2025-06-03 23:26:06,027 [INFO] ⏳ Logging hyperparameters
+2025-06-03 23:26:06,046 [INFO] ⏳ Logging dataset info
+2025-06-03 23:26:06,046 [INFO] ⏳ Training model
+2025-06-03 23:27:12,252 [INFO] ✅ Training completed successfully
+2025-06-03 23:27:12,253 [INFO] ===================================================================================================
+2025-06-03 23:32:58,127 [INFO] ⏳ Loading preprocessed data
+2025-06-03 23:32:58,127 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-03 23:32:58,206 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-03 23:32:58,280 [INFO] ✅ Data loaded successfully.
+2025-06-03 23:32:58,281 [INFO] ⏳ Mapping categorical variables
+2025-06-03 23:32:58,306 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 23:32:58,419 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 23:32:58,468 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 23:33:28,576 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 23:33:28,620 [INFO] ⏳ Scaling numerical columns
+2025-06-03 23:33:28,665 [INFO] ✅ Scaler Saved
+2025-06-03 23:33:28,667 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 23:33:28,668 [INFO] ⏳ Building model
+2025-06-03 23:33:30,489 [INFO] Training parameters:
+2025-06-03 23:33:30,489 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-03 23:33:30,489 [INFO]  ➤ Output Activation: sigmoid
+2025-06-03 23:33:30,489 [INFO]  ➤ Optimizer: adam
+2025-06-03 23:33:30,489 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-03 23:33:30,490 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-03 23:33:30,490 [INFO]  ➤ Epochs: 20
+2025-06-03 23:33:30,490 [INFO]  ➤ Batch Size: 64
+2025-06-03 23:33:31,136 [INFO] Context impl SQLiteImpl.
+2025-06-03 23:33:31,136 [INFO] Will assume non-transactional DDL.
+2025-06-03 23:33:31,325 [INFO] ⏳ Logging hyperparameters
+2025-06-03 23:33:31,346 [INFO] ⏳ Logging dataset info
+2025-06-03 23:33:31,348 [INFO] ⏳ Training model
+2025-06-03 23:34:34,765 [INFO] ✅ Training completed successfully
+2025-06-03 23:34:34,765 [INFO] ===================================================================================================
+2025-06-03 23:43:19,534 [INFO] ⏳ Loading preprocessed data
+2025-06-03 23:43:19,534 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-03 23:43:19,611 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-03 23:43:19,681 [INFO] ✅ Data loaded successfully.
+2025-06-03 23:43:19,681 [INFO] ⏳ Mapping categorical variables
+2025-06-03 23:43:19,697 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 23:43:19,735 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 23:43:19,757 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 23:43:49,615 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 23:43:49,659 [INFO] ⏳ Scaling numerical columns
+2025-06-03 23:43:49,736 [INFO] ✅ Scaler Saved
+2025-06-03 23:43:49,738 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 23:43:49,740 [INFO] ⏳ Building model
+2025-06-03 23:43:51,565 [INFO] Training parameters:
+2025-06-03 23:43:51,565 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-03 23:43:51,565 [INFO]  ➤ Output Activation: sigmoid
+2025-06-03 23:43:51,565 [INFO]  ➤ Optimizer: adam
+2025-06-03 23:43:51,566 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-03 23:43:51,566 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-03 23:43:51,566 [INFO]  ➤ Epochs: 20
+2025-06-03 23:43:51,566 [INFO]  ➤ Batch Size: 64
+2025-06-03 23:43:52,204 [INFO] Context impl SQLiteImpl.
+2025-06-03 23:43:52,204 [INFO] Will assume non-transactional DDL.
+2025-06-03 23:43:52,390 [INFO] ⏳ Logging hyperparameters
+2025-06-03 23:43:52,409 [INFO] ⏳ Logging dataset info
+2025-06-03 23:43:52,410 [INFO] ⏳ Training model
+2025-06-03 23:44:57,473 [INFO] ✅ Training completed successfully
+2025-06-03 23:44:57,473 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 23:44:57,570 [ERROR] ⛔ Error in training: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+2025-06-03 23:45:50,029 [INFO] ⏳ Loading preprocessed data
+2025-06-03 23:45:50,029 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-03 23:45:50,115 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-03 23:45:50,188 [INFO] ✅ Data loaded successfully.
+2025-06-03 23:45:50,188 [INFO] ⏳ Mapping categorical variables
+2025-06-03 23:45:50,204 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 23:45:50,240 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 23:45:50,255 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 23:46:18,932 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 23:46:18,979 [INFO] ⏳ Scaling numerical columns
+2025-06-03 23:46:19,023 [INFO] ✅ Scaler Saved
+2025-06-03 23:46:19,025 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 23:46:19,026 [INFO] ⏳ Building model
+2025-06-03 23:46:20,898 [INFO] Training parameters:
+2025-06-03 23:46:20,899 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-03 23:46:20,899 [INFO]  ➤ Output Activation: sigmoid
+2025-06-03 23:46:20,899 [INFO]  ➤ Optimizer: adam
+2025-06-03 23:46:20,899 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-03 23:46:20,899 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-03 23:46:20,899 [INFO]  ➤ Epochs: 20
+2025-06-03 23:46:20,899 [INFO]  ➤ Batch Size: 64
+2025-06-03 23:46:21,751 [INFO] Context impl SQLiteImpl.
+2025-06-03 23:46:21,751 [INFO] Will assume non-transactional DDL.
+2025-06-03 23:46:21,932 [INFO] ⏳ Logging hyperparameters
+2025-06-03 23:46:21,949 [INFO] ⏳ Logging dataset info
+2025-06-03 23:46:21,950 [INFO] ⏳ Training model
+2025-06-03 23:47:25,463 [INFO] ✅ Training completed successfully
+2025-06-03 23:47:25,463 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 23:47:25,531 [ERROR] ⛔ Error in training: stat: path should be string, bytes, os.PathLike or integer, not Sequential
+2025-06-03 23:47:55,487 [INFO] ⏳ Loading preprocessed data
+2025-06-03 23:47:55,488 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-03 23:47:55,566 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-03 23:47:55,629 [INFO] ✅ Data loaded successfully.
+2025-06-03 23:47:55,629 [INFO] ⏳ Mapping categorical variables
+2025-06-03 23:47:55,642 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 23:47:55,677 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 23:47:55,693 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 23:48:24,540 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 23:48:24,583 [INFO] ⏳ Scaling numerical columns
+2025-06-03 23:48:24,623 [INFO] ✅ Scaler Saved
+2025-06-03 23:48:24,624 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 23:48:24,625 [INFO] ⏳ Building model
+2025-06-03 23:48:26,439 [INFO] Training parameters:
+2025-06-03 23:48:26,440 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-03 23:48:26,440 [INFO]  ➤ Output Activation: sigmoid
+2025-06-03 23:48:26,440 [INFO]  ➤ Optimizer: adam
+2025-06-03 23:48:26,440 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-03 23:48:26,440 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-03 23:48:26,440 [INFO]  ➤ Epochs: 20
+2025-06-03 23:48:26,440 [INFO]  ➤ Batch Size: 64
+2025-06-03 23:48:27,099 [INFO] Context impl SQLiteImpl.
+2025-06-03 23:48:27,099 [INFO] Will assume non-transactional DDL.
+2025-06-03 23:48:27,300 [INFO] ⏳ Logging hyperparameters
+2025-06-03 23:48:27,324 [INFO] ⏳ Logging dataset info
+2025-06-03 23:48:27,326 [INFO] ⏳ Training model
+2025-06-03 23:49:34,271 [INFO] ✅ Training completed successfully
+2025-06-03 23:49:34,271 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 23:49:34,350 [ERROR] ⛔ Error in training: stat: path should be string, bytes, os.PathLike or integer, not Sequential
+2025-06-03 23:50:35,865 [INFO] ⏳ Loading preprocessed data
+2025-06-03 23:50:35,865 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-03 23:50:35,940 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-03 23:50:36,003 [INFO] ✅ Data loaded successfully.
+2025-06-03 23:50:36,003 [INFO] ⏳ Mapping categorical variables
+2025-06-03 23:50:36,016 [INFO] ⏳ Applying one-hot encoding
+2025-06-03 23:50:36,051 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-03 23:50:36,071 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-03 23:51:07,187 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-03 23:51:07,231 [INFO] ⏳ Scaling numerical columns
+2025-06-03 23:51:07,270 [INFO] ✅ Scaler Saved
+2025-06-03 23:51:07,272 [INFO] ✅ Preprocessing completed successfully
+2025-06-03 23:51:07,272 [INFO] ⏳ Building model
+2025-06-03 23:51:09,084 [INFO] Training parameters:
+2025-06-03 23:51:09,085 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-03 23:51:09,085 [INFO]  ➤ Output Activation: sigmoid
+2025-06-03 23:51:09,085 [INFO]  ➤ Optimizer: adam
+2025-06-03 23:51:09,085 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-03 23:51:09,085 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-03 23:51:09,085 [INFO]  ➤ Epochs: 20
+2025-06-03 23:51:09,085 [INFO]  ➤ Batch Size: 64
+2025-06-03 23:51:09,724 [INFO] Context impl SQLiteImpl.
+2025-06-03 23:51:09,724 [INFO] Will assume non-transactional DDL.
+2025-06-03 23:51:09,904 [INFO] ⏳ Logging hyperparameters
+2025-06-03 23:51:09,923 [INFO] ⏳ Logging dataset info
+2025-06-03 23:51:09,924 [INFO] ⏳ Training model
+2025-06-03 23:52:14,432 [INFO] ✅ Training completed successfully
+2025-06-03 23:52:14,433 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-03 23:52:14,484 [INFO] ✅ Model logged.
+2025-06-03 23:52:14,484 [INFO] ===================================================================================================
+2025-06-04 09:29:37,504 [INFO] ⏳ Loading preprocessed data
+2025-06-04 09:29:37,505 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 09:29:37,759 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 09:29:37,825 [INFO] ✅ Data loaded successfully.
+2025-06-04 09:29:37,825 [INFO] ⏳ Mapping categorical variables
+2025-06-04 09:29:37,843 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 09:29:37,882 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 09:29:37,902 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 09:30:08,262 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 09:30:08,312 [INFO] ⏳ Scaling numerical columns
+2025-06-04 09:30:08,351 [INFO] ✅ Scaler Saved
+2025-06-04 09:30:08,352 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 09:30:08,353 [INFO] ⏳ Building model
+2025-06-04 09:30:10,174 [INFO] Training parameters:
+2025-06-04 09:30:10,174 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-04 09:30:10,174 [INFO]  ➤ Output Activation: sigmoid
+2025-06-04 09:30:10,174 [INFO]  ➤ Optimizer: adam
+2025-06-04 09:30:10,174 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-04 09:30:10,174 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-04 09:30:10,174 [INFO]  ➤ Epochs: 20
+2025-06-04 09:30:10,175 [INFO]  ➤ Batch Size: 64
+2025-06-04 09:30:10,802 [INFO] Context impl SQLiteImpl.
+2025-06-04 09:30:10,803 [INFO] Will assume non-transactional DDL.
+2025-06-04 09:30:11,030 [INFO] ⏳ Logging hyperparameters
+2025-06-04 09:30:11,049 [INFO] ⏳ Logging dataset info
+2025-06-04 09:30:11,050 [INFO] ⏳ Training model
+2025-06-04 09:31:23,001 [INFO] ✅ Training completed successfully
+2025-06-04 09:31:23,004 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-04 09:31:23,174 [INFO] ✅ Model logged.
+2025-06-04 09:31:23,175 [INFO] ===================================================================================================
+2025-06-04 10:15:20,484 [ERROR] ⛔ Error registering model: Must specify exactly one of: `experiment_id` or `experiment_name`.
+2025-06-04 10:18:13,467 [INFO] Context impl SQLiteImpl.
+2025-06-04 10:18:13,467 [INFO] Will assume non-transactional DDL.
+2025-06-04 10:18:13,535 [ERROR] ⛔ Error registering model: No runs found in the Loan_Prediction experiment
+2025-06-04 10:19:31,461 [INFO] Context impl SQLiteImpl.
+2025-06-04 10:19:31,462 [INFO] Will assume non-transactional DDL.
+2025-06-04 10:19:31,511 [INFO] Using latest run ID: 49719b7e48fd4658bb223a8c0f8f589b
+2025-06-04 10:19:31,511 [INFO] ⏳ Registering model 'LoanApprovalModel' from run 49719b7e48fd4658bb223a8c0f8f589b
+2025-06-04 10:19:31,644 [INFO] ✅ Set alias 'ReadyForProduction' for model version 1
+2025-06-04 10:19:31,668 [INFO] ✅ Set description for model version 1
+2025-06-04 10:19:31,923 [INFO] ✅ Model 'LoanApprovalModel' registered as version 1
+2025-06-04 10:19:31,923 [INFO] ===================================================================================================
+2025-06-04 10:39:58,453 [INFO] Context impl SQLiteImpl.
+2025-06-04 10:39:58,454 [INFO] Will assume non-transactional DDL.
+2025-06-04 10:39:58,499 [INFO] Using latest run ID: 49719b7e48fd4658bb223a8c0f8f589b
+2025-06-04 10:39:58,499 [INFO] ⏳ Registering model 'LoanApprovalModel' from run 49719b7e48fd4658bb223a8c0f8f589b
+2025-06-04 10:39:58,620 [INFO] ✅ Set alias 'ReadyForProduction' for model version 1
+2025-06-04 10:39:58,642 [INFO] ✅ Set description for model version 1
+2025-06-04 10:39:58,928 [INFO] ✅ Model 'LoanApprovalModel' registered as version 1
+2025-06-04 10:39:58,928 [INFO] ===================================================================================================
+2025-06-04 10:45:11,705 [INFO] Context impl SQLiteImpl.
+2025-06-04 10:45:11,705 [INFO] Will assume non-transactional DDL.
+2025-06-04 10:45:11,749 [INFO] ⏳ Loading validation and test data
+2025-06-04 10:45:11,749 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 10:45:11,886 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 10:45:12,052 [INFO] ✅ Data loaded successfully.
+2025-06-04 10:45:12,053 [INFO] ⏳ Mapping categorical variables
+2025-06-04 10:45:12,080 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 10:45:12,146 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 10:45:12,177 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 10:45:42,204 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 10:45:42,251 [INFO] ⏳ Scaling numerical columns
+2025-06-04 10:45:42,305 [INFO] ✅ Scaler Saved
+2025-06-04 10:45:42,308 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 10:45:42,310 [INFO] ⏳ Loading model 'LoanApprovalModel' version latest
+2025-06-04 10:45:42,371 [INFO] Using latest version: 1
+2025-06-04 10:45:42,383 [ERROR] ⛔ Error in evaluation or testing: No such file or directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/scripts/mlruns/1/49719b7e48fd4658bb223a8c0f8f589b/artifacts/LoanApprovalModel/.'
+2025-06-04 11:07:48,094 [INFO] ⏳ Loading preprocessed data
+2025-06-04 11:07:48,095 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 11:07:48,183 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 11:07:48,245 [INFO] ✅ Data loaded successfully.
+2025-06-04 11:07:48,246 [INFO] ⏳ Mapping categorical variables
+2025-06-04 11:07:48,260 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 11:07:48,292 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 11:07:48,309 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 11:08:18,582 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 11:08:18,634 [INFO] ⏳ Scaling numerical columns
+2025-06-04 11:08:18,684 [INFO] ✅ Scaler Saved
+2025-06-04 11:08:18,694 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 11:08:18,695 [INFO] ⏳ Building model
+2025-06-04 11:08:20,545 [INFO] Training parameters:
+2025-06-04 11:08:20,545 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-04 11:08:20,545 [INFO]  ➤ Output Activation: sigmoid
+2025-06-04 11:08:20,545 [INFO]  ➤ Optimizer: adam
+2025-06-04 11:08:20,545 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-04 11:08:20,546 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-04 11:08:20,546 [INFO]  ➤ Epochs: 20
+2025-06-04 11:08:20,546 [INFO]  ➤ Batch Size: 64
+2025-06-04 11:08:21,304 [INFO] Context impl SQLiteImpl.
+2025-06-04 11:08:21,304 [INFO] Will assume non-transactional DDL.
+2025-06-04 11:08:21,492 [INFO] ⏳ Logging hyperparameters
+2025-06-04 11:08:21,509 [INFO] ⏳ Logging dataset info
+2025-06-04 11:08:21,510 [INFO] ⏳ Training model
+2025-06-04 11:09:34,708 [INFO] ✅ Training completed successfully
+2025-06-04 11:09:34,708 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-04 11:09:34,754 [INFO] ✅ Model logged.
+2025-06-04 11:09:34,754 [INFO] ===================================================================================================
+2025-06-04 11:10:23,252 [INFO] Context impl SQLiteImpl.
+2025-06-04 11:10:23,253 [INFO] Will assume non-transactional DDL.
+2025-06-04 11:10:23,304 [INFO] Using latest run ID: 404bfc91c3a24bc98cd8b41e6acbd96e
+2025-06-04 11:10:23,304 [INFO] ⏳ Registering model 'LoanApprovalModel' from run 404bfc91c3a24bc98cd8b41e6acbd96e
+2025-06-04 11:10:23,402 [INFO] ✅ Set alias 'ReadyForProduction' for model version 2
+2025-06-04 11:10:23,423 [INFO] ✅ Set description for model version 2
+2025-06-04 11:10:23,652 [INFO] ✅ Model 'LoanApprovalModel' registered as version 2
+2025-06-04 11:10:23,652 [INFO] ===================================================================================================
+2025-06-04 11:22:23,650 [INFO] ⏳ Loading preprocessed data
+2025-06-04 11:22:23,651 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 11:22:23,730 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 11:22:23,793 [INFO] ✅ Data loaded successfully.
+2025-06-04 11:22:23,793 [INFO] ⏳ Mapping categorical variables
+2025-06-04 11:22:23,811 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 11:22:23,847 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 11:22:23,863 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 11:22:53,673 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 11:22:53,718 [INFO] ⏳ Scaling numerical columns
+2025-06-04 11:22:53,767 [INFO] ✅ Scaler Saved
+2025-06-04 11:22:53,768 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 11:22:53,768 [INFO] ⏳ Building model
+2025-06-04 11:22:55,582 [INFO] Training parameters:
+2025-06-04 11:22:55,582 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-04 11:22:55,582 [INFO]  ➤ Output Activation: sigmoid
+2025-06-04 11:22:55,582 [INFO]  ➤ Optimizer: adam
+2025-06-04 11:22:55,582 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-04 11:22:55,582 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-04 11:22:55,582 [INFO]  ➤ Epochs: 20
+2025-06-04 11:22:55,582 [INFO]  ➤ Batch Size: 64
+2025-06-04 11:22:56,246 [INFO] Context impl SQLiteImpl.
+2025-06-04 11:22:56,247 [INFO] Will assume non-transactional DDL.
+2025-06-04 11:22:56,453 [INFO] ⏳ Logging hyperparameters
+2025-06-04 11:22:56,472 [INFO] ⏳ Logging dataset info
+2025-06-04 11:22:56,473 [INFO] ⏳ Training model
+2025-06-04 11:24:02,468 [INFO] ✅ Training completed successfully
+2025-06-04 11:24:02,468 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-04 11:24:02,524 [INFO] ✅ Model logged.
+2025-06-04 11:24:02,524 [INFO] ===================================================================================================
+2025-06-04 11:25:29,399 [INFO] Context impl SQLiteImpl.
+2025-06-04 11:25:29,399 [INFO] Will assume non-transactional DDL.
+2025-06-04 11:25:29,449 [INFO] Using latest run ID: 893af7899f814dfab497c5487ffcd76e
+2025-06-04 11:25:29,449 [INFO] ⏳ Registering model 'LoanApprovalModel' from run 893af7899f814dfab497c5487ffcd76e
+2025-06-04 11:25:29,643 [INFO] ✅ Set alias 'ReadyForProduction' for model version 1
+2025-06-04 11:25:29,669 [INFO] ✅ Set description for model version 1
+2025-06-04 11:25:29,920 [INFO] ✅ Model 'LoanApprovalModel' registered as version 1
+2025-06-04 11:25:29,920 [INFO] ===================================================================================================
+2025-06-04 11:44:02,888 [INFO] ⏳ Loading preprocessed data
+2025-06-04 11:44:02,888 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 11:44:02,968 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 11:44:03,034 [INFO] ✅ Data loaded successfully.
+2025-06-04 11:44:03,034 [INFO] ⏳ Mapping categorical variables
+2025-06-04 11:44:03,054 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 11:44:03,087 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 11:44:03,105 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 11:44:34,000 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 11:44:34,047 [INFO] ⏳ Scaling numerical columns
+2025-06-04 11:44:34,097 [INFO] ✅ Scaler Saved
+2025-06-04 11:44:34,098 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 11:44:34,099 [INFO] ⏳ Building model
+2025-06-04 11:44:35,907 [INFO] Training parameters:
+2025-06-04 11:44:35,907 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-04 11:44:35,907 [INFO]  ➤ Output Activation: sigmoid
+2025-06-04 11:44:35,907 [INFO]  ➤ Optimizer: adam
+2025-06-04 11:44:35,907 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-04 11:44:35,907 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-04 11:44:35,908 [INFO]  ➤ Epochs: 20
+2025-06-04 11:44:35,908 [INFO]  ➤ Batch Size: 64
+2025-06-04 11:44:36,605 [INFO] Context impl SQLiteImpl.
+2025-06-04 11:44:36,606 [INFO] Will assume non-transactional DDL.
+2025-06-04 11:44:36,812 [INFO] ⏳ Logging hyperparameters
+2025-06-04 11:44:36,832 [INFO] ⏳ Logging dataset info
+2025-06-04 11:44:36,833 [INFO] ⏳ Training model
+2025-06-04 11:45:49,061 [INFO] ✅ Training completed successfully
+2025-06-04 11:45:49,061 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-04 11:45:49,155 [ERROR] ⛔ Error in training: Unknown model type: <class 'str'>
+2025-06-04 11:47:49,206 [INFO] ⏳ Loading preprocessed data
+2025-06-04 11:47:49,207 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 11:47:49,289 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 11:47:49,355 [INFO] ✅ Data loaded successfully.
+2025-06-04 11:47:49,355 [INFO] ⏳ Mapping categorical variables
+2025-06-04 11:47:49,371 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 11:47:49,405 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 11:47:49,423 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 11:48:20,017 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 11:48:20,063 [INFO] ⏳ Scaling numerical columns
+2025-06-04 11:48:20,106 [INFO] ✅ Scaler Saved
+2025-06-04 11:48:20,108 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 11:48:20,108 [INFO] ⏳ Building model
+2025-06-04 11:48:21,900 [INFO] Training parameters:
+2025-06-04 11:48:21,900 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-04 11:48:21,900 [INFO]  ➤ Output Activation: sigmoid
+2025-06-04 11:48:21,900 [INFO]  ➤ Optimizer: adam
+2025-06-04 11:48:21,900 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-04 11:48:21,900 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-04 11:48:21,900 [INFO]  ➤ Epochs: 1
+2025-06-04 11:48:21,901 [INFO]  ➤ Batch Size: 64
+2025-06-04 11:48:22,570 [INFO] Context impl SQLiteImpl.
+2025-06-04 11:48:22,570 [INFO] Will assume non-transactional DDL.
+2025-06-04 11:48:22,760 [INFO] ⏳ Logging hyperparameters
+2025-06-04 11:48:22,778 [INFO] ⏳ Logging dataset info
+2025-06-04 11:48:22,779 [INFO] ⏳ Training model
+2025-06-04 11:48:27,762 [INFO] ✅ Training completed successfully
+2025-06-04 11:48:27,762 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-04 11:48:44,076 [INFO] ✅ Model logged.
+2025-06-04 11:48:44,076 [INFO] ===================================================================================================
+2025-06-04 11:52:52,967 [INFO] ⏳ Loading preprocessed data
+2025-06-04 11:52:52,967 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 11:52:53,049 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 11:52:53,115 [INFO] ✅ Data loaded successfully.
+2025-06-04 11:52:53,115 [INFO] ⏳ Mapping categorical variables
+2025-06-04 11:52:53,129 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 11:52:53,162 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 11:52:53,180 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 11:53:22,177 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 11:53:22,221 [INFO] ⏳ Scaling numerical columns
+2025-06-04 11:53:22,260 [INFO] ✅ Scaler Saved
+2025-06-04 11:53:22,261 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 11:53:22,262 [INFO] ⏳ Building model
+2025-06-04 11:53:24,060 [INFO] Training parameters:
+2025-06-04 11:53:24,060 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-04 11:53:24,060 [INFO]  ➤ Output Activation: sigmoid
+2025-06-04 11:53:24,060 [INFO]  ➤ Optimizer: adam
+2025-06-04 11:53:24,060 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-04 11:53:24,061 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-04 11:53:24,061 [INFO]  ➤ Epochs: 1
+2025-06-04 11:53:24,061 [INFO]  ➤ Batch Size: 64
+2025-06-04 11:53:24,690 [INFO] Context impl SQLiteImpl.
+2025-06-04 11:53:24,690 [INFO] Will assume non-transactional DDL.
+2025-06-04 11:53:24,874 [INFO] ⏳ Logging hyperparameters
+2025-06-04 11:53:24,891 [INFO] ⏳ Logging dataset info
+2025-06-04 11:53:24,892 [INFO] ⏳ Training model
+2025-06-04 11:53:29,755 [INFO] ✅ Training completed successfully
+2025-06-04 11:53:29,755 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-04 11:53:30,010 [ERROR] ⛔ Error in training: All fields in the model signature's input schema must be of type TensorSpec.
+2025-06-04 11:54:47,982 [INFO] ⏳ Loading preprocessed data
+2025-06-04 11:54:47,982 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 11:54:48,055 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 11:54:48,118 [INFO] ✅ Data loaded successfully.
+2025-06-04 11:54:48,119 [INFO] ⏳ Mapping categorical variables
+2025-06-04 11:54:48,134 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 11:54:48,169 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 11:54:48,185 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 11:55:17,946 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 11:55:17,991 [INFO] ⏳ Scaling numerical columns
+2025-06-04 11:55:18,032 [INFO] ✅ Scaler Saved
+2025-06-04 11:55:18,034 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 11:55:18,034 [INFO] ⏳ Building model
+2025-06-04 11:55:19,842 [INFO] Training parameters:
+2025-06-04 11:55:19,843 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-04 11:55:19,843 [INFO]  ➤ Output Activation: sigmoid
+2025-06-04 11:55:19,843 [INFO]  ➤ Optimizer: adam
+2025-06-04 11:55:19,843 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-04 11:55:19,843 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-04 11:55:19,843 [INFO]  ➤ Epochs: 1
+2025-06-04 11:55:19,843 [INFO]  ➤ Batch Size: 64
+2025-06-04 11:55:20,473 [INFO] Context impl SQLiteImpl.
+2025-06-04 11:55:20,473 [INFO] Will assume non-transactional DDL.
+2025-06-04 11:55:20,652 [INFO] ⏳ Logging hyperparameters
+2025-06-04 11:55:20,672 [INFO] ⏳ Logging dataset info
+2025-06-04 11:55:20,674 [INFO] ⏳ Training model
+2025-06-04 11:55:25,300 [INFO] ✅ Training completed successfully
+2025-06-04 11:55:25,301 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-04 11:55:37,667 [INFO] ✅ Model logged.
+2025-06-04 11:55:37,668 [INFO] ===================================================================================================
+2025-06-04 11:59:24,883 [INFO] ⏳ Loading preprocessed data
+2025-06-04 11:59:24,883 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 11:59:24,957 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 11:59:25,021 [INFO] ✅ Data loaded successfully.
+2025-06-04 11:59:25,021 [INFO] ⏳ Mapping categorical variables
+2025-06-04 11:59:25,036 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 11:59:25,070 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 11:59:25,086 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 11:59:53,674 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 11:59:53,717 [INFO] ⏳ Scaling numerical columns
+2025-06-04 11:59:53,756 [INFO] ✅ Scaler Saved
+2025-06-04 11:59:53,757 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 11:59:53,758 [INFO] ⏳ Building model
+2025-06-04 11:59:55,555 [INFO] Training parameters:
+2025-06-04 11:59:55,555 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-04 11:59:55,555 [INFO]  ➤ Output Activation: sigmoid
+2025-06-04 11:59:55,555 [INFO]  ➤ Optimizer: adam
+2025-06-04 11:59:55,555 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-04 11:59:55,555 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-04 11:59:55,555 [INFO]  ➤ Epochs: 1
+2025-06-04 11:59:55,555 [INFO]  ➤ Batch Size: 64
+2025-06-04 11:59:56,182 [INFO] Context impl SQLiteImpl.
+2025-06-04 11:59:56,182 [INFO] Will assume non-transactional DDL.
+2025-06-04 11:59:56,381 [INFO] ⏳ Logging hyperparameters
+2025-06-04 11:59:56,401 [INFO] ⏳ Logging dataset info
+2025-06-04 11:59:56,402 [INFO] ⏳ Training model
+2025-06-04 12:00:01,321 [INFO] ✅ Training completed successfully
+2025-06-04 12:00:01,321 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-04 12:00:01,552 [ERROR] ⛔ Error in training: All fields in the model signature's input schema must be of type TensorSpec.
+2025-06-04 12:01:55,060 [INFO] ⏳ Loading preprocessed data
+2025-06-04 12:01:55,060 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 12:01:55,138 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 12:01:55,204 [INFO] ✅ Data loaded successfully.
+2025-06-04 12:01:55,204 [INFO] ⏳ Mapping categorical variables
+2025-06-04 12:01:55,222 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 12:01:55,258 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 12:01:55,276 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 12:02:24,438 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 12:02:24,483 [INFO] ⏳ Scaling numerical columns
+2025-06-04 12:02:24,523 [INFO] ✅ Scaler Saved
+2025-06-04 12:02:24,525 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 12:02:24,525 [INFO] ⏳ Building model
+2025-06-04 12:02:26,340 [INFO] Training parameters:
+2025-06-04 12:02:26,340 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-04 12:02:26,340 [INFO]  ➤ Output Activation: sigmoid
+2025-06-04 12:02:26,340 [INFO]  ➤ Optimizer: adam
+2025-06-04 12:02:26,340 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-04 12:02:26,340 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-04 12:02:26,340 [INFO]  ➤ Epochs: 1
+2025-06-04 12:02:26,341 [INFO]  ➤ Batch Size: 64
+2025-06-04 12:02:26,999 [INFO] Context impl SQLiteImpl.
+2025-06-04 12:02:26,999 [INFO] Will assume non-transactional DDL.
+2025-06-04 12:02:27,198 [INFO] ⏳ Logging hyperparameters
+2025-06-04 12:02:27,215 [INFO] ⏳ Logging dataset info
+2025-06-04 12:02:27,216 [INFO] ⏳ Training model
+2025-06-04 12:02:32,229 [INFO] ✅ Training completed successfully
+2025-06-04 12:02:32,229 [WARNING] You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-04 12:02:45,384 [INFO] ✅ Model logged.
+2025-06-04 12:02:45,384 [INFO] ===================================================================================================
+2025-06-04 12:03:59,466 [INFO] ⏳ Loading preprocessed data
+2025-06-04 12:03:59,466 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 12:03:59,541 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 12:03:59,607 [INFO] ✅ Data loaded successfully.
+2025-06-04 12:03:59,607 [INFO] ⏳ Mapping categorical variables
+2025-06-04 12:03:59,623 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 12:03:59,657 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 12:03:59,675 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 12:04:28,838 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 12:04:28,885 [INFO] ⏳ Scaling numerical columns
+2025-06-04 12:04:28,926 [INFO] ✅ Scaler Saved
+2025-06-04 12:04:28,927 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 12:04:28,928 [INFO] ⏳ Building model
+2025-06-04 12:04:30,721 [INFO] Training parameters:
+2025-06-04 12:04:30,721 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-04 12:04:30,721 [INFO]  ➤ Output Activation: sigmoid
+2025-06-04 12:04:30,722 [INFO]  ➤ Optimizer: adam
+2025-06-04 12:04:30,722 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-04 12:04:30,722 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-04 12:04:30,722 [INFO]  ➤ Epochs: 1
+2025-06-04 12:04:30,722 [INFO]  ➤ Batch Size: 64
+2025-06-04 12:04:31,397 [INFO] Context impl SQLiteImpl.
+2025-06-04 12:04:31,398 [INFO] Will assume non-transactional DDL.
+2025-06-04 12:04:31,582 [INFO] ⏳ Logging hyperparameters
+2025-06-04 12:04:31,598 [INFO] ⏳ Logging dataset info
+2025-06-04 12:04:31,599 [INFO] ⏳ Training model
+2025-06-04 12:04:36,377 [INFO] ✅ Training completed successfully
+2025-06-04 12:04:53,076 [INFO] ✅ Model logged.
+2025-06-04 12:04:53,080 [INFO] ===================================================================================================
+2025-06-04 12:06:53,344 [INFO] ⏳ Loading preprocessed data
+2025-06-04 12:06:53,344 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 12:06:53,419 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 12:06:53,481 [INFO] ✅ Data loaded successfully.
+2025-06-04 12:06:53,481 [INFO] ⏳ Mapping categorical variables
+2025-06-04 12:06:53,491 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 12:06:53,520 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 12:06:53,536 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 12:07:27,465 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 12:07:27,508 [INFO] ⏳ Scaling numerical columns
+2025-06-04 12:07:27,549 [INFO] ✅ Scaler Saved
+2025-06-04 12:07:27,550 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 12:07:27,550 [INFO] ⏳ Building model
+2025-06-04 12:07:29,344 [INFO] Training parameters:
+2025-06-04 12:07:29,344 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-04 12:07:29,344 [INFO]  ➤ Output Activation: sigmoid
+2025-06-04 12:07:29,344 [INFO]  ➤ Optimizer: adam
+2025-06-04 12:07:29,344 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-04 12:07:29,345 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-04 12:07:29,345 [INFO]  ➤ Epochs: 20
+2025-06-04 12:07:29,345 [INFO]  ➤ Batch Size: 64
+2025-06-04 12:07:29,994 [INFO] Context impl SQLiteImpl.
+2025-06-04 12:07:29,994 [INFO] Will assume non-transactional DDL.
+2025-06-04 12:07:30,198 [INFO] ⏳ Logging hyperparameters
+2025-06-04 12:07:30,216 [INFO] ⏳ Logging dataset info
+2025-06-04 12:07:30,217 [INFO] ⏳ Training model
+2025-06-04 12:08:33,195 [INFO] ✅ Training completed successfully
+2025-06-04 12:08:33,248 [INFO] ✅ Model saved.
+2025-06-04 12:08:46,350 [INFO] ✅ Model logged.
+2025-06-04 12:08:46,350 [INFO] ===================================================================================================
+2025-06-04 12:14:51,131 [INFO] Context impl SQLiteImpl.
+2025-06-04 12:14:51,131 [INFO] Will assume non-transactional DDL.
+2025-06-04 12:14:51,162 [INFO] ⏳ Loading validation and test data
+2025-06-04 12:14:51,162 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 12:14:51,246 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 12:14:51,312 [INFO] ✅ Data loaded successfully.
+2025-06-04 12:14:51,312 [INFO] ⏳ Mapping categorical variables
+2025-06-04 12:14:51,330 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 12:14:51,365 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 12:14:51,384 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 12:15:23,553 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 12:15:23,598 [INFO] ⏳ Scaling numerical columns
+2025-06-04 12:15:23,638 [INFO] ✅ Scaler Saved
+2025-06-04 12:15:23,640 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 12:15:23,641 [INFO] ⏳ Loading model 'LoanApprovalModel' with alias 'ReadyForProduction'
+2025-06-04 12:15:25,167 [INFO] ⏳ Evaluating model on validation data
+2025-06-04 12:15:26,662 [INFO] ✅ Evaluation: Loss=0.1616, Accuracy=0.9347, AUC=0.9835, Precision=0.9483, Recall=0.9281
+2025-06-04 12:48:00,611 [INFO] Context impl SQLiteImpl.
+2025-06-04 12:48:00,614 [INFO] Will assume non-transactional DDL.
+2025-06-04 12:48:00,650 [INFO] ⏳ Loading validation and test data
+2025-06-04 12:48:00,651 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 12:48:00,752 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 12:48:00,829 [INFO] ✅ Data loaded successfully.
+2025-06-04 12:48:00,829 [INFO] ⏳ Mapping categorical variables
+2025-06-04 12:48:00,843 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 12:48:00,878 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 12:48:00,895 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 12:49:08,721 [INFO] Context impl SQLiteImpl.
+2025-06-04 12:49:08,722 [INFO] Will assume non-transactional DDL.
+2025-06-04 12:49:08,748 [INFO] ⏳ Loading validation and test data
+2025-06-04 12:49:08,748 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 12:49:08,909 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 12:49:08,978 [INFO] ✅ Data loaded successfully.
+2025-06-04 12:49:08,979 [INFO] ⏳ Mapping categorical variables
+2025-06-04 12:49:08,991 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 12:49:09,026 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 12:49:09,044 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 12:49:43,044 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 12:49:43,093 [INFO] ⏳ Scaling numerical columns
+2025-06-04 12:49:43,142 [INFO] ✅ Scaler Saved
+2025-06-04 12:49:43,143 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 12:49:43,144 [INFO] ⏳ Loading model 'LoanApprovalModel' with alias 'ReadyForProduction'
+2025-06-04 12:49:45,398 [INFO] ⏳ Evaluating model on validation data
+2025-06-04 12:49:47,006 [INFO] ✅ Evaluation: Loss=0.1616, Accuracy=0.9347, AUC=0.9835, Precision=0.9483, Recall=0.9281
+2025-06-04 12:54:07,484 [INFO] Context impl SQLiteImpl.
+2025-06-04 12:54:07,484 [INFO] Will assume non-transactional DDL.
+2025-06-04 12:54:07,514 [INFO] ⏳ Loading validation and test data
+2025-06-04 12:54:07,514 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 12:54:07,597 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 12:54:07,661 [INFO] ✅ Data loaded successfully.
+2025-06-04 12:54:07,661 [INFO] ⏳ Mapping categorical variables
+2025-06-04 12:54:07,676 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 12:54:07,709 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 12:54:07,724 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 12:54:40,701 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 12:54:40,752 [INFO] ⏳ Scaling numerical columns
+2025-06-04 12:54:40,792 [INFO] ✅ Scaler Saved
+2025-06-04 12:54:40,794 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 12:54:40,795 [INFO] ⏳ Loading model 'LoanApprovalModel' with alias 'ReadyForProduction'
+2025-06-04 12:54:43,003 [INFO] ⏳ Evaluating model on validation data
+2025-06-04 12:54:44,680 [INFO] ✅ Evaluation: Loss=0.1616, Accuracy=0.9347, AUC=0.9835, Precision=0.9483, Recall=0.9281
+2025-06-04 12:54:44,690 [INFO] 🌐 Confusion Matrix: [[3761  231]
+ [ 328 4234]]
+2025-06-04 12:54:44,690 [INFO] ⏳ Generating predictions on test data
+2025-06-04 12:54:44,822 [ERROR] ⛔ Error during evaluation or testing: Graph execution error:
+
+Detected at node sequential_1/dense_1/Relu defined at (most recent call last):
+  File "/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/scripts/evaluate.py", line 129, in <module>
+
+  File "/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/scripts/evaluate.py", line 82, in evaluate_and_test
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 117, in error_handler
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 560, in predict
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 259, in one_step_on_data_distributed
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 249, in one_step_on_data
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 104, in predict_step
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 117, in error_handler
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/layers/layer.py", line 910, in __call__
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 117, in error_handler
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/ops/operation.py", line 58, in __call__
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 156, in error_handler
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/models/sequential.py", line 221, in call
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/models/functional.py", line 183, in call
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/ops/function.py", line 171, in _run_through_graph
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/models/functional.py", line 643, in call
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 117, in error_handler
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/layers/layer.py", line 910, in __call__
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 117, in error_handler
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/ops/operation.py", line 58, in __call__
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 156, in error_handler
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/layers/core/dense.py", line 148, in call
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/activations/activations.py", line 47, in relu
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/activations/activations.py", line 101, in static_call
+
+  File "/home/muhammad/env/lib/python3.12/site-packages/keras/src/backend/tensorflow/nn.py", line 15, in relu
+
+Matrix size-incompatible: In[0]: [32,18], In[1]: [17,128]
+	 [[{{node sequential_1/dense_1/Relu}}]] [Op:__inference_one_step_on_data_distributed_3843]
+2025-06-04 13:04:33,437 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 13:04:33,512 [INFO] ⏳ Loading test data from ../data/train.csv
+2025-06-04 13:04:33,577 [INFO] ✅ Data loaded successfully.
+2025-06-04 13:04:33,577 [INFO] ⏳ Mapping categorical variables
+2025-06-04 13:04:33,593 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 13:04:33,629 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 13:04:33,651 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 13:05:07,389 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 13:05:07,480 [INFO] ⏳ Scaling numerical columns
+2025-06-04 13:05:07,591 [INFO] ✅ Scaler Saved
+2025-06-04 13:05:07,593 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 13:05:10,304 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 13:05:10,382 [INFO] ⏳ Loading test data from ../data/test.csv
+2025-06-04 13:05:10,425 [INFO] ✅ Data loaded successfully.
+2025-06-04 13:05:10,426 [INFO] ⏳ Mapping categorical variables
+2025-06-04 13:05:10,441 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 13:05:10,476 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 13:05:10,491 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 13:05:42,969 [INFO] ⏳ Splitting data into train and validation sets
+2025-06-04 13:05:43,013 [INFO] ⏳ Scaling numerical columns
+2025-06-04 13:05:43,047 [INFO] ✅ Scaler Saved
+2025-06-04 13:05:43,049 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 13:06:53,904 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 13:06:53,982 [INFO] ⏳ Loading test data from ../data/test.csv
+2025-06-04 13:06:54,024 [INFO] ✅ Data loaded successfully.
+2025-06-04 13:06:54,025 [INFO] ⏳ Mapping categorical variables
+2025-06-04 13:06:54,038 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 13:06:54,077 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 13:06:54,093 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 13:07:24,681 [INFO] ⏳ Splitting data into train and test sets
+2025-06-04 13:07:24,724 [INFO] ⏳ Scaling numerical columns
+2025-06-04 13:07:24,759 [INFO] Train size: (76981, 17)
+2025-06-04 13:07:24,759 [INFO] Test size: (39098, 17)
+2025-06-04 13:07:24,759 [INFO] ✅ Scaler Saved
+2025-06-04 13:07:24,761 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 13:49:15,729 [INFO] ⏳ Loading preprocessed data
+2025-06-04 13:49:15,729 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 13:49:15,805 [INFO] ⏳ Loading test data from ../data/test.csv
+2025-06-04 13:49:15,852 [INFO] ✅ Data loaded successfully.
+2025-06-04 13:49:15,853 [INFO] ⏳ Mapping categorical variables
+2025-06-04 13:49:15,863 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 13:49:15,891 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 13:49:15,905 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 13:49:51,924 [INFO] ⏳ Splitting data into train and test sets
+2025-06-04 13:49:51,966 [INFO] ⏳ Scaling numerical columns
+2025-06-04 13:49:52,002 [INFO] Train size: (76981, 17)
+2025-06-04 13:49:52,003 [INFO] Test size: (39098, 17)
+2025-06-04 13:49:52,003 [INFO] ✅ Scaler Saved
+2025-06-04 13:49:52,004 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 13:49:52,004 [INFO] ⏳ Building model
+2025-06-04 13:49:53,838 [INFO] Training parameters:
+2025-06-04 13:49:53,838 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-04 13:49:53,838 [INFO]  ➤ Output Activation: sigmoid
+2025-06-04 13:49:53,838 [INFO]  ➤ Optimizer: adam
+2025-06-04 13:49:53,839 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-04 13:49:53,839 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-04 13:49:53,839 [INFO]  ➤ Epochs: 20
+2025-06-04 13:49:53,839 [INFO]  ➤ Batch Size: 64
+2025-06-04 13:49:54,656 [INFO] Context impl SQLiteImpl.
+2025-06-04 13:49:54,656 [INFO] Will assume non-transactional DDL.
+2025-06-04 13:49:54,866 [INFO] ⏳ Logging hyperparameters
+2025-06-04 13:49:54,877 [INFO] ⏳ Logging dataset info
+2025-06-04 13:49:54,879 [INFO] ⏳ Training model
+2025-06-04 13:51:19,582 [INFO] ✅ Training completed successfully
+2025-06-04 13:51:19,633 [INFO] ✅ Model saved.
+2025-06-04 13:51:34,566 [INFO] ✅ Model logged.
+2025-06-04 13:51:34,566 [INFO] ===================================================================================================
+2025-06-04 13:51:51,061 [INFO] Context impl SQLiteImpl.
+2025-06-04 13:51:51,062 [INFO] Will assume non-transactional DDL.
+2025-06-04 13:51:51,091 [INFO] ⏳ Loading validation and test data
+2025-06-04 13:51:51,092 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 13:51:51,165 [INFO] ⏳ Loading test data from ../data/test.csv
+2025-06-04 13:51:51,205 [INFO] ✅ Data loaded successfully.
+2025-06-04 13:51:51,205 [INFO] ⏳ Mapping categorical variables
+2025-06-04 13:51:51,216 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 13:51:51,248 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 13:51:51,261 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 13:52:20,024 [INFO] ⏳ Splitting data into train and test sets
+2025-06-04 13:52:20,066 [INFO] ⏳ Scaling numerical columns
+2025-06-04 13:52:20,101 [INFO] Train size: (76981, 17)
+2025-06-04 13:52:20,101 [INFO] Test size: (39098, 17)
+2025-06-04 13:52:20,101 [INFO] ✅ Scaler Saved
+2025-06-04 13:52:20,103 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 13:52:20,103 [INFO] ⏳ Loading model 'LoanApprovalModel' with alias 'ReadyForProduction'
+2025-06-04 13:52:20,157 [ERROR] ⛔ Error during evaluation or testing: No such file or directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/scripts/mlruns/1/e53eee0731fc42ecaff339b52d241fb2/artifacts/models/.'
+2025-06-04 13:52:44,130 [INFO] Context impl SQLiteImpl.
+2025-06-04 13:52:44,131 [INFO] Will assume non-transactional DDL.
+2025-06-04 13:52:44,178 [INFO] Using latest run ID: 7a2e7c7fa19f46799d820270ea9fc961
+2025-06-04 13:52:44,178 [INFO] ⏳ Registering model 'LoanApprovalModel' from run 7a2e7c7fa19f46799d820270ea9fc961
+2025-06-04 13:52:44,287 [INFO] ✅ Set alias 'ReadyForProduction' for model version 2
+2025-06-04 13:52:44,309 [INFO] ✅ Set description for model version 2
+2025-06-04 13:52:44,531 [INFO] ✅ Model 'LoanApprovalModel' registered as version 2
+2025-06-04 13:52:44,531 [INFO] ===================================================================================================
+2025-06-04 13:53:01,678 [INFO] Context impl SQLiteImpl.
+2025-06-04 13:53:01,679 [INFO] Will assume non-transactional DDL.
+2025-06-04 13:53:01,708 [INFO] ⏳ Loading validation and test data
+2025-06-04 13:53:01,708 [INFO] ⏳ Loading train data from ../data/train.csv
+2025-06-04 13:53:01,782 [INFO] ⏳ Loading test data from ../data/test.csv
+2025-06-04 13:53:01,826 [INFO] ✅ Data loaded successfully.
+2025-06-04 13:53:01,826 [INFO] ⏳ Mapping categorical variables
+2025-06-04 13:53:01,838 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 13:53:01,868 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 13:53:01,882 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 13:53:46,794 [INFO] ⏳ Splitting data into train and test sets
+2025-06-04 13:53:46,842 [INFO] ⏳ Scaling numerical columns
+2025-06-04 13:53:46,892 [INFO] Train size: (76981, 17)
+2025-06-04 13:53:46,892 [INFO] Test size: (39098, 17)
+2025-06-04 13:53:46,892 [INFO] ✅ Scaler Saved
+2025-06-04 13:53:46,893 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 13:53:46,894 [INFO] ⏳ Loading model 'LoanApprovalModel' with alias 'ReadyForProduction'
+2025-06-04 13:53:46,949 [ERROR] ⛔ Error during evaluation or testing: No such file or directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/scripts/mlruns/1/7a2e7c7fa19f46799d820270ea9fc961/artifacts/LoanApprovalModel/.'
+2025-06-04 13:57:38,261 [INFO] ⏳ Loading train data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data/train.csv
+2025-06-04 13:57:38,347 [INFO] ⏳ Loading test data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data/test.csv
+2025-06-04 13:57:38,392 [INFO] ✅ Data loaded successfully.
+2025-06-04 13:59:14,903 [INFO] ⏳ Loading train data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data/train.csv
+2025-06-04 13:59:14,981 [INFO] ⏳ Loading test data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data/test.csv
+2025-06-04 13:59:15,026 [INFO] ✅ Data loaded successfully.
+2025-06-04 13:59:15,026 [INFO] ⏳ Mapping categorical variables
+2025-06-04 13:59:15,042 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 13:59:15,075 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 13:59:15,091 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 13:59:48,515 [INFO] ⏳ Splitting data into train and test sets
+2025-06-04 13:59:48,559 [INFO] ⏳ Scaling numerical columns
+2025-06-04 13:59:48,593 [INFO] ⏳ Saving preprocessed data to /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 13:59:50,574 [INFO] Train size: (76981, 17)
+2025-06-04 13:59:50,574 [INFO] Test size: (39098, 17)
+2025-06-04 13:59:50,574 [INFO] ✅ Scaler Saved
+2025-06-04 13:59:50,575 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 14:03:17,349 [INFO] ⏳ Reading preprocessed data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 14:03:17,603 [INFO] Loaded X_train_scaled: (76981, 17)
+2025-06-04 14:03:17,603 [INFO] Loaded X_val_scaled: (8554, 17)
+2025-06-04 14:03:17,603 [INFO] Loaded y_train: (76981,)
+2025-06-04 14:03:17,603 [INFO] Loaded y_val: (8554,)
+2025-06-04 14:03:17,604 [INFO] Loaded test_data_scaled: (39098, 17)
+2025-06-04 14:03:17,604 [INFO] ✅ Preprocessed data loaded successfully
+2025-06-04 14:03:17,604 [INFO] ✅ Data reading completed successfully
+2025-06-04 14:04:14,697 [INFO] ⏳ Loading train data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data/train.csv
+2025-06-04 14:04:14,771 [INFO] ⏳ Loading test data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data/test.csv
+2025-06-04 14:04:14,811 [INFO] ✅ Data loaded successfully.
+2025-06-04 14:04:21,279 [INFO] ⏳ Loading train data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data/train.csv
+2025-06-04 14:04:21,358 [INFO] ⏳ Loading test data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data/test.csv
+2025-06-04 14:04:21,401 [INFO] ✅ Data loaded successfully.
+2025-06-04 14:04:21,402 [INFO] ⏳ Mapping categorical variables
+2025-06-04 14:04:21,416 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 14:04:21,449 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 14:04:21,466 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 14:04:57,091 [INFO] ⏳ Splitting data into train and test sets
+2025-06-04 14:04:57,148 [INFO] ⏳ Scaling numerical columns
+2025-06-04 14:04:57,183 [INFO] ⏳ Saving preprocessed data to /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 14:04:58,954 [INFO] Train size: (76981, 17)
+2025-06-04 14:04:58,954 [INFO] Test size: (39098, 17)
+2025-06-04 14:04:58,954 [INFO] ✅ Scaler Saved
+2025-06-04 14:04:58,955 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 14:05:09,235 [INFO] ⏳ Loading preprocessed data
+2025-06-04 14:05:09,236 [INFO] ⏳ Reading preprocessed data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 14:05:09,482 [INFO] Loaded X_train_scaled: (76981, 17)
+2025-06-04 14:05:09,482 [INFO] Loaded X_val_scaled: (8554, 17)
+2025-06-04 14:05:09,482 [INFO] Loaded y_train: (76981,)
+2025-06-04 14:05:09,482 [INFO] Loaded y_val: (8554,)
+2025-06-04 14:05:09,482 [INFO] Loaded test_data_scaled: (39098, 17)
+2025-06-04 14:05:09,482 [INFO] ✅ Preprocessed data loaded successfully
+2025-06-04 14:05:09,482 [INFO] ⏳ Building model
+2025-06-04 14:05:11,428 [INFO] Training parameters:
+2025-06-04 14:05:11,428 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-04 14:05:11,428 [INFO]  ➤ Output Activation: sigmoid
+2025-06-04 14:05:11,428 [INFO]  ➤ Optimizer: adam
+2025-06-04 14:05:11,429 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-04 14:05:11,429 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-04 14:05:11,429 [INFO]  ➤ Epochs: 20
+2025-06-04 14:05:11,429 [INFO]  ➤ Batch Size: 64
+2025-06-04 14:05:12,062 [INFO] Context impl SQLiteImpl.
+2025-06-04 14:05:12,062 [INFO] Will assume non-transactional DDL.
+2025-06-04 14:05:12,257 [INFO] ⏳ Logging hyperparameters
+2025-06-04 14:05:12,269 [INFO] ⏳ Logging dataset info
+2025-06-04 14:05:12,269 [INFO] ⏳ Training model
+2025-06-04 14:06:17,853 [INFO] ✅ Training completed successfully
+2025-06-04 14:06:17,905 [INFO] ✅ Model saved.
+2025-06-04 14:06:30,770 [INFO] ✅ Model logged.
+2025-06-04 14:06:30,770 [INFO] ===================================================================================================
+2025-06-04 14:07:56,986 [INFO] Context impl SQLiteImpl.
+2025-06-04 14:07:56,986 [INFO] Will assume non-transactional DDL.
+2025-06-04 14:07:57,033 [INFO] Using latest run ID: b3bfaaa5daa748f4823b5607a6aecb5b
+2025-06-04 14:07:57,033 [INFO] ⏳ Registering model 'LoanApprovalModel' from run b3bfaaa5daa748f4823b5607a6aecb5b
+2025-06-04 14:07:57,221 [INFO] ✅ Set alias 'ReadyForProduction' for model version 1
+2025-06-04 14:07:57,244 [INFO] ✅ Set description for model version 1
+2025-06-04 14:07:57,479 [INFO] ✅ Model 'LoanApprovalModel' registered as version 1
+2025-06-04 14:07:57,479 [INFO] ===================================================================================================
+2025-06-04 14:08:52,854 [INFO] Context impl SQLiteImpl.
+2025-06-04 14:08:52,855 [INFO] Will assume non-transactional DDL.
+2025-06-04 14:08:52,894 [INFO] ⏳ Loading validation and test data
+2025-06-04 14:08:52,894 [INFO] ⏳ Reading preprocessed data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 14:08:53,163 [INFO] Loaded X_train_scaled: (76981, 17)
+2025-06-04 14:08:53,164 [INFO] Loaded X_val_scaled: (8554, 17)
+2025-06-04 14:08:53,164 [INFO] Loaded y_train: (76981,)
+2025-06-04 14:08:53,164 [INFO] Loaded y_val: (8554,)
+2025-06-04 14:08:53,164 [INFO] Loaded test_data_scaled: (39098, 17)
+2025-06-04 14:08:53,164 [INFO] ✅ Preprocessed data loaded successfully
+2025-06-04 14:08:53,164 [INFO] ⏳ Loading model 'LoanApprovalModel' with alias 'ReadyForProduction'
+2025-06-04 14:08:53,410 [ERROR] ⛔ Error during evaluation or testing: No such file or directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/scripts/mlruns/1/b3bfaaa5daa748f4823b5607a6aecb5b/artifacts/LoanApprovalModel/.'
+2025-06-04 14:11:57,790 [INFO] Context impl SQLiteImpl.
+2025-06-04 14:11:57,791 [INFO] Will assume non-transactional DDL.
+2025-06-04 14:11:57,820 [INFO] ⏳ Loading validation and test data
+2025-06-04 14:11:57,820 [INFO] ⏳ Reading preprocessed data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 14:11:58,084 [INFO] Loaded X_train_scaled: (76981, 17)
+2025-06-04 14:11:58,084 [INFO] Loaded X_val_scaled: (8554, 17)
+2025-06-04 14:11:58,084 [INFO] Loaded y_train: (76981,)
+2025-06-04 14:11:58,085 [INFO] Loaded y_val: (8554,)
+2025-06-04 14:11:58,085 [INFO] Loaded test_data_scaled: (39098, 17)
+2025-06-04 14:11:58,085 [INFO] ✅ Preprocessed data loaded successfully
+2025-06-04 14:11:58,085 [INFO] ⏳ Loading model 'LoanApprovalModel' with alias 'ReadyForProduction'
+2025-06-04 14:11:58,324 [ERROR] ⛔ Error during preprocessing: No such file or directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/scripts/mlruns/1/b3bfaaa5daa748f4823b5607a6aecb5b/artifacts/LoanApprovalModel/.'
+2025-06-04 14:11:58,324 [ERROR] ⛔ Error during evaluation or testing: No such file or directory: '/home/muhammad/AI-Driven-Loan-Approval-Prediction-System/scripts/mlruns/1/b3bfaaa5daa748f4823b5607a6aecb5b/artifacts/LoanApprovalModel/.'
+2025-06-04 14:17:14,641 [INFO] Context impl SQLiteImpl.
+2025-06-04 14:17:14,641 [INFO] Will assume non-transactional DDL.
+2025-06-04 14:17:14,696 [INFO] Using latest run ID: b3bfaaa5daa748f4823b5607a6aecb5b
+2025-06-04 14:17:14,696 [INFO] ⏳ Registering model 'LoanApprovalModel' from run b3bfaaa5daa748f4823b5607a6aecb5b
+2025-06-04 14:17:14,821 [INFO] ✅ Set alias 'ReadyForProduction' for model version 1
+2025-06-04 14:17:14,844 [INFO] ✅ Set description for model version 1
+2025-06-04 14:17:15,085 [INFO] ✅ Model 'LoanApprovalModel' registered as version 1
+2025-06-04 14:17:15,085 [INFO] ===================================================================================================
+2025-06-04 14:19:07,820 [INFO] Context impl SQLiteImpl.
+2025-06-04 14:19:07,821 [INFO] Will assume non-transactional DDL.
+2025-06-04 14:19:07,872 [INFO] Using latest run ID: b3bfaaa5daa748f4823b5607a6aecb5b
+2025-06-04 14:19:07,872 [INFO] ⏳ Registering model 'LoanApprovalModel' from run b3bfaaa5daa748f4823b5607a6aecb5b
+2025-06-04 14:19:08,088 [INFO] ✅ Set alias 'ReadyForProduction' for model version 1
+2025-06-04 14:19:08,124 [INFO] ✅ Set description for model version 1
+2025-06-04 14:19:08,354 [INFO] ✅ Model 'LoanApprovalModel' registered as version 1
+2025-06-04 14:19:08,354 [INFO] ===================================================================================================
+2025-06-04 14:19:37,010 [INFO] Context impl SQLiteImpl.
+2025-06-04 14:19:37,010 [INFO] Will assume non-transactional DDL.
+2025-06-04 14:19:37,036 [INFO] ⏳ Loading validation and test data
+2025-06-04 14:19:37,037 [INFO] ⏳ Reading preprocessed data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 14:19:37,291 [INFO] Loaded X_train_scaled: (76981, 17)
+2025-06-04 14:19:37,292 [INFO] Loaded X_val_scaled: (8554, 17)
+2025-06-04 14:19:37,292 [INFO] Loaded y_train: (76981,)
+2025-06-04 14:19:37,292 [INFO] Loaded y_val: (8554,)
+2025-06-04 14:19:37,292 [INFO] Loaded test_data_scaled: (39098, 17)
+2025-06-04 14:19:37,292 [INFO] ✅ Preprocessed data loaded successfully
+2025-06-04 14:19:37,292 [INFO] ⏳ Loading model 'LoanApprovalModel' with alias 'ReadyForProduction'
+2025-06-04 14:19:39,396 [INFO] ✅ Model Loaded
+2025-06-04 14:19:39,486 [INFO] ⏳ Evaluating model on validation data
+2025-06-04 14:19:40,824 [INFO] ✅ Evaluation: Loss=0.1589, Accuracy=0.9320, AUC=0.9840, Precision=0.9581, Recall=0.9123
+2025-06-04 14:19:40,835 [INFO] 🌐 Confusion Matrix: [[3810  182]
+ [ 400 4162]]
+2025-06-04 14:19:40,835 [INFO] ⏳ Generating predictions on test data
+2025-06-04 14:19:42,793 [INFO] ✅ All artifacts and metrics logged to MLflow
+2025-06-04 14:19:42,793 [INFO] ===================================================================================================
+2025-06-04 14:23:21,169 [INFO] Context impl SQLiteImpl.
+2025-06-04 14:23:21,170 [INFO] Will assume non-transactional DDL.
+2025-06-04 14:23:21,195 [INFO] ⏳ Loading validation and test data
+2025-06-04 14:23:21,195 [INFO] ⏳ Reading preprocessed data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 14:23:21,493 [INFO] Loaded X_train_scaled: (76981, 17)
+2025-06-04 14:23:21,493 [INFO] Loaded X_val_scaled: (8554, 17)
+2025-06-04 14:23:21,493 [INFO] Loaded y_train: (76981,)
+2025-06-04 14:23:21,493 [INFO] Loaded y_val: (8554,)
+2025-06-04 14:23:21,493 [INFO] Loaded test_data_scaled: (39098, 17)
+2025-06-04 14:23:21,493 [INFO] ✅ Preprocessed data loaded successfully
+2025-06-04 14:23:21,495 [INFO] ⏳ Loading model 'LoanApprovalModel' with alias 'ReadyForProduction'
+2025-06-04 14:23:23,776 [INFO] ✅ Model Loaded
+2025-06-04 14:23:23,889 [INFO] ⏳ Evaluating model on validation data
+2025-06-04 14:23:25,402 [INFO] ✅ Evaluation: Loss=0.1589, Accuracy=0.9320, AUC=0.9840, Precision=0.9581, Recall=0.9123
+2025-06-04 14:23:25,408 [INFO] 🌐 Confusion Matrix: [[3810  182]
+ [ 400 4162]]
+2025-06-04 14:23:25,408 [INFO] ⏳ Generating predictions on test data
+2025-06-04 14:23:27,455 [ERROR] ⛔ Error during evaluation or testing: cannot concatenate object of type '<class 'str'>'; only Series and DataFrame objs are valid
+2025-06-04 14:24:29,382 [INFO] Context impl SQLiteImpl.
+2025-06-04 14:24:29,382 [INFO] Will assume non-transactional DDL.
+2025-06-04 14:24:29,411 [INFO] ⏳ Loading validation and test data
+2025-06-04 14:24:29,411 [INFO] ⏳ Reading preprocessed data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 14:24:29,660 [INFO] Loaded X_train_scaled: (76981, 17)
+2025-06-04 14:24:29,660 [INFO] Loaded X_val_scaled: (8554, 17)
+2025-06-04 14:24:29,660 [INFO] Loaded y_train: (76981,)
+2025-06-04 14:24:29,660 [INFO] Loaded y_val: (8554,)
+2025-06-04 14:24:29,660 [INFO] Loaded test_data_scaled: (39098, 17)
+2025-06-04 14:24:29,660 [INFO] ✅ Preprocessed data loaded successfully
+2025-06-04 14:24:29,661 [INFO] ⏳ Loading model 'LoanApprovalModel' with alias 'ReadyForProduction'
+2025-06-04 14:24:31,777 [INFO] ✅ Model Loaded
+2025-06-04 14:24:31,867 [INFO] ⏳ Evaluating model on validation data
+2025-06-04 14:24:33,205 [INFO] ✅ Evaluation: Loss=0.1589, Accuracy=0.9320, AUC=0.9840, Precision=0.9581, Recall=0.9123
+2025-06-04 14:24:33,223 [INFO] 🌐 Confusion Matrix: [[3810  182]
+ [ 400 4162]]
+2025-06-04 14:24:33,223 [INFO] ⏳ Generating predictions on test data
+2025-06-04 14:24:35,538 [INFO] ✅ All artifacts and metrics logged to MLflow
+2025-06-04 14:24:35,538 [INFO] ===================================================================================================
+2025-06-04 14:25:50,392 [INFO] Context impl SQLiteImpl.
+2025-06-04 14:25:50,393 [INFO] Will assume non-transactional DDL.
+2025-06-04 14:25:50,422 [INFO] ⏳ Loading validation and test data
+2025-06-04 14:25:50,423 [INFO] ⏳ Reading preprocessed data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 14:25:50,676 [INFO] Loaded X_train_scaled: (76981, 17)
+2025-06-04 14:25:50,676 [INFO] Loaded X_val_scaled: (8554, 17)
+2025-06-04 14:25:50,676 [INFO] Loaded y_train: (76981,)
+2025-06-04 14:25:50,676 [INFO] Loaded y_val: (8554,)
+2025-06-04 14:25:50,677 [INFO] Loaded test_data_scaled: (39098, 17)
+2025-06-04 14:25:50,677 [INFO] ✅ Preprocessed data loaded successfully
+2025-06-04 14:25:50,677 [INFO] ⏳ Loading model 'LoanApprovalModel' with alias 'ReadyForProduction'
+2025-06-04 14:25:52,794 [INFO] ✅ Model Loaded
+2025-06-04 14:25:52,883 [INFO] ⏳ Evaluating model on validation data
+2025-06-04 14:25:54,547 [INFO] ✅ Evaluation: Loss=0.1589, Accuracy=0.9320, AUC=0.9840, Precision=0.9581, Recall=0.9123
+2025-06-04 14:25:54,562 [INFO] 🌐 Confusion Matrix: [[3810  182]
+ [ 400 4162]]
+2025-06-04 14:25:54,563 [INFO] ⏳ Generating predictions on test data
+2025-06-04 14:25:57,244 [ERROR] ⛔ Error during evaluation or testing: DataFrame.__init__() got an unexpected keyword argument 'index_col'
+2025-06-04 14:26:30,709 [INFO] Context impl SQLiteImpl.
+2025-06-04 14:26:30,710 [INFO] Will assume non-transactional DDL.
+2025-06-04 14:26:30,739 [INFO] ⏳ Loading validation and test data
+2025-06-04 14:26:30,739 [INFO] ⏳ Reading preprocessed data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 14:26:30,993 [INFO] Loaded X_train_scaled: (76981, 17)
+2025-06-04 14:26:30,993 [INFO] Loaded X_val_scaled: (8554, 17)
+2025-06-04 14:26:30,993 [INFO] Loaded y_train: (76981,)
+2025-06-04 14:26:30,993 [INFO] Loaded y_val: (8554,)
+2025-06-04 14:26:30,993 [INFO] Loaded test_data_scaled: (39098, 17)
+2025-06-04 14:26:30,993 [INFO] ✅ Preprocessed data loaded successfully
+2025-06-04 14:26:30,994 [INFO] ⏳ Loading model 'LoanApprovalModel' with alias 'ReadyForProduction'
+2025-06-04 14:26:33,108 [INFO] ✅ Model Loaded
+2025-06-04 14:26:33,190 [INFO] ⏳ Evaluating model on validation data
+2025-06-04 14:26:34,522 [INFO] ✅ Evaluation: Loss=0.1589, Accuracy=0.9320, AUC=0.9840, Precision=0.9581, Recall=0.9123
+2025-06-04 14:26:34,538 [INFO] 🌐 Confusion Matrix: [[3810  182]
+ [ 400 4162]]
+2025-06-04 14:26:34,538 [INFO] ⏳ Generating predictions on test data
+2025-06-04 14:26:36,755 [INFO] ✅ All artifacts and metrics logged to MLflow
+2025-06-04 14:26:36,755 [INFO] ===================================================================================================
+2025-06-04 14:30:08,816 [INFO] Context impl SQLiteImpl.
+2025-06-04 14:30:08,817 [INFO] Will assume non-transactional DDL.
+2025-06-04 14:30:08,847 [INFO] ⏳ Loading validation and test data
+2025-06-04 14:30:08,848 [INFO] ⏳ Reading preprocessed data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 14:30:09,110 [INFO] Loaded X_train_scaled: (76981, 17)
+2025-06-04 14:30:09,110 [INFO] Loaded X_val_scaled: (8554, 17)
+2025-06-04 14:30:09,110 [INFO] Loaded y_train: (76981,)
+2025-06-04 14:30:09,110 [INFO] Loaded y_val: (8554,)
+2025-06-04 14:30:09,110 [INFO] Loaded test_data_scaled: (39098, 17)
+2025-06-04 14:30:09,110 [INFO] ✅ Preprocessed data loaded successfully
+2025-06-04 14:30:09,111 [INFO] ⏳ Loading model 'LoanApprovalModel' with alias 'ReadyForProduction'
+2025-06-04 14:30:11,404 [INFO] ✅ Model Loaded
+2025-06-04 14:30:11,499 [INFO] ⏳ Evaluating model on validation data
+2025-06-04 14:30:13,573 [INFO] ✅ Evaluation: Loss=0.1589, Accuracy=0.9320, AUC=0.9840, Precision=0.9581, Recall=0.9123
+2025-06-04 14:30:13,583 [INFO] 🌐 Confusion Matrix: [[3810  182]
+ [ 400 4162]]
+2025-06-04 14:30:13,583 [INFO] ⏳ Generating predictions on test data
+2025-06-04 14:30:16,611 [ERROR] ⛔ Error during evaluation or testing: log_artifact() got an unexpected keyword argument 'index'
+2025-06-04 14:32:04,713 [INFO] ⏳ Loading preprocessed data
+2025-06-04 14:32:04,713 [INFO] ⏳ Reading preprocessed data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 14:32:04,970 [INFO] Loaded X_train_scaled: (76981, 17)
+2025-06-04 14:32:04,970 [INFO] Loaded X_val_scaled: (8554, 17)
+2025-06-04 14:32:04,971 [INFO] Loaded y_train: (76981,)
+2025-06-04 14:32:04,971 [INFO] Loaded y_val: (8554,)
+2025-06-04 14:32:04,971 [INFO] Loaded test_data_scaled: (39098, 17)
+2025-06-04 14:32:04,971 [INFO] ✅ Preprocessed data loaded successfully
+2025-06-04 14:32:04,971 [INFO] ⏳ Building model
+2025-06-04 14:32:06,273 [INFO] Training parameters:
+2025-06-04 14:32:06,273 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-04 14:32:06,273 [INFO]  ➤ Output Activation: sigmoid
+2025-06-04 14:32:06,273 [INFO]  ➤ Optimizer: adam
+2025-06-04 14:32:06,273 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-04 14:32:06,274 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-04 14:32:06,274 [INFO]  ➤ Epochs: 20
+2025-06-04 14:32:06,274 [INFO]  ➤ Batch Size: 64
+2025-06-04 14:32:06,716 [INFO] Context impl SQLiteImpl.
+2025-06-04 14:32:06,716 [INFO] Will assume non-transactional DDL.
+2025-06-04 14:32:06,905 [INFO] ⏳ Logging hyperparameters
+2025-06-04 14:32:06,929 [INFO] ⏳ Logging dataset info
+2025-06-04 14:32:06,930 [INFO] ⏳ Training model
+2025-06-04 14:33:06,856 [INFO] ✅ Training completed successfully
+2025-06-04 14:33:06,909 [INFO] ✅ Model saved.
+2025-06-04 14:33:21,541 [INFO] ✅ Model logged.
+2025-06-04 14:33:21,541 [INFO] ===================================================================================================
+2025-06-04 14:33:37,946 [INFO] Context impl SQLiteImpl.
+2025-06-04 14:33:37,946 [INFO] Will assume non-transactional DDL.
+2025-06-04 14:33:37,990 [INFO] Using latest run ID: 5ba41b1c8ef64bf2a887003c806fcb66
+2025-06-04 14:33:37,990 [INFO] ⏳ Registering model 'LoanApprovalModel' from run 5ba41b1c8ef64bf2a887003c806fcb66
+2025-06-04 14:33:38,101 [INFO] ✅ Set alias 'ReadyForProduction' for model version 1
+2025-06-04 14:33:38,124 [INFO] ✅ Set description for model version 1
+2025-06-04 14:33:38,364 [INFO] ✅ Model 'LoanApprovalModel' registered as version 1
+2025-06-04 14:33:38,364 [INFO] ===================================================================================================
+2025-06-04 14:34:07,758 [INFO] Context impl SQLiteImpl.
+2025-06-04 14:34:07,759 [INFO] Will assume non-transactional DDL.
+2025-06-04 14:34:07,787 [INFO] ⏳ Loading validation and test data
+2025-06-04 14:34:07,787 [INFO] ⏳ Reading preprocessed data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 14:34:08,036 [INFO] Loaded X_train_scaled: (76981, 17)
+2025-06-04 14:34:08,036 [INFO] Loaded X_val_scaled: (8554, 17)
+2025-06-04 14:34:08,036 [INFO] Loaded y_train: (76981,)
+2025-06-04 14:34:08,037 [INFO] Loaded y_val: (8554,)
+2025-06-04 14:34:08,037 [INFO] Loaded test_data_scaled: (39098, 17)
+2025-06-04 14:34:08,037 [INFO] ✅ Preprocessed data loaded successfully
+2025-06-04 14:34:08,037 [INFO] ⏳ Loading model 'LoanApprovalModel' with alias 'ReadyForProduction'
+2025-06-04 14:34:10,163 [INFO] ✅ Model Loaded
+2025-06-04 14:34:10,245 [INFO] ⏳ Evaluating model on validation data
+2025-06-04 14:34:11,577 [INFO] ✅ Evaluation: Loss=0.1652, Accuracy=0.9364, AUC=0.9835, Precision=0.9517, Recall=0.9279
+2025-06-04 14:34:11,594 [INFO] 🌐 Confusion Matrix: [[3777  215]
+ [ 329 4233]]
+2025-06-04 14:34:11,594 [INFO] ⏳ Generating predictions on test data
+2025-06-04 14:34:13,660 [INFO] ✅ All artifacts and metrics logged to MLflow
+2025-06-04 14:34:13,660 [INFO] ===================================================================================================
+2025-06-04 16:37:48,717 [INFO] 🚀 Starting ML pipeline
+2025-06-04 16:37:48,718 [INFO] ⏳ Running data preprocessing
+2025-06-04 16:37:48,718 [INFO] ⏳ Loading train data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data/train.csv
+2025-06-04 16:37:49,123 [INFO] ⏳ Loading test data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data/test.csv
+2025-06-04 16:37:49,167 [INFO] ✅ Data loaded successfully.
+2025-06-04 16:37:49,167 [INFO] ⏳ Mapping categorical variables
+2025-06-04 16:37:49,184 [INFO] ⏳ Applying one-hot encoding
+2025-06-04 16:37:49,217 [INFO] ⏳ Applying log transformation to ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
+2025-06-04 16:37:49,234 [INFO] ⏳ Applying SMOTEENN for data balancing
+2025-06-04 16:38:18,490 [INFO] ⏳ Splitting data into train and test sets
+2025-06-04 16:38:18,536 [INFO] ⏳ Scaling numerical columns
+2025-06-04 16:38:18,573 [INFO] ⏳ Saving preprocessed data to /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 16:38:20,439 [INFO] Train size: (76981, 17)
+2025-06-04 16:38:20,439 [INFO] Test size: (39098, 17)
+2025-06-04 16:38:20,439 [INFO] ✅ Scaler Saved
+2025-06-04 16:38:20,478 [INFO] ✅ Preprocessing completed successfully
+2025-06-04 16:38:20,482 [INFO] ✅ Preprocessing completed
+2025-06-04 16:38:20,482 [INFO] ⏳ Training model
+2025-06-04 16:38:20,482 [INFO] ⏳ Loading preprocessed data
+2025-06-04 16:38:20,483 [INFO] ⏳ Reading preprocessed data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 16:38:20,725 [INFO] Loaded X_train_scaled: (76981, 17)
+2025-06-04 16:38:20,725 [INFO] Loaded X_val_scaled: (8554, 17)
+2025-06-04 16:38:20,725 [INFO] Loaded y_train: (76981,)
+2025-06-04 16:38:20,725 [INFO] Loaded y_val: (8554,)
+2025-06-04 16:38:20,725 [INFO] Loaded test_data_scaled: (39098, 17)
+2025-06-04 16:38:20,725 [INFO] ✅ Preprocessed data loaded successfully
+2025-06-04 16:38:20,725 [INFO] ⏳ Building model
+2025-06-04 16:38:22,579 [INFO] Training parameters:
+2025-06-04 16:38:22,579 [INFO]  ➤ Model Layers: [{'units': 128, 'activation': 'relu', 'dropout': 0.2}, {'units': 64, 'activation': 'relu', 'dropout': 0.2}, {'units': 32, 'activation': 'relu', 'dropout': 0.2}, {'units': 16, 'activation': 'relu'}]
+2025-06-04 16:38:22,579 [INFO]  ➤ Output Activation: sigmoid
+2025-06-04 16:38:22,580 [INFO]  ➤ Optimizer: adam
+2025-06-04 16:38:22,580 [INFO]  ➤ Loss: binary_crossentropy
+2025-06-04 16:38:22,580 [INFO]  ➤ Metrics: ['accuracy']
+2025-06-04 16:38:22,580 [INFO]  ➤ Epochs: 20
+2025-06-04 16:38:22,580 [INFO]  ➤ Batch Size: 64
+2025-06-04 16:38:23,323 [INFO] Context impl SQLiteImpl.
+2025-06-04 16:38:23,323 [INFO] Will assume non-transactional DDL.
+2025-06-04 16:38:23,525 [INFO] ⏳ Logging hyperparameters
+2025-06-04 16:38:23,544 [INFO] ⏳ Logging dataset info
+2025-06-04 16:38:23,546 [INFO] ⏳ Training model
+2025-06-04 16:39:24,719 [INFO] ✅ Training completed successfully
+2025-06-04 16:39:24,777 [INFO] ✅ Model saved.
+2025-06-04 16:39:38,642 [INFO] ✅ Model logged.
+2025-06-04 16:39:38,642 [INFO] ===================================================================================================
+2025-06-04 16:39:38,661 [INFO] ✅ Model trained
+2025-06-04 16:39:38,662 [INFO] ⏳ Registering model
+2025-06-04 16:39:38,662 [WARNING] ⚠️ Using latest MLflow run for registration, as run_id is not provided. Ensure no concurrent runs.
+2025-06-04 16:39:38,683 [INFO] Using latest run ID: 3696647ca07848d7b9c55acbb2689e5d
+2025-06-04 16:39:38,683 [INFO] ⏳ Registering model 'LoanApprovalModel' from run 3696647ca07848d7b9c55acbb2689e5d
+2025-06-04 16:39:38,782 [INFO] ✅ Set alias 'ReadyForProduction' for model version 2
+2025-06-04 16:39:38,807 [INFO] ✅ Set description for model version 2
+2025-06-04 16:39:38,855 [INFO] ✅ Model 'LoanApprovalModel' registered as version 2
+2025-06-04 16:39:38,855 [INFO] ===================================================================================================
+2025-06-04 16:39:38,855 [INFO] ✅ Model registered as LoanApprovalModel version 2
+2025-06-04 16:39:38,855 [INFO] ⏳ Evaluating and testing model
+2025-06-04 16:39:38,861 [INFO] ⏳ Loading validation and test data
+2025-06-04 16:39:38,861 [INFO] ⏳ Reading preprocessed data from /home/muhammad/AI-Driven-Loan-Approval-Prediction-System/data
+2025-06-04 16:39:39,095 [INFO] Loaded X_train_scaled: (76981, 17)
+2025-06-04 16:39:39,096 [INFO] Loaded X_val_scaled: (8554, 17)
+2025-06-04 16:39:39,096 [INFO] Loaded y_train: (76981,)
+2025-06-04 16:39:39,096 [INFO] Loaded y_val: (8554,)
+2025-06-04 16:39:39,096 [INFO] Loaded test_data_scaled: (39098, 17)
+2025-06-04 16:39:39,096 [INFO] ✅ Preprocessed data loaded successfully
+2025-06-04 16:39:39,101 [INFO] ⏳ Loading model 'LoanApprovalModel' with alias 'ReadyForProduction'
+2025-06-04 16:39:39,261 [INFO] ✅ Model Loaded
+2025-06-04 16:39:39,300 [INFO] ⏳ Evaluating model on validation data
+2025-06-04 16:39:40,621 [INFO] ✅ Evaluation: Loss=0.1609, Accuracy=0.9315, AUC=0.9838, Precision=0.9331, Recall=0.9388
+2025-06-04 16:39:40,637 [INFO] 🌐 Confusion Matrix: [[3685  307]
+ [ 279 4283]]
+2025-06-04 16:39:40,638 [INFO] ⏳ Generating predictions on test data
+2025-06-04 16:39:42,723 [INFO] ✅ All artifacts and metrics logged to MLflow
+2025-06-04 16:39:42,723 [INFO] ===================================================================================================
+2025-06-04 16:39:42,743 [INFO] ✅ Evaluation and testing completed
+2025-06-04 16:39:42,744 [INFO] Evaluation metrics: {'loss': 0.16093547642230988, 'accuracy': 0.9314940571784973, 'auc': 0.9837651519610902, 'precision': 0.933115468409586, 'recall': 0.9388426128890838}
+2025-06-04 16:39:42,744 [INFO] 🎉 Pipeline completed successfully
+2025-06-04 16:39:42,744 [INFO] ===================================================================================================
