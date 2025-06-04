@@ -280,5 +280,10 @@ For queries or collaboration, reach out:
 
 ---
 
+## 🔴 Live Demo:
+[Click Here](https://customer-loan-approval.streamlit.app/)
+
+---
+
 📝 **License**  
 This project is licensed under the MIT License. See the `LICENSE` file for details.
