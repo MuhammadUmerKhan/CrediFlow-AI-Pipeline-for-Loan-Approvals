@@ -1,6 +1,6 @@
-# 📋 AI-Driven Loan Approval Prediction System - Scripts Folder
+# 📋 CrediFlow: Scalable MLOps Pipeline for Loan Approval Predictions
 
-Welcome to the `scripts` folder of the **AI-Driven Loan Approval Prediction System**! 🚀 This directory contains all the Python scripts that power the end-to-end machine learning pipeline, from data ingestion to model deployment. Below, you'll find a detailed overview of each script, their purpose, and how to use them. Let's dive in! 🌊
+Welcome to the `scripts` folder of the **CrediFlow: Loan Approval Predictions**! 🚀 This directory contains all the Python scripts that power the end-to-end machine learning pipeline, from data ingestion to model deployment. Below, you'll find a detailed overview of each script, their purpose, and how to use them. Let's dive in! 🌊
 
 ---
 
