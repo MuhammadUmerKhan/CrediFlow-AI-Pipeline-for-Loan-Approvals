@@ -116,25 +116,27 @@ with tab1:
     st.markdown('<div class="system-content">👋 About Me</div>', unsafe_allow_html=True)
     st.markdown("""
         <div class="content">
-            Hi! I’m <span class="highlight">Muhammad Umer Khan</span>, an aspiring Data Scientist passionate about 
-            <span class="highlight">🤖 Natural Language Processing (NLP)</span> and 🧠 Machine Learning. 
-            Currently pursuing my Bachelor’s in Computer Science, I bring hands-on experience in developing intelligent recommendation systems, 
-            performing data analysis, and building machine learning models. 🚀
+            Hi! I’m <span class="highlight">Muhammad Umer Khan</span>, a dedicated Data Scientist and Machine Learning enthusiast with a Bachelor’s in Computer Science. 
+            With hands-on experience in <span class="highlight">🤖 Natural Language Processing (NLP)</span>, 🧠 Machine Learning, and MLOps, I specialize in building intelligent systems, 
+            from data pipelines to deployable applications. My journey includes developing recommendation systems, optimizing ANN models, and integrating advanced LLMs, 
+            all while pursuing excellence in real-world problem-solving. 🚀
         </div>
     """, unsafe_allow_html=True)
 
     st.markdown('<div class="section-title">🎯 Project Overview</div>', unsafe_allow_html=True)
     st.markdown("""
         <div class="content">
-            This project is a comprehensive loan approval prediction system that demonstrates my expertise in machine learning, data preprocessing, and deployment. Here's what I've achieved:
+            This project is a state-of-the-art loan approval prediction system, showcasing a complete MLOps pipeline and advanced AI integration. Here's what I've achieved:
             <ul>
-                <li><span class="highlight">📊 Exploratory Data Analysis (EDA)</span>: Analyzed the dataset to uncover insights and patterns, ensuring data quality and feature selection.</li>
-                <li><span class="highlight">🛠 Data Preprocessing</span>: Cleaned, transformed, and encoded features to prepare the dataset for model training.</li>
-                <li><span class="highlight">🔗 Model Development</span>: Built an Artificial Neural Network (ANN) to classify loan applications into approved or denied categories.</li>
-                <li><span class="highlight">⚙️ Model Optimization</span>: Tuned hyperparameters to improve performance metrics like accuracy, precision, recall, and F1-score.</li>
-                <li><span class="highlight">📈 Evaluation</span>: Achieved excellent classification results with robust evaluation metrics, ensuring reliability of predictions.</li>
-                <li><span class="highlight">🌐 Deployment</span>: Developed an interactive and user-friendly Streamlit app, enabling seamless loan predictions for users.</li>
-                <li><span class="highlight">🧩 Sequential Workflow</span>: Designed a modular codebase to ensure scalability and adaptability for future enhancements.</li>
+                <li><span class="highlight">📊 Exploratory Data Analysis (EDA)</span>: Analyzed the dataset to uncover insights, patterns, and ensure data quality.</li>
+                <li><span class="highlight">🛠 Data Preprocessing</span>: Cleaned, transformed, encoded features, and balanced data with SMOTEENN for robust training.</li>
+                <li><span class="highlight">🔗 Model Development</span>: Built an Artificial Neural Network (ANN) for classifying loan applications into approved or denied categories.</li>
+                <li><span class="highlight">⚙️ Model Optimization</span>: Tuned hyperparameters and applied dropout layers to enhance performance metrics (accuracy, precision, recall, F1-score).</li>
+                <li><span class="highlight">📈 Evaluation</span>: Achieved ~94% accuracy with comprehensive metrics, logged via MLflow for tracking.</li>
+                <li><span class="highlight">📦 Model Registry</span>: Registered the model in MLflow with versioning and aliases for production readiness.</li>
+                <li><span class="highlight">🌐 Deployment</span>: Developed an interactive Streamlit app with real-time predictions, batch processing, and LLM-powered analysis.</li>
+                <li><span class="highlight">💬 LLM Integration</span>: Added LLM (Mixtral-8x7B via Grok API) for loan approval predictions and customer sentiment analysis.</li>
+                <li><span class="highlight">🧩 MLOps Pipeline</span>: Designed a modular pipeline (ingestion to deployment) with logging and error handling.</li>
             </ul>
         </div>
     """, unsafe_allow_html=True)
@@ -146,14 +148,14 @@ with tab1:
             <a href="https://www.kaggle.com/competitions/playground-series-s4e10" target="_blank" style="color: #2980B9;">Dataset</a>
             used in this project contains key attributes for loan approval prediction. Here's a summary:
             <ul>
-                <li><span class="highlight">📜 Features</span>: Includes attributes such as age, income, home ownership, employment length, loan amount, interest rate, and credit history.</li>
-                <li><span class="highlight">⚖️ Class Balance</span>: Balanced classes to ensure fair model evaluation.</li>
-                <li><span class="highlight">🔍 Feature Engineering</span>: Derived additional features like loan-to-income ratio for enhanced prediction accuracy.</li>
+                <li><span class="highlight">📜 Features</span>: Includes age, income, home ownership, employment length, loan amount, interest rate, credit history, and more.</li>
+                <li><span class="highlight">⚖️ Class Balance</span>: Balanced with SMOTEENN to ensure fair evaluation.</li>
+                <li><span class="highlight">🔍 Feature Engineering</span>: Derived loan-to-income ratio and other features to boost prediction accuracy.</li>
                 <li><span class="highlight">📊 Insights</span>: 
                     <ul>
-                        <li>Higher incomes are positively correlated with loan approvals.</li>
-                        <li>Employment stability (length) impacts loan decisions significantly.</li>
-                        <li>High-interest rates are associated with a greater chance of loan denial.</li>
+                        <li>Higher incomes positively correlate with loan approvals.</li>
+                        <li>Employment stability significantly influences decisions.</li>
+                        <li>High-interest rates increase the likelihood of denial.</li>
                     </ul>
                 </li>
             </ul>
@@ -164,10 +166,12 @@ with tab1:
     st.markdown("""
         <div class="content">
             <ul>
-                <li><span class="highlight">🔤 Languages & Libraries</span>: Python, Pandas, Scikit-Learn, TensorFlow/Keras, Matplotlib, Seaborn.</li>
-                <li><span class="highlight">⚙️ Methods</span>: Feature Engineering, Artificial Neural Networks (ANN), and Hyperparameter Tuning</li>
-                <li><span class="highlight">🌐 Deployment</span>: Streamlit for web-based interactive systems</li>
-                <li><span class="highlight">📊 Visualization Tools</span>: Seaborn and Matplotlib for EDA and performance insights</li>
+                <li><span class="highlight">🔤 Languages & Libraries</span>: Python, Pandas, NumPy, Scikit-learn, TensorFlow/Keras, Imbalanced-learn, Matplotlib, Seaborn, LangChain, MLflow, Joblib.</li>
+                <li><span class="highlight">⚙️ Methods</span>: Feature Engineering, Artificial Neural Networks (ANN), SMOTEENN, Hyperparameter Tuning, MLOps.</li>
+                <li><span class="highlight">🌐 Deployment</span>: Streamlit for interactive web apps, deployable on cloud platforms.</li>
+                <li><span class="highlight">📊 Visualization Tools</span>: Matplotlib and Seaborn for EDA and insights.</li>
+                <li><span class="highlight">🧠 NLP & LLM</span>: Grok API (Mixtral-8x7B) for advanced predictions and sentiment analysis.</li>
+                <li><span class="highlight">📦 MLOps Tools</span>: MLflow for model tracking, versioning, and registry.</li>
             </ul>
         </div>
     """, unsafe_allow_html=True)
@@ -175,9 +179,9 @@ with tab1:
     st.markdown('<div class="section-title">🌟 Why This Project?</div>', unsafe_allow_html=True)
     st.markdown("""
         <div class="content">
-            This project highlights my ability to build end-to-end solutions, from data analysis and model development to deployment. 
-            By addressing a real-world use case of loan approval prediction, it showcases my technical skills and understanding of user needs. 
-            I aim to make data-driven decision-making accessible and impactful. ✨
+            This project exemplifies my ability to design, implement, and deploy a full MLOps pipeline, integrating cutting-edge AI technologies like ANN and LLM. 
+            By solving a real-world loan approval challenge, it highlights my skills in data science, software engineering, and user-focused development. 
+            My goal is to empower data-driven decisions with scalable, accessible solutions. ✨
         </div>
     """, unsafe_allow_html=True)
 # ----------------------------------Tab 2----------------------------------
