@@ -1,7 +1,7 @@
-# 📊 AI-Driven Loan Approval Prediction System 🎉
+# 📊 CrediFlow: Scalable MLOps Pipeline for Loan Approval Predictions 🎉
 ![Loan Approval](https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/blog/personal-loan/how-to-apply-for-firstmoney-personal-loan-a-step-by-step-guide-717X404.jpg)
 
-Welcome to the **AI-Driven Loan Approval Prediction System**, a robust end-to-end MLOps project designed to predict loan approval outcomes using machine learning and natural language processing (NLP). This project demonstrates expertise in **data ingestion**, **preprocessing**, **model training**, **evaluation**, **registry**, and **interactive deployment** using **Streamlit** and **MLflow**. 🚀
+Welcome to the **CrediFlow: Loan Approval Predictions**, a robust end-to-end MLOps project designed to predict loan approval outcomes using machine learning and natural language processing (NLP). This project demonstrates expertise in **data ingestion**, **preprocessing**, **model training**, **evaluation**, **registry**, and **interactive deployment** using **Streamlit** and **MLflow**. 🚀
 
 ---
 
