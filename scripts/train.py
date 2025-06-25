@@ -141,7 +141,7 @@ def train_model():
             model.save(model_path)
             logging.info(f"✅ Model saved.")
             
-            mlflow.tensorflow.log_model(model, artifact_path="models", input_example=X_train_scaled.iloc[:1].to_numpy())
+            mlflow.tensorflow.log_model(tf_model=model, artifact_path="models", input_example=X_train_scaled.iloc[:1].to_numpy())
             logging.info(f"✅ Model logged.")
             
             logging.info("===================================================================================================")
