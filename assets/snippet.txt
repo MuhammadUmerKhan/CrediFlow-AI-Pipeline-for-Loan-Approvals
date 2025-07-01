@@ -1,0 +1,10 @@
+● CrediFlow: AI Pipeline for Loan Approvals                                                                  Personal Project | 2025
+• Challenge: Manual loan approvals lacked speed, transparency, and model reproducibility, especially with imbalanced
+            datasets.
+• Action:
+    • Built an MLOps-ready ML pipeline for data validation, preprocessing, and SMOTEENN-based balancing.
+    • Trained a TensorFlow ANN, achieving ~94% accuracy. Logged metrics and models using MLflow for versioning.
+    • Deployed an app supporting real-time and batch predictions, with integrated LLM support for user-friendly insights.
+• Result:
+    • Achieved ~94% accuracy and F1-score with explainability via feature importance.
+    • Enabled end-to-end scalable deployment with SQLite storage, MLflow registry, and single-command execution. 
