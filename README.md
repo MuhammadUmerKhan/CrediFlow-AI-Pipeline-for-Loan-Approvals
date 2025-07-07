@@ -251,49 +251,25 @@ This project showcases:
 - Monitor logs in real-time: `tail -f logs/app.log`.
 
 ---
+
 ## 🐳 **Dockerization & Deployment**
+- **Build**:
+  ```bash
+  docker build -t muhammadumerkhan/loan-predictor .
+  ```
+- **Run**:
+  ```bash
+  docker run -p 8501:8501 muhammadumerkhan/loan-predictor
+  ```
+- **Push**:
+  ```bash
+  docker push muhammadumerkhan/loan-predictor
+  ```
+- **Pull**:
+  ```bash
+  docker pull muhammadumerkhan/loan-predictor
+  ```
 
-You can easily run this project using Docker and share or deploy it from Docker Hub.
-
-### ✅ **Build the Docker Image**
-
-Make sure your `Dockerfile` is correctly set up. Then run:
-
-```bash
-docker build -t muhammadumerkhan/loan-predictor .
-```
-
-### 🚀 **Run the Docker Container**
-
-```bash
-docker run -p 8501:8501 muhammadumerkhan/loan-predictor
-```
-
-> This will launch the Streamlit/ FastAPI interface on `http://localhost:8501` depending on your app entrypoint.
-
-### 📤 **Push to Docker Hub**
-
-First, log in to Docker:
-
-```bash
-docker login
-```
-
-Then push your image:
-
-```bash
-docker push muhammadumerkhan/loan-predictor
-```
-
-### 📥 **Pull & Run from Docker Hub**
-
-Anyone can pull and run the app using:
-
-```bash
-docker pull muhammadumerkhan/loan-predictor
-docker run -p 8501:8501 muhammadumerkhan/loan-predictor
-```
----
 
 ## 🔧 Configuration
 - Edit `scripts/config.py` to adjust paths, model layers, or hyperparameters.
