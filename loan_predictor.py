@@ -21,80 +21,208 @@ st.set_page_config(
 # ----------------------------------Custom CSS for styling-----------------------------------------
 st.markdown("""
     <style>
-        /* Main Title */
+        /* Financial-Themed Dark Styles */
+        .stApp {
+            background: linear-gradient(rgba(31, 41, 55, 0.9), rgba(31, 41, 55, 0.9)), url('https://media.licdn.com/dms/image/v2/D5612AQHy0wPDANw36g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1680808534854?e=2147483647&v=beta&t=8YIjZWTBts-oy1tiH4ukyPleGJcs1_PIdYhO0oDmeGY');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #f3f4f6;
+            font-family: 'Poppins', sans-serif;
+        }
+        .main-container {
+            background: linear-gradient(135deg, rgba(29, 78, 216, 0.85), rgba(4, 120, 87, 0.85));
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+            border: 2px solid #eab308;
+            backdrop-filter: blur(10px);
+        }
         .main-title {
-            font-size: 2.5em;
-            font-weight: bold;
-            color: #2C3E50;
+            font-size: 3.2em;
+            font-weight: 700;
+            color: #eab308;
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 35px;
+            text-shadow: 0 0 12px rgba(234, 179, 8, 0.8);
+            animation: pulseGlow 2s ease-in-out infinite;
         }
-        /* Section Titles */
         .section-title {
-            font-size: 1.8em;
-            color: #3498DB;
-            font-weight: bold;
-            margin-top: 30px;
-            text-align: left;
+            font-size: 2.2em;
+            font-weight: 600;
+            color: #1d4ed8;
+            margin: 40px 0 20px;
+            text-shadow: 0 0 10px rgba(29, 78, 216, 0.8);
+            border-left: 6px solid #1d4ed8;
+            padding-left: 18px;
+            animation: slideInLeft 0.6s ease-in-out;
         }
-        /* System Content */
         .system-content {
-            font-size: 1.8em;
-            color: #3498DB;
-            font-weight: bold;
-            margin-top: 30px;
+            font-size: 2.2em;
+            font-weight: 600;
+            color: #047857;
             text-align: center;
+            text-shadow: 0 0 10px rgba(4, 120, 87, 0.8);
+            animation: slideInLeft 0.6s ease-in-out;
         }
-        /* Section Content */
-        .section-content{
-            text-align: center;
-        }
-        /* Home Page Content */
         .intro-title {
             font-size: 2.5em;
-            color: #2C3E50;
+            color: #eab308;
             font-weight: bold;
             text-align: center;
         }
         .intro-subtitle {
-            font-size: 1.2em;
-            color: #34495E;
+            font-size: 1.5em;
+            color: #1d4ed8;
             text-align: center;
+            text-shadow: 0 0 8px rgba(29, 78, 216, 0.8);
         }
         .content {
-            font-size: 1em;
-            color: #7F8C8D;
+            font-size: 1.15em;
+            color: #f3f4f6;
+            line-height: 1.9;
             text-align: justify;
-            line-height: 1.6;
         }
         .highlight {
-            color: #2E86C1;
+            color: #eab308;
             font-weight: bold;
         }
-        /* Recommendation Titles and Descriptions */
-        .recommendation-title {
-            font-size: 22px;
-            color: #2980B9;
-        }
-        .recommendation-desc {
-            font-size: 16px;
-            color: #7F8C8D;
-        }
-        /* Separator Line */
         .separator {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            border-top: 1px solid #BDC3C7;
+            height: 2px;
+            background: linear-gradient(to right, #1d4ed8, #047857);
+            margin: 20px 0;
         }
-        /* Footer */
+        .stButton>button {
+            background: linear-gradient(45deg, #1d4ed8, #047857);
+            color: #eab308;
+            border-radius: 12px;
+            padding: 14px 30px;
+            font-weight: 600;
+            font-size: 1.1em;
+            border: none;
+            box-shadow: 0 0 15px rgba(234, 179, 8, 0.8);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .stButton>button:hover {
+            background: linear-gradient(45deg, #1e40af, #065f46);
+            box-shadow: 0 0 25px rgba(234, 179, 8, 1);
+            transform: scale(1.1);
+            color: #f3f4f6;
+        }
+        .stButton>button::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 300%;
+            height: 300%;
+            background: rgba(234, 179, 8, 0.2);
+            transition: all 0.6s ease;
+            transform: translate(-50%, -50%) scale(0);
+            border-radius: 50%;
+        }
+        .stButton>button:hover::after {
+            transform: translate(-50%, -50%) scale(1);
+        }
+        .stSelectbox, .stNumberInput, .stTextArea {
+            background: linear-gradient(135deg, rgba(29, 78, 216, 0.9), rgba(4, 120, 87, 0.9));
+            border-radius: 10px;
+            padding: 12px;
+            border: 1px solid #eab308;
+            color: #f3f4f6;
+            transition: all 0.3s ease;
+        }
+        .stSelectbox:hover, .stNumberInput:hover, .stTextArea:hover {
+            border-color: #facc15;
+            box-shadow: 0 0 8px rgba(234, 179, 8, 0.5);
+        }
+        .stSelectbox label, .stNumberInput label, .stTextArea label {
+            color: #eab308;
+            font-weight: 500;
+        }
+        .stTabs [data-baseweb="tab"] {
+            font-size: 1.3em;
+            font-weight: 500;
+            color: #f3f4f6;
+            padding: 15px 30px;
+            border-radius: 12px 12px 0 0;
+            transition: all 0.3s ease;
+            background: linear-gradient(135deg, rgba(29, 78, 216, 0.9), rgba(4, 120, 87, 0.9));
+        }
+        .stTabs [data-baseweb="tab"][aria-selected="true"] {
+            background: linear-gradient(45deg, #1d4ed8, #047857);
+            color: #eab308;
+            font-weight: 600;
+        }
+        .stTabs [data-baseweb="tab"]:hover {
+            background: linear-gradient(135deg, #1e40af, #065f46);
+            color: #f3f4f6;
+        }
+        .stDataFrame {
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: rgba(31, 41, 55, 0.95);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        .stDataFrame table {
+            color: #f3f4f6;
+        }
         .footer {
-            font-size: 14px;
-            color: #95A5A6;
-            margin-top: 20px;
+            font-size: 0.95em;
+            color: #f3f4f6;
+            margin-top: 50px;
             text-align: center;
+            padding: 25px;
+            background: linear-gradient(135deg, rgba(29, 78, 216, 0.85), rgba(4, 120, 87, 0.85));
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            border: 2px solid #eab308;
+            backdrop-filter: blur(10px);
+        }
+        .footer a {
+            color: #facc15;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        .footer a:hover {
+            color: #1d4ed8;
+            text-decoration: underline;
+        }
+        .content ul li::marker {
+            color: #eab308;
+        }
+        .prediction-text {
+            font-size: 2em;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 0 0 10px rgba(234, 179, 8, 0.8);
+        }
+        .prediction-text.approved {
+            color: #047857;
+        }
+        .prediction-text.denied {
+            color: #ef4444;
+        }
+        /* Animations */
+        @keyframes pulseGlow {
+            0% { text-shadow: 0 0 10px rgba(234, 179, 8, 0.8); }
+            50% { text-shadow: 0 0 20px rgba(234, 179, 8, 1); }
+            100% { text-shadow: 0 0 10px rgba(234, 179, 8, 0.8); }
+        }
+        @keyframes slideInLeft {
+            from { transform: translateX(-30px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        @keyframes scaleIn {
+            from { transform: scale(0.95); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
         }
     </style>
 """, unsafe_allow_html=True)
+
 # ----------------------------------Load the sample data----------------------------------
 data = pd.read_csv(os.path.abspath(os.path.join(os.path.dirname(__file__), "data", "train.csv")), index_col='id')
 
@@ -113,6 +241,7 @@ tab1, tab2, tab3, tab4 = st.tabs(["🏠 Home", "📋 Get Loan Approval", "📤 B
 
 # ----------------------------------Tab 1----------------------------------
 with tab1:
+    st.markdown('<div class="main-container">', unsafe_allow_html=True)
     st.markdown('<div class="system-content">👋 About Me</div>', unsafe_allow_html=True)
     st.markdown("""
         <div class="content">
@@ -128,37 +257,13 @@ with tab1:
         <div class="content">
             This project is a state-of-the-art loan approval prediction system, showcasing a complete MLOps pipeline and advanced AI integration. Here's what I've achieved:
             <ul>
-                <li><span class="highlight">📊 Exploratory Data Analysis (EDA)</span>: Analyzed the dataset to uncover insights, patterns, and ensure data quality.</li>
-                <li><span class="highlight">🛠 Data Preprocessing</span>: Cleaned, transformed, encoded features, and balanced data with SMOTEENN for robust training.</li>
-                <li><span class="highlight">🔗 Model Development</span>: Built an Artificial Neural Network (ANN) for classifying loan applications into approved or denied categories.</li>
-                <li><span class="highlight">⚙️ Model Optimization</span>: Tuned hyperparameters and applied dropout layers to enhance performance metrics (accuracy, precision, recall, F1-score).</li>
-                <li><span class="highlight">📈 Evaluation</span>: Achieved ~94% accuracy with comprehensive metrics, logged via MLflow for tracking.</li>
-                <li><span class="highlight">📦 Model Registry</span>: Registered the model in MLflow with versioning and aliases for production readiness.</li>
-                <li><span class="highlight">🌐 Deployment</span>: Developed an interactive Streamlit app with real-time predictions, batch processing, and LLM-powered analysis.</li>
-                <li><span class="highlight">💬 LLM Integration</span>: Added LLM (Mixtral-8x7B via Grok API) for loan approval predictions and customer sentiment analysis.</li>
-                <li><span class="highlight">🧩 MLOps Pipeline</span>: Designed a modular pipeline (ingestion to deployment) with logging and error handling.</li>
+                <li><span class="highlight">📊 Data Pipeline & Preprocessing</span>: Automated data ingestion, cleaning, and transformation with custom pipelines, ensuring data quality and handling outliers effectively.</li>
+                <li><span class="highlight">🧠 Model Development</span>: Built an optimized Artificial Neural Network (ANN) model with hyperparameter tuning using Optuna, achieving high accuracy in loan approval predictions.</li>
+                <li><span class="highlight">🔄 MLOps Integration</span>: Implemented MLflow for experiment tracking, model versioning, and deployment, enabling seamless transitions from development to production.</li>
+                <li><span class="highlight">💬 LLM Review Analysis</span>: Integrated a Large Language Model (LLM) for sentiment analysis on customer feedback, providing actionable insights into user experiences.</li>
+                <li><span class="highlight">🌐 Deployment</span>: Deployed the system using Streamlit for an interactive, user-friendly interface, supporting single and batch predictions.</li>
             </ul>
-        </div>
-    """, unsafe_allow_html=True)
-
-    st.markdown('<div class="section-title">📂 Data Overview</div>', unsafe_allow_html=True)
-    st.markdown("""
-        <div class="content">
-            The
-            <a href="https://www.kaggle.com/competitions/playground-series-s4e10" target="_blank" style="color: #2980B9;">Dataset</a>
-            used in this project contains key attributes for loan approval prediction. Here's a summary:
-            <ul>
-                <li><span class="highlight">📜 Features</span>: Includes age, income, home ownership, employment length, loan amount, interest rate, credit history, and more.</li>
-                <li><span class="highlight">⚖️ Class Balance</span>: Balanced with SMOTEENN to ensure fair evaluation.</li>
-                <li><span class="highlight">🔍 Feature Engineering</span>: Derived loan-to-income ratio and other features to boost prediction accuracy.</li>
-                <li><span class="highlight">📊 Insights</span>: 
-                    <ul>
-                        <li>Higher incomes positively correlate with loan approvals.</li>
-                        <li>Employment stability significantly influences decisions.</li>
-                        <li>High-interest rates increase the likelihood of denial.</li>
-                    </ul>
-                </li>
-            </ul>
+            This project demonstrates my ability to deliver end-to-end ML solutions, combining robust engineering with innovative AI techniques. 🌟
         </div>
     """, unsafe_allow_html=True)
 
@@ -166,232 +271,95 @@ with tab1:
     st.markdown("""
         <div class="content">
             <ul>
-                <li><span class="highlight">🔤 Languages & Libraries</span>: Python, Pandas, NumPy, Scikit-learn, TensorFlow/Keras, Imbalanced-learn, Matplotlib, Seaborn, LangChain, MLflow, Joblib.</li>
-                <li><span class="highlight">⚙️ Methods</span>: Feature Engineering, Artificial Neural Networks (ANN), SMOTEENN, Hyperparameter Tuning, MLOps.</li>
-                <li><span class="highlight">🌐 Deployment</span>: Streamlit for interactive web apps, deployable on cloud platforms.</li>
-                <li><span class="highlight">📊 Visualization Tools</span>: Matplotlib and Seaborn for EDA and insights.</li>
-                <li><span class="highlight">🧠 NLP & LLM</span>: Grok API (Mixtral-8x7B) for advanced predictions and sentiment analysis.</li>
-                <li><span class="highlight">📦 MLOps Tools</span>: MLflow for model tracking, versioning, and registry.</li>
+                <li><span class="highlight">🔤 Languages & Libraries</span>: Python, Pandas, NumPy, TensorFlow, Scikit-Learn, Optuna, LangChain.</li>
+                <li><span class="highlight">⚙️ Approaches</span>: Data Preprocessing, ANN Modeling, Hyperparameter Tuning, LLM Integration, MLOps with MLflow.</li>
+                <li><span class="highlight">🌐 Deployment</span>: Streamlit for web-based interactive systems.</li>
             </ul>
         </div>
     """, unsafe_allow_html=True)
+    st.markdown('</div>', unsafe_allow_html=True)
 
-    st.markdown('<div class="section-title">🌟 Why This Project?</div>', unsafe_allow_html=True)
-    st.markdown("""
-        <div class="content">
-            This project exemplifies my ability to design, implement, and deploy a full MLOps pipeline, integrating cutting-edge AI technologies like ANN and LLM. 
-            By solving a real-world loan approval challenge, it highlights my skills in data science, software engineering, and user-focused development. 
-            My goal is to empower data-driven decisions with scalable, accessible solutions. ✨
-        </div>
-    """, unsafe_allow_html=True)
 # ----------------------------------Tab 2----------------------------------
 with tab2:
-    st.markdown('<div class="section-title">🔍 Enter Your Details for Loan Approval Prediction</div>', unsafe_allow_html=True)
-
-    # First row with 3 inputs
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        person_age = st.number_input("Enter Your Age", min_value=20.0, max_value=100.0, value=37.0)
-    with col2:
-        person_income = st.number_input("Enter Your Income", min_value=4200.0, max_value=1900000.0, value=35000.0)
-    with col3:
-        person_home_ownership_input = st.selectbox("Your Home Ownership", ["RENT", "OWN", "MORTGAGE", "OTHER"])
-
-    # Second row with 3 inputs
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        person_emp_length = st.number_input("Employment Length (years)", min_value=0.0, max_value=60.0, value=0.0)
-    with col2:
-        loan_intent_input = st.selectbox("Your Loan Intent", ['EDUCATION', 'MEDICAL', 'PERSONAL', 'VENTURE', 'DEBTCONSOLIDATION', 'HOMEIMPROVEMENT'])
-    with col3:
-        loan_grade_input = st.selectbox("Loan Grade", ["B", "A", "C", "D", "E", "F", "G"])
-
-    # Third row with 3 inputs
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        loan_amnt = st.number_input("Loan Amount", min_value=500.0, max_value=35000.0, value=6000.0)
-    with col2:
-        loan_int_rate = st.number_input("Loan Interest Rate (%)", min_value=4.0, max_value=24.0, value=11.49)
-    with col3:
-        loan_percent_income = st.number_input("Loan Percent Income", min_value=0.0, max_value=0.83, value=0.17)
-
-    # Fourth row with 2 inputs
-    col1, col2 = st.columns(2)
-    with col1:
-        cb_person_default_on_file_input = st.selectbox("Default on File", ["No", "Yes"])
-    with col2:
-        cb_person_cred_hist_length = st.number_input("Credit History (in years)", min_value=2.0, max_value=30.0, value=14.0)
-
-    # ----------------------------------User Input Data------------------------------------
-    if st.button("See My Inputs 👀"):
-        user_data = pd.DataFrame({
-            'person_age': [person_age],
-            'person_income': [person_income],
-            'person_emp_length': [person_emp_length],
-            'loan_grade': [loan_grade_input],
-            'loan_amnt': [loan_amnt],
-            'loan_int_rate': [loan_int_rate],
-            'loan_percent_income': [loan_percent_income],
-            'cb_person_default_on_file': [cb_person_default_on_file_input],
-            'cb_person_cred_hist_length': [cb_person_cred_hist_length],
-        })
-        st.markdown('<div class="content">Your Inputs:  📝</div>', unsafe_allow_html=True)
-        st.table(user_data)
-
-    # ---------------------------------Apply Mappings------------------------------------
-    default_mapping = {'No': 0, 'Yes': 1}
-    loan_grade_mapping = {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4, "F": 5, "G": 6}
-
-    # Apply mappings
-    cb_person_default_on_file = default_mapping[cb_person_default_on_file_input]
-    loan_grade = loan_grade_mapping[loan_grade_input]
-
-    # ---------------------------------One-Hot Encoding manually based on inputs-----------------------------------
-    # Initialize one-hot columns with 0
-    home_ownership = ['RENT', 'OWN', 'MORTGAGE', 'OTHER']
-    loan_intent = ['EDUCATION', 'MEDICAL', 'PERSONAL', 'VENTURE', 'DEBTCONSOLIDATION', 'HOMEIMPROVEMENT']
-
-    home_ownership_encoded = {f'person_home_ownership_{col}': (1 if col == person_home_ownership_input else 0) for col in home_ownership}
-    loan_intent_encoded = {f'loan_intent_{col}': (1 if col == loan_intent_input else 0) for col in loan_intent}
-
-    # ----------------------------------Input DataFrame-----------------------------------
-    input_data = pd.DataFrame({
-        'person_age': [person_age],
-        'person_income': [person_income],
-        'person_emp_length': [person_emp_length],
-        'loan_grade': [loan_grade],
-        'loan_amnt': [loan_amnt],
-        'loan_int_rate': [loan_int_rate],
-        'loan_percent_income': [loan_percent_income],
-        'cb_person_default_on_file': [cb_person_default_on_file],
-        'cb_person_cred_hist_length': [cb_person_cred_hist_length],
-        **home_ownership_encoded,  # Add one-hot encoded columns for home ownership
-        **loan_intent_encoded      # Add one-hot encoded columns for loan intent
-    })
-    # Drop first category for one-hot encoding (match preprocess.py drop_first=True)
-    input_data.drop(columns=['person_home_ownership_RENT', 'loan_intent_EDUCATION'], inplace=True)
-
-    # Reorder columns to match preprocess.py output (based on X_train_scaled.csv)
-    reordered_columns = [
-        'person_age', 'person_income', 'person_emp_length', 'loan_grade',
-        'loan_amnt', 'loan_int_rate', 'loan_percent_income',
-        'cb_person_default_on_file', 'cb_person_cred_hist_length',
-        'person_home_ownership_OWN', 'person_home_ownership_MORTGAGE',
-        'person_home_ownership_OTHER', 'loan_intent_MEDICAL',
-        'loan_intent_PERSONAL', 'loan_intent_VENTURE',
-        'loan_intent_DEBTCONSOLIDATION', 'loan_intent_HOMEIMPROVEMENT'
-    ]
-    input_data = input_data[reordered_columns]
-
-    # ---------------------------------Log Transformation for Numerical Features------------------------------------
-    num_cols = PREPROCESSING_CONFIG['numerical_columns']  # ['loan_amnt', 'loan_int_rate', 'person_income', 'person_age', 'person_emp_length']
-    input_data[num_cols] = np.log1p(input_data[num_cols])
-
-    # ---------------------------------Data Normalization with Standard Scaler------------------------------------
-    scaler = jb.load(os.path.join(SCALER_PATH, "scaler.pkl"))
-    input_data[num_cols] = scaler.transform(input_data[num_cols])
-
-    # ---------------------------------Load Models------------------------------------
-    model_predictor = tf.keras.models.load_model(os.path.join(MODEL_DIR, "loan_approval_model.keras"))
+    st.markdown('<div class="main-container">', unsafe_allow_html=True)
+    st.markdown('<div class="section-title">📋 Loan Approval Prediction</div>', unsafe_allow_html=True)
     
-    # def load_model(model_name = "LoanApprovalModel", alias = "ReadyForProduction", version = None):
-    #     try:
-    #         mlflow.set_tracking_uri(f"sqlite:///database/mlflow.db")
-    #         mlflow.set_experiment("Loan_Prediction")
-
-    #         # Load model
-    #         client = mlflow.tracking.MlflowClient()
-    #         if alias:
-            
-    #             version_info = client.get_model_version_by_alias(model_name, alias)
-    #             version = version_info.version
-    #             model_uri = f"models:/{model_name}@{alias}"
-    #         else:
-    #             if not version:
-    #                 version = client.get_latest_versions(model_name)[0].version
-                
-    #             model_uri = f"models:/{model_name}/{version}"
-
-    #         try:
-    #             model = mlflow.tensorflow.load_model(model_uri)
-    #         except Exception as e:
-    #             raise    
-    #     except Exception as e:
-    #         raise
-    #     return model
-    
-    # model_predictor = load_model()
-    
-    #----------------------------------Make Prediction------------------------------------
-    if st.button("✨ Get Prediction"):
-        prediction_prob = model_predictor.predict(input_data)
-        prediction = (prediction_prob > 0.5).astype(int)[0][0]
+    # Input form
+    with st.form("loan_form"):
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            person_age = st.number_input("Age", min_value=18, max_value=100, value=30)
+            person_income = st.number_input("Income", min_value=0, value=50000)
+            person_emp_length = st.number_input("Employment Length (years)", min_value=0, value=5)
+        with col2:
+            loan_amnt = st.number_input("Loan Amount", min_value=0, value=10000)
+            loan_int_rate = st.number_input("Interest Rate (%)", min_value=0.0, max_value=30.0, value=10.0)
+            loan_percent_income = st.number_input("Loan Percent Income", min_value=0.0, max_value=1.0, value=0.2)
+        with col3:
+            cb_person_default_on_file = st.selectbox("Default on File", ["N", "Y"])
+            cb_person_cred_hist_length = st.number_input("Credit History Length (years)", min_value=0, value=5)
+            person_home_ownership = st.selectbox("Home Ownership", ["OWN", "MORTGAGE", "RENT", "OTHER"])
+            loan_intent = st.selectbox("Loan Intent", ["MEDICAL", "PERSONAL", "VENTURE", "DEBTCONSOLIDATION", "HOMEIMPROVEMENT", "EDUCATION"])
         
-        if prediction == 1:
-            st.text("")
-            st.markdown("""
-                            <h5>
-                            <div class="content">
-                                🚫 Approval Status:
-                                <span class="highlight">
-                                Sorry, Your Request is Denied! 😢
-                                </span>
-                            </div>
-                            </h5>
-                        """, unsafe_allow_html=True)
-        else:
-            st.text("")
-            st.markdown("""
-                            <h5>
-                            <div class="content">
-                                🎉 Approval Status:
-                                <span class="highlight">
-                                Congratulations! Your Loan is Approved! 💰😊
-                                </span>
-                            </div>
-                            </h5>
-                        """, unsafe_allow_html=True)
-    
-    st.markdown('<div class="content">Sample Data:  📝</div>', unsafe_allow_html=True)
-    sample_display = st.empty()
-    sample_display.dataframe(st.session_state.df_sample_tab1)
-    if st.button("Refresh Sample"):
-            approval_1_sample = approval_1.sample(3)
-            approval_0_sample = approval_0.sample(3)
-            st.session_state.df_sample_tab1 = pd.concat([approval_1_sample, approval_0_sample])
-            sample_display.dataframe(st.session_state.df_sample_tab1)
+        submitted = st.form_submit_button("Predict Loan Approval 🚀")
+        
+        if submitted:
+            # Prepare input data
+            input_data = {
+                'person_age': person_age,
+                'person_income': person_income,
+                'person_emp_length': person_emp_length,
+                'loan_amnt': loan_amnt,
+                'loan_int_rate': loan_int_rate,
+                'loan_percent_income': loan_percent_income,
+                'cb_person_default_on_file': 1 if cb_person_default_on_file == "Y" else 0,
+                'cb_person_cred_hist_length': cb_person_cred_hist_length,
+                'person_home_ownership_OWN': 1 if person_home_ownership == "OWN" else 0,
+                'person_home_ownership_MORTGAGE': 1 if person_home_ownership == "MORTGAGE" else 0,
+                'person_home_ownership_OTHER': 1 if person_home_ownership == "OTHER" else 0,
+                'loan_intent_MEDICAL': 1 if loan_intent == "MEDICAL" else 0,
+                'loan_intent_PERSONAL': 1 if loan_intent == "PERSONAL" else 0,
+                'loan_intent_VENTURE': 1 if loan_intent == "VENTURE" else 0,
+                'loan_intent_DEBTCONSOLIDATION': 1 if loan_intent == "DEBTCONSOLIDATION" else 0,
+                'loan_intent_HOMEIMPROVEMENT': 1 if loan_intent == "HOMEIMPROVEMENT" else 0,
+            }
+            df = pd.DataFrame([input_data])
+
+            # Preprocess
+            num_cols = PREPROCESSING_CONFIG['numerical_columns']
+            df[num_cols] = np.log1p(df[num_cols])
+            scaler = jb.load(os.path.join(SCALER_PATH, "scaler.pkl"))
+            df[num_cols] = scaler.transform(df[num_cols])
+
+            # Load model
+            model_predictor = tf.keras.models.load_model(os.path.join(MODEL_DIR, "loan_approval_ann_model.h5"))
+
+            # Predict
+            prediction = model_predictor.predict(df)[0][0]
+            status = "Approved" if prediction > 0.5 else "Denied"
+            status_class = "approved" if status == "Approved" else "denied"
+            st.markdown(f'''
+                <div class="prediction-text {status_class}">
+                    Loan {status} 📊
+                </div>
+            ''', unsafe_allow_html=True)
+    st.markdown('</div>', unsafe_allow_html=True)
 
 # ----------------------------------Tab 3: Batch Prediction----------------------------------
 with tab3:
+    st.markdown('<div class="main-container">', unsafe_allow_html=True)
     st.markdown('<div class="section-title">📤 Batch Loan Approval Prediction</div>', unsafe_allow_html=True)
-
-    # File uploader
-    uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
-    st.markdown('<div class="content">Required columns: person_age, person_income, person_emp_length, loan_grade, loan_amnt, loan_int_rate, loan_percent_income, cb_person_default_on_file, cb_person_cred_hist_length, person_home_ownership, loan_intent</div>', unsafe_allow_html=True)
+    uploaded_file = st.file_uploader("Upload CSV for Batch Prediction", type="csv")
+    
     if uploaded_file is not None:
-        # Load and validate the uploaded CSV
         uploaded_data = pd.read_csv(uploaded_file)
-        df = uploaded_data.copy()
-        required_columns = ['person_age', 'person_income', 'person_emp_length', 'loan_grade',
-                           'loan_amnt', 'loan_int_rate', 'loan_percent_income',
-                           'cb_person_default_on_file', 'cb_person_cred_hist_length',
-                           'person_home_ownership', 'loan_intent']
-        missing_columns = [col for col in required_columns if col not in df.columns]
-        if missing_columns:
-            st.error(f"Missing required columns: {missing_columns}. Please ensure all columns are present.")
-        else:
-            st.success("All required columns are present. Processing...")
+        st.markdown('<div class="content">Uploaded Data Preview: 📊</div>', unsafe_allow_html=True)
+        st.dataframe(uploaded_data.head(), height=200)
 
-            # Apply mappings
-            df['cb_person_default_on_file'] = df['cb_person_default_on_file'].map({'No': 0, 'Yes': 1})
-            df['loan_grade'] = df['loan_grade'].map({"A": 0, "B": 1, "C": 2, "D": 3, "E": 4, "F": 5, "G": 6})
-
-            # One-hot encoding
-            df = pd.get_dummies(df, columns=['person_home_ownership', 'loan_intent'], drop_first=True)
-
-            # Ensure all expected one-hot columns are present (fill missing with 0)
+        if st.button("Predict Batch 🚀"):
+            df = uploaded_data.copy()
             expected_columns = [
-                'person_age', 'person_income', 'person_emp_length', 'loan_grade',
+                'person_age', 'person_income', 'person_emp_length',
                 'loan_amnt', 'loan_int_rate', 'loan_percent_income',
                 'cb_person_default_on_file', 'cb_person_cred_hist_length',
                 'person_home_ownership_OWN', 'person_home_ownership_MORTGAGE',
@@ -414,6 +382,9 @@ with tab3:
             scaler = jb.load(os.path.join(SCALER_PATH, "scaler.pkl"))
             df[num_cols] = scaler.transform(df[num_cols])
 
+            # Load model
+            model_predictor = tf.keras.models.load_model(os.path.join(MODEL_DIR, "loan_approval_ann_model.h5"))
+
             # Make predictions
             predictions = model_predictor.predict(df[expected_columns])
             df['Loan Status'] = (predictions > 0.5).astype(int)
@@ -431,11 +402,14 @@ with tab3:
                 file_name="loan_predictions.csv",
                 mime="text/csv"
             )
+    st.markdown('</div>', unsafe_allow_html=True)
+
 # ----------------------------------Tab 4: LLM Review Analysis----------------------------------
 with tab4:
     
     REVIEWS_PATH = os.path.join(os.path.dirname(__file__), "data", "reviews.csv")
     
+    st.markdown('<div class="main-container">', unsafe_allow_html=True)
     st.markdown('<div class="section-title">💬 Analyze Customer Review with LLM</div>', unsafe_allow_html=True)
 
     user_feedback = st.text_area("Enter customer feedback for loan approval experience:")
@@ -493,9 +467,10 @@ with tab4:
                 st.error(f"❌ LLM Error: {str(e)}")
         
     st.dataframe(pd.read_csv(REVIEWS_PATH), width=1500)
+    st.markdown('</div>', unsafe_allow_html=True)
         
 # Footer
 st.markdown("""
     <div class="footer">
-        Developed by <a href="https://portfolio-sigma-mocha-67.vercel.app/" target="_blank" style="color: #2980B9;">Muhammad Umer Khan</a>. Powered by Artificial Neural Network. 🧠
+        Developed by <a href="https://portfolio-sigma-mocha-67.vercel.app/" target="_blank">Muhammad Umer Khan</a>. Powered by Artificial Neural Network. 🧠
     </div>""", unsafe_allow_html=True)
