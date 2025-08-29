@@ -419,7 +419,7 @@ with tab4:
         else:
             try:
                 # Load LLM (assuming GROK_API_KEY is in config or environment)
-                llm = langchain_groq.ChatGroq(groq_api_key=os.getenv("GROK_API_KEY"), model_name="qwen-qwq-32b")
+                llm = langchain_groq.ChatGroq(groq_api_key=os.getenv("GROQ_API_KEY"), model_name="openai/gpt-oss-20b")
 
                 # Construct prompt
                 prompt = f"""
