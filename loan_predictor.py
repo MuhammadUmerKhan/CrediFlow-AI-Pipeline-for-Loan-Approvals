@@ -332,7 +332,7 @@ with tab2:
             df[num_cols] = scaler.transform(df[num_cols])
 
             # Load model
-            model_predictor = tf.keras.models.load_model(os.path.join(MODEL_DIR, "loan_approval_ann_model.h5"))
+            model_predictor = tf.keras.models.load_model(MODEL_DIR)
 
             # Predict
             prediction = model_predictor.predict(df)[0][0]
