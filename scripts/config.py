@@ -29,7 +29,7 @@ BATCH_SIZE = 64
 EARLY_STOPPING_PATIENCE = 5
 
 # File paths
-MODEL_DIR = os.path.abspath("models", "loan_approval_model.keras")
+MODEL_DIR = os.path.join("models", "loan_approval_model.keras")
 LOG_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "logs"))
 ARTIFACT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "artifacts"))
 
