@@ -19,170 +19,207 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ----------------------------------Custom CSS for styling----------------------------------------- 
+# ----------------------------------Custom CSS for styling-----------------------------------------
 st.markdown("""
     <style>
-        /* Professional Dark Theme */
+        /* Financial-Themed Dark Styles */
         .stApp {
-            background: linear-gradient(rgba(17, 24, 39, 0.95), rgba(17, 24, 39, 0.95)), url('https://media.licdn.com/dms/image/v2/D5612AQHy0wPDANw36g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1680808534854?e=2147483647&v=beta&t=8YIjZWTBts-oy1tiH4ukyPleGJcs1_PIdYhO0oDmeGY');
+            background: linear-gradient(rgba(31, 41, 55, 0.9), rgba(31, 41, 55, 0.9)), url('https://media.licdn.com/dms/image/v2/D5612AQHy0wPDANw36g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1680808534854?e=2147483647&v=beta&t=8YIjZWTBts-oy1tiH4ukyPleGJcs1_PIdYhO0oDmeGY');
             background-size: cover;
             background-attachment: fixed;
-            color: #d1d5db;
+            color: #f3f4f6;
             font-family: 'Poppins', sans-serif;
         }
         .main-container {
-            background: rgba(31, 41, 55, 0.95);
-            border-radius: 8px;
-            padding: 20px;
-            margin: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            border: 1px solid #4b5563;
+            background: linear-gradient(135deg, rgba(29, 78, 216, 0.85), rgba(4, 120, 87, 0.85));
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+            border: 2px solid #eab308;
+            backdrop-filter: blur(10px);
         }
         .main-title {
-            font-size: 2.5em;
-            font-weight: 600;
-            color: #60a5fa;
+            font-size: 3.2em;
+            font-weight: 700;
+            color: #eab308;
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 35px;
+            text-shadow: 0 0 12px rgba(234, 179, 8, 0.8);
+            animation: pulseGlow 2s ease-in-out infinite;
         }
         .section-title {
-            font-size: 1.8em;
-            font-weight: 500;
-            color: #60a5fa;
-            margin: 20px 0 10px;
-            padding-left: 10px;
-            border-left: 4px solid #60a5fa;
+            font-size: 2.2em;
+            font-weight: 600;
+            color: #1d4ed8;
+            margin: 40px 0 20px;
+            text-shadow: 0 0 10px rgba(29, 78, 216, 0.8);
+            border-left: 6px solid #1d4ed8;
+            padding-left: 18px;
+            animation: slideInLeft 0.6s ease-in-out;
         }
         .system-content {
-            font-size: 1.8em;
-            font-weight: 500;
-            color: #60a5fa;
+            font-size: 2.2em;
+            font-weight: 600;
+            color: #047857;
             text-align: center;
-        }
-        .section-content {
-            text-align: center;
+            text-shadow: 0 0 10px rgba(4, 120, 87, 0.8);
+            animation: slideInLeft 0.6s ease-in-out;
         }
         .intro-title {
-            font-size: 2em;
-            color: #60a5fa;
-            font-weight: 600;
+            font-size: 2.5em;
+            color: #eab308;
+            font-weight: bold;
             text-align: center;
         }
         .intro-subtitle {
-            font-size: 1.2em;
-            color: #9ca3af;
+            font-size: 1.5em;
+            color: #1d4ed8;
             text-align: center;
+            text-shadow: 0 0 8px rgba(29, 78, 216, 0.8);
         }
         .content {
-            font-size: 1em;
-            color: #d1d5db;
-            line-height: 1.6;
+            font-size: 1.15em;
+            color: #f3f4f6;
+            line-height: 1.9;
             text-align: justify;
         }
         .highlight {
-            color: #60a5fa;
-            font-weight: 600;
-        }
-        .recommendation-title {
-            font-size: 1.4em;
-            color: #60a5fa;
-            font-weight: 500;
-        }
-        .recommendation-desc {
-            font-size: 1em;
-            color: #d1d5db;
+            color: #eab308;
+            font-weight: bold;
         }
         .separator {
-            height: 1px;
-            background: #4b5563;
-            margin: 15px 0;
+            height: 2px;
+            background: linear-gradient(to right, #1d4ed8, #047857);
+            margin: 20px 0;
         }
         .stButton>button {
-            background: #60a5fa;
-            color: #1f2937;
-            border-radius: 8px;
-            padding: 10px 20px;
-            font-weight: 500;
-            font-size: 1em;
+            background: linear-gradient(45deg, #1d4ed8, #047857);
+            color: #eab308;
+            border-radius: 12px;
+            padding: 14px 30px;
+            font-weight: 600;
+            font-size: 1.1em;
             border: none;
-            transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(234, 179, 8, 0.8);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
         }
         .stButton>button:hover {
-            background: #3b82f6;
-            color: #ffffff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(45deg, #1e40af, #065f46);
+            box-shadow: 0 0 25px rgba(234, 179, 8, 1);
+            transform: scale(1.1);
+            color: #f3f4f6;
+        }
+        .stButton>button::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 300%;
+            height: 300%;
+            background: rgba(234, 179, 8, 0.2);
+            transition: all 0.6s ease;
+            transform: translate(-50%, -50%) scale(0);
+            border-radius: 50%;
+        }
+        .stButton>button:hover::after {
+            transform: translate(-50%, -50%) scale(1);
         }
         .stSelectbox, .stNumberInput, .stTextArea {
-            background: #374151;
-            border-radius: 6px;
-            padding: 8px;
-            border: 1px solid #4b5563;
-            color: #d1d5db;
+            background: linear-gradient(135deg, rgba(29, 78, 216, 0.9), rgba(4, 120, 87, 0.9));
+            border-radius: 10px;
+            padding: 12px;
+            border: 1px solid #eab308;
+            color: #f3f4f6;
+            transition: all 0.3s ease;
         }
         .stSelectbox:hover, .stNumberInput:hover, .stTextArea:hover {
-            border-color: #60a5fa;
+            border-color: #facc15;
+            box-shadow: 0 0 8px rgba(234, 179, 8, 0.5);
         }
         .stSelectbox label, .stNumberInput label, .stTextArea label {
-            color: #9ca3af;
+            color: #eab308;
             font-weight: 500;
         }
         .stTabs [data-baseweb="tab"] {
-            font-size: 1.1em;
+            font-size: 1.3em;
             font-weight: 500;
-            color: #d1d5db;
-            padding: 10px 20px;
-            border-radius: 6px 6px 0 0;
-            background: #374151;
+            color: #f3f4f6;
+            padding: 15px 30px;
+            border-radius: 12px 12px 0 0;
+            transition: all 0.3s ease;
+            background: linear-gradient(135deg, rgba(29, 78, 216, 0.9), rgba(4, 120, 87, 0.9));
         }
         .stTabs [data-baseweb="tab"][aria-selected="true"] {
-            background: #60a5fa;
-            color: #1f2937;
+            background: linear-gradient(45deg, #1d4ed8, #047857);
+            color: #eab308;
             font-weight: 600;
         }
         .stTabs [data-baseweb="tab"]:hover {
-            background: #4b5563;
-            color: #ffffff;
+            background: linear-gradient(135deg, #1e40af, #065f46);
+            color: #f3f4f6;
         }
         .stDataFrame {
-            border-radius: 6px;
-            background-color: #1f2937;
-            border: 1px solid #4b5563;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: rgba(31, 41, 55, 0.95);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
         }
         .stDataFrame table {
-            color: #d1d5db;
+            color: #f3f4f6;
         }
         .footer {
-            font-size: 0.9em;
-            color: #9ca3af;
-            margin-top: 30px;
+            font-size: 0.95em;
+            color: #f3f4f6;
+            margin-top: 50px;
             text-align: center;
-            padding: 15px;
-            background: #1f2937;
-            border-radius: 6px;
-            border: 1px solid #4b5563;
+            padding: 25px;
+            background: linear-gradient(135deg, rgba(29, 78, 216, 0.85), rgba(4, 120, 87, 0.85));
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            border: 2px solid #eab308;
+            backdrop-filter: blur(10px);
         }
         .footer a {
-            color: #60a5fa;
+            color: #facc15;
             text-decoration: none;
-            font-weight: 500;
+            font-weight: 600;
+            transition: color 0.3s ease;
         }
         .footer a:hover {
-            color: #3b82f6;
+            color: #1d4ed8;
             text-decoration: underline;
         }
         .content ul li::marker {
-            color: #60a5fa;
+            color: #eab308;
         }
         .prediction-text {
-            font-size: 1.8em;
-            font-weight: 600;
+            font-size: 2em;
+            font-weight: bold;
             text-align: center;
+            text-shadow: 0 0 10px rgba(234, 179, 8, 0.8);
         }
         .prediction-text-approved {
-            color: #10b981;
+            color: #047857;
         }
         .prediction-text-denied {
             color: #ef4444;
+        }
+        /* Animations */
+        @keyframes pulseGlow {
+            0% { text-shadow: 0 0 10px rgba(234, 179, 8, 0.8); }
+            50% { text-shadow: 0 0 20px rgba(234, 179, 8, 1); }
+            100% { text-shadow: 0 0 10px rgba(234, 179, 8, 0.8); }
+        }
+        @keyframes slideInLeft {
+            from { transform: translateX(-30px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        @keyframes scaleIn {
+            from { transform: scale(0.95); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
         }
     </style>
 """, unsafe_allow_html=True)
@@ -205,12 +242,13 @@ tab1, tab2, tab3, tab4 = st.tabs(["🏠 Home", "📋 Get Loan Approval", "📤 B
 
 # ----------------------------------Tab 1----------------------------------
 with tab1:
+    st.markdown('<div class="main-container">', unsafe_allow_html=True)
     st.markdown('<div class="system-content">👋 About Me</div>', unsafe_allow_html=True)
     st.markdown("""
         <div class="content">
             Hi! I’m <span class="highlight">Muhammad Umer Khan</span>, a dedicated Data Scientist and Machine Learning enthusiast with a Bachelor’s in Computer Science. 
             With hands-on experience in <span class="highlight">🤖 Natural Language Processing (NLP)</span>, 🧠 Machine Learning, and MLOps, I specialize in building intelligent systems, 
-            from data pipelines to deployable applications. My journey includes developing recommendation systems, optimizing ANN models, germs integrating advanced LLMs, 
+            from data pipelines to deployable applications. My journey includes developing recommendation systems, optimizing ANN models, and integrating advanced LLMs, 
             all while pursuing excellence in real-world problem-solving. 🚀
         </div>
     """, unsafe_allow_html=True)
@@ -237,7 +275,7 @@ with tab1:
     st.markdown("""
         <div class="content">
             The
-            <a href="https://www.kaggle.com/competitions/playground-series-s4e10" target="_blank" style="color: #60a5fa;">Dataset</a>
+            <a href="https://www.kaggle.com/competitions/playground-series-s4e10" target="_blank" style="color: #facc15;">Dataset</a>
             used in this project contains key attributes for loan approval prediction. Here's a summary:
             <ul>
                 <li><span class="highlight">📜 Features</span>: Includes age, income, home ownership, employment length, loan amount, interest rate, credit history, and more.</li>
@@ -276,9 +314,11 @@ with tab1:
             My goal is to empower data-driven decisions with scalable, accessible solutions. ✨
         </div>
     """, unsafe_allow_html=True)
+    st.markdown('</div>', unsafe_allow_html=True)
 
 # ----------------------------------Tab 2----------------------------------
 with tab2:
+    st.markdown('<div class="main-container">', unsafe_allow_html=True)
     st.markdown('<div class="section-title">🔍 Enter Your Details for Loan Approval Prediction</div>', unsafe_allow_html=True)
 
     # First row with 3 inputs
@@ -326,7 +366,7 @@ with tab2:
             'loan_int_rate': [loan_int_rate],
             'loan_percent_income': [loan_percent_income],
             'cb_person_default_on_file': [cb_person_default_on_file_input],
-            'cb_person_úp_cred_hist_length': [cb_person_cred_hist_length],
+            'cb_person_cred_hist_length': [cb_person_cred_hist_length],
         })
         st.markdown('<div class="content">Your Inputs:  📝</div>', unsafe_allow_html=True)
         st.table(user_data)
@@ -391,20 +431,20 @@ with tab2:
     #     try:
     #         mlflow.set_tracking_uri(f"sqlite:///database/mlflow.db")
     #         mlflow.set_experiment("Loan_Prediction")
-
+    # 
     #         # Load model
     #         client = mlflow.tracking.MlflowClient()
     #         if alias:
-            
+    #         
     #             version_info = client.get_model_version_by_alias(model_name, alias)
     #             version = version_info.version
     #             model_uri = f"models:/{model_name}@{alias}"
     #         else:
     #             if not version:
     #                 version = client.get_latest_versions(model_name)[0].version
-                
+    #                 
     #             model_uri = f"models:/{model_name}/{version}"
-
+    # 
     #         try:
     #             model = mlflow.tensorflow.load_model(model_uri)
     #         except Exception as e:
@@ -412,7 +452,7 @@ with tab2:
     #     except Exception as e:
     #         raise
     #     return model
-    
+    # 
     # model_predictor = load_model()
     
     #----------------------------------Make Prediction------------------------------------
@@ -456,6 +496,7 @@ with tab2:
 
 # ----------------------------------Tab 3: Batch Prediction----------------------------------
 with tab3:
+    st.markdown('<div class="main-container">', unsafe_allow_html=True)
     st.markdown('<div class="section-title">📤 Batch Loan Approval Prediction</div>', unsafe_allow_html=True)
 
     # File uploader
@@ -524,12 +565,14 @@ with tab3:
                 file_name="loan_predictions.csv",
                 mime="text/csv"
             )
+    st.markdown('</div>', unsafe_allow_html=True)
 
 # ----------------------------------Tab 4: LLM Review Analysis----------------------------------
 with tab4:
     
     REVIEWS_PATH = os.path.join(os.path.dirname(__file__), "data", "reviews.csv")
     
+    st.markdown('<div class="main-container">', unsafe_allow_html=True)
     st.markdown('<div class="section-title">💬 Analyze Customer Review with LLM</div>', unsafe_allow_html=True)
 
     user_feedback = st.text_area("Enter customer feedback for loan approval experience:")
@@ -587,9 +630,10 @@ with tab4:
                 st.error(f"❌ LLM Error: {str(e)}")
         
     st.dataframe(pd.read_csv(REVIEWS_PATH), width=1500)
+    st.markdown('</div>', unsafe_allow_html=True)
         
 # Footer
 st.markdown("""
     <div class="footer">
-        Developed by <a href="https://portfolio-sigma-mocha-67.vercel.app/" target="_blank" style="color: #60a5fa;">Muhammad Umer Khan</a>. Powered by Artificial Neural Network. 🧠
+        Developed by <a href="https://portfolio-sigma-mocha-67.vercel.app/" target="_blank">Muhammad Umer Khan</a>. Powered by Artificial Neural Network. 🧠
     </div>""", unsafe_allow_html=True)
